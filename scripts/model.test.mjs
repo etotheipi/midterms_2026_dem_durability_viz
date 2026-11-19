@@ -43,6 +43,18 @@ test('later panels unlock sequentially and an earlier edit changes their holdove
   assert.deepEqual(low[1].result.races.map(r=>r.margin),high[1].result.races.map(r=>r.margin));
 });
 
+test('switched-off years do not contribute results or allow later elections to bypass them', () => {
+  const values=[-7,-15,-15];
+  const no2032=scenario(data,'additive',values,true,[true,true,false]);
+  assert.deepEqual(no2032.map(p=>p.enabled),[true,true,false]);
+  assert.deepEqual(no2032.map(p=>p.result?.D??null),[57,52,null]);
+  const no2030=scenario(data,'additive',values,true,[true,false,true]);
+  assert.deepEqual(no2030.map(p=>p.active),[true,false,false]);
+  assert.deepEqual(no2030.map(p=>p.result?.D??null),[57,null,null]);
+  assert.deepEqual(values,[-7,-15,-15]);
+  assert.deepEqual(scenario(data,'additive',values,true,[true,true,true]).map(p=>p.result.D),[57,52,42]);
+});
+
 test('only contested seats change; every cycle keeps all 100 seats', () => {
   for(const mode of ['additive','interpolation']) {
     const settings=mode==='additive'?[-25,-7,0,10]:[-50,0,50,100,150];

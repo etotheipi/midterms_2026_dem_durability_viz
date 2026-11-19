@@ -1,22 +1,60 @@
-# Senate Durability
+# Senate Scenarios
 
-A static, browser-local scenario explorer for the U.S. Senate after the 2026 midterms.
+A standalone static web app comparing Democratic and Republican U.S. Senate seat totals under simplified vote-margin scenarios. It uses the post-2026 seat composition and the election schedule through 2032. These are illustrative calculations, not predictions or probabilities.
+
+Source repository: [etotheipi/midterms_2026_dem_durability_viz](https://github.com/etotheipi/midterms_2026_dem_durability_viz).
 
 ## Run
 
-No dependency installation or application build is needed. Requires Python 3 and Node 22+ for checks.
+Run locally with Python 3. No dependency installation, application build, account, API key, or ChatGPT service is required.
 
 ```sh
-npm run dev
+python3 serve.py
 ```
 
-Open http://127.0.0.1:4173. Serve `dist/` with any static host for deployment.
+Open http://127.0.0.1:4173/. Stop the server with Ctrl+C. The command works from any working directory if you pass the path to `serve.py`.
+
+To use a different port:
+
+```sh
+python3 serve.py --port 8080
+```
+
+`npm start` and `npm run dev` are equivalent shortcuts. Node 22+ is only needed for the JavaScript checks:
 
 ```sh
 npm test
 ```
 
-`scripts/browser-check.mjs` also checks the UI through Chrome's DevTools protocol while the preview server is running. It uses a temporary Chrome profile and writes screenshots to `/tmp/senate-durability-qa/`.
+`node scripts/browser-check.mjs` also checks the UI through Chrome's DevTools protocol while the preview server is running. It uses a temporary Chrome profile and writes screenshots to `/tmp/senate-durability-qa/`. Set `BASE_URL` to test another origin or a GitHub Pages-style repository subdirectory.
+
+## GitHub Pages
+
+The app runs entirely in the browser. GitHub Pages publishes the checked-in `docs/` directory, which contains a copy of the local server's `dist/` files. All app asset paths are relative and work under a repository subdirectory URL.
+
+Published app: [Senate Scenarios](https://etotheipi.github.io/midterms_2026_dem_durability_viz/).
+
+To publish changes:
+
+```sh
+python3 scripts/prepare-pages.py
+git add dist docs
+git commit -m "Update Senate scenarios"
+git push
+```
+
+`npm run build:pages` is an equivalent shortcut for preparing `docs/`. GitHub Pages is configured to deploy from `main`, directory `/docs`, without a custom Actions workflow or additional credentials. For another repository, select **Settings → Pages → Build and deployment → Deploy from a branch → main → /docs**. See [GitHub's publishing-source documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+
+The app can also run locally or on another static host using `dist/`.
+
+## Controls
+
+- 2028 is always included. The 2030 switch defaults on; the 2032 switch defaults off.
+- Switch later years off to gray out their columns and remove their outcomes from the summary. Their selections are retained when switched back on.
+- A later election needs the earlier elections to be enabled and selected. Turning 2030 off also blocks 2032 so it cannot silently use an unspecified 2030 result.
+- Click any row, drag a handle, or enter a number. Keyboard sliders support arrow keys, Page Up/Down, Home and End.
+- Positive labels are dark blue and negative labels dark red. The shared direction key points toward stronger Democratic or Republican performance.
+- The 2026 waterline is labeled **Same as 2026**. In uniform-shift mode, **2024 (approx)** marks −14 points using the original rough national-shift assumption; this is a visual reference and does not change the model. In interpolation mode, 0% reproduces each state's actual 2024 baseline.
 
 ## Model
 
@@ -28,13 +66,13 @@ npm test
 - A zero margin is an unresolved tie. 51 seats are required for an outright majority; no future vice-presidential party is assumed.
 - Uniform mode uses `margin2026 + shift`, from −25 through +10 margin points.
 - Interpolation uses `margin2024 + percentage/100 * (margin2026 - margin2024)`, from −50% to 150%, adjustable by 1%. Displayed rows are spaced every 5%.
-- The two modes retain separate selections. URL parameters preserve the current mode, sequential selections, and Tennessee setting for sharing or reloading.
+- The two modes retain separate selections. URL parameters preserve the current mode, sequential selections, enabled years, and Tennessee setting for sharing or reloading. Older links containing a 2032 selection still enable that year.
 
 For each historical year, use the Senate margin when available, otherwise the aggregate of Democratic and Republican House votes. Regular full-term Senate results take priority over simultaneous special elections. Senate margins use the leading Democratic-side candidate minus the leading Republican as a share of votes cast. House fallback margins use `(D - R) / (D + R) * 100`, including unopposed and same-party races; those races can distort the fallback. New York fusion lines are combined with their candidates in the 2024 snapshot.
 
 Opposition independents are explicit proxies in the margin inputs: King and Sanders in 2024; Osborn in 2024 and 2026; Bodnar, Achilles and Bengs in 2026. In Montana, Bodnar is the main non-Republican candidate and supplies the margin even though a Democratic candidate also ran. This convention does not imply these candidates would join the Democratic caucus.
 
-The user's illustrative path is calculated from the data: −7 in 2028 gives 57 D seats, then −15 in 2030 gives 52. Continuing at −15 in 2032 gives 42, as the 2026 regular winners return to the ballot. These are arithmetic scenarios, not probabilities or forecasts.
+For example, a margin shift of −7 points in 2028 gives 57 D / 43 R seats. A subsequent setting of −15 in 2030 gives 52 D / 48 R. Continuing at −15 in 2032 gives 42 D / 58 R, as the regular 2026 seats return to the ballot. Each setting is relative to 2026. These are arithmetic scenarios, not probabilities or forecasts.
 
 ## Data and reproducibility
 

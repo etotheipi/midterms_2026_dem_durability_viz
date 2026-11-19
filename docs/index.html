@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#172a45">
+  <meta name="description" content="Compare Democratic and Republican Senate seat totals under simplified vote-margin scenarios for 2028, 2030 and 2032. Includes assumptions, source data and election schedules.">
+  <title>Senate Scenarios · 2026–2032</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%23172a45'/%3E%3Ctext x='20' y='27' text-anchor='middle' font-family='Georgia' font-size='24' fill='white'%3ES%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <header class="masthead">
+    <a class="brand" href="./" aria-label="Senate Scenarios home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span> SENATE SCENARIOS</a>
+    <a href="#methodology" class="method-link">The model &amp; data</a>
+  </header>
+  <main>
+    <section class="intro">
+      <div class="intro-copy">
+        <div class="eyebrow">U.S. SENATE · ELECTION SCENARIOS</div>
+        <h1>Senate seats<br><em>2026–2032</em></h1>
+        <p><strong>A simplified analysis of possible seat totals, not a prediction engine.</strong> Compare how assumed vote-margin changes affect Democratic and Republican seats in 2028, 2030 and 2032. Regular 2026 seats return to the ballot in 2032; seats in other classes are contested earlier.</p>
+      </div>
+      <aside class="starting-point" aria-label="2026 starting Senate: 56 Democratic caucus, 44 Republican">
+        <div class="small-label">THE 2026 STARTING POINT</div>
+        <div class="starting-totals"><div><b>56</b><span>Democratic caucus</span></div><div class="gop-total"><b>44</b><span>Republicans</span></div></div>
+        <div class="seat-dots" id="starting-dots" aria-hidden="true"></div>
+        <div class="starting-foot"><span>100 seats</span><span>51 for an outright majority</span></div>
+      </aside>
+    </section>
+
+    <section class="workspace" aria-labelledby="explorer-title">
+      <div class="workspace-toolbar">
+        <div><div class="eyebrow">SCENARIO SETTINGS</div><h2 id="explorer-title">Election scenarios</h2></div>
+        <div class="mode-switch" role="group" aria-label="Performance model">
+          <button id="mode-additive" data-mode="additive" aria-pressed="true">Uniform shift</button>
+          <button id="mode-interpolation" data-mode="interpolation" aria-pressed="false">State interpolation</button>
+        </div>
+      </div>
+      <div class="model-description"><p id="mode-description"></p><button class="text-button" id="example">Example: −7 / −15</button></div>
+      <div class="chart-heading"><span><span class="key-line"></span>Same as 2026</span><span>Click a row or drag a handle. Toggle later years on or off.</span></div>
+      <div class="timeline-scroll" tabindex="0" aria-label="Election scenario sliders. Scroll horizontally on a small screen.">
+        <div id="timeline" class="timeline"></div>
+      </div>
+      <div class="chart-footer"><span><span class="legend-swatch democratic"></span>Democratic majority (51+) <span class="legend-swatch split"></span>50–50 <span class="legend-swatch republican"></span>Republican majority</span><button class="text-button" id="reset">Reset selections</button></div>
+      <p id="waterline-note" class="waterline-note">“2024 (approx)” marks −14 points, using a rough national shift. Individual states had different shifts.</p>
+    </section>
+
+    <section class="summary" aria-labelledby="summary-title">
+      <div class="summary-heading"><span class="eyebrow" id="summary-title">SELECTED SCENARIO</span><button id="share" class="text-button">Copy scenario link</button></div>
+      <p id="summary-text" aria-live="polite"></p>
+      <div id="summary-cards" class="summary-cards"></div>
+      <div id="durability-note" class="durability-note"></div>
+    </section>
+
+    <section class="audit" aria-labelledby="audit-title">
+      <div class="section-heading"><div><div class="eyebrow">STATE-LEVEL RESULTS</div><h2 id="audit-title">Results by state</h2></div>
+        <div class="audit-controls"><label class="sr-only" for="audit-year">Election year</label><select id="audit-year"><option value="2028">2028 election</option><option value="2030">2030 election</option><option value="2032">2032 election</option></select><label class="check-label"><input id="flips-only" type="checkbox"> Flips only</label></div>
+      </div>
+      <p class="section-description" id="audit-description"></p>
+      <div class="table-wrap"><table><thead><tr><th scope="col">State / seat</th><th scope="col">2024 margin</th><th scope="col">2026 baseline</th><th scope="col">Modeled margin</th><th scope="col">Modeled party</th></tr></thead><tbody id="race-table"></tbody></table></div>
+    </section>
+
+    <section id="methodology" class="methodology" aria-labelledby="methodology-title">
+      <div class="eyebrow">METHODOLOGY</div>
+      <h2 id="methodology-title">Model assumptions</h2>
+      <div class="method-grid">
+        <div><h3>Election schedule and starting composition.</h3><p>Start with 56 Democratic caucus seats, including two independents, and 44 Republican seats after the 2026 election. Carry forward seats that are not on the ballot. Class III votes in 2028, Class I in 2030, and Class II in 2032. Ohio and Florida’s 2026 special elections filled seats contested again in 2028.</p></div>
+        <div><h3>Each state has two fixed baselines.</h3><p>For both 2024 and 2026, use that year’s Senate race when available; otherwise sum Democratic and Republican House votes across the state. Each future performance setting is relative to those fixed baselines, regardless of earlier selections.</p></div>
+        <div><h3>Two ways to move the margins.</h3><p><b>Uniform:</b> 2026 state margin + chosen point shift. The “2024 (approx)” waterline at −14 points is only a rough national reference.<br><b>Interpolation:</b> 2024 margin + chosen percentage × (2026 margin − 2024 margin). 0% matches each state’s 2024 baseline; 100% matches 2026. −50% and 150% extend that state’s trend beyond those years.</p></div>
+        <div><h3>Seat assignment and model limits.</h3><p>A positive D-minus-R margin assigns a seat to the Democratic side; a negative margin assigns it to the Republican side. Exact ties stay unresolved. There is no probability model, candidate effect, turnout forecast, or assumption about a future vice president. A 50–50 Senate is labeled a tie.</p></div>
+      </div>
+      <div class="assumptions-box"><div><b>Alaska scenario assumption</b><p>The model fixes Lisa Murkowski’s Class III seat as Republican in 2028 at every setting. This is an explicit scenario assumption, not a candidate forecast. Alaska’s separate Class II seat is carried forward as Democratic through 2030 and modeled from vote margins in 2032.</p></div><div><label class="check-label"><input id="tennessee-special" type="checkbox" checked> <b>Include expected Tennessee special election in 2028</b></label><p>Blackburn’s election as governor is expected to put her Class I seat on the 2028 ballot. The seat is then contested again in 2030. Other unannounced vacancies and special elections are omitted.</p></div></div>
+      <details><summary>Data sources, margin definitions &amp; independent candidates</summary><div class="data-details"><p><b>Snapshot: November 18, 2026.</b> 2026 counts are provisional and are frozen in this app. Sources can have different update times; this is not a live results feed.</p><p>2026 Senate margins and House candidate vote totals: <a href="https://www.callthemap.com/results" target="_blank" rel="noreferrer">Call the Map</a>, compiled from state and county election offices. 2024 results: <a href="https://history.house.gov/Institution/Election-Statistics/2024election/" target="_blank" rel="noreferrer">U.S. House Clerk’s official election statistics</a>. Election classes: <a href="https://www.senate.gov/senators/Class_III.htm" target="_blank" rel="noreferrer">U.S. Senate</a>. Starting caucus: <a href="https://ballotpedia.org/Election_results,_2026:_U.S._Senate" target="_blank" rel="noreferrer">Ballotpedia</a>. Tennessee: <a href="https://apnews.com/article/bfe5baf0dd3f26ddf0ca9b844400515d" target="_blank" rel="noreferrer">AP’s reporting on Blackburn’s succession</a>.</p><p>Senate margins are the leading Democratic-side candidate’s share minus the leading Republican’s share of votes cast, including other candidates in the denominator. In 2024, regular full-term races take precedence over special elections. House fallback margins use (total D votes − total R votes) ÷ (total D votes + total R votes) × 100. This sums votes, rather than averaging district margins. Uncontested and same-party House races can distort the fallback.</p><p>Where an independent is the main opposition to a Republican, their margin is used as a Democratic-side proxy: King and Sanders in 2024; Osborn in 2024 and 2026; Bodnar, Achilles, and Bengs in 2026. This is a modeling convention, not a claim that these candidates would caucus with Democrats. In Montana in 2026, Bodnar’s margin is used instead of the lower-polling Democratic candidate. Ranked-choice and multi-candidate races add further simplifications.</p><p>Each state’s source is linked in the race table. Export the full 50-state snapshot to inspect or reuse the inputs.</p><button id="download-data" class="secondary-button">Download state data CSV</button></div></details>
+    </section>
+    <footer><span>SENATE SCENARIOS</span><p>Illustrative seat calculations · 2026–2032</p><span>100 seats · Three election classes</span></footer>
+  </main>
+  <div id="toast" class="toast" role="status"></div>
+  <noscript><div class="noscript">Enable JavaScript to use the scenario sliders.</div></noscript>
+</body>
+</html>

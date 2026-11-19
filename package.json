@@ -4,8 +4,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "python3 -m http.server 4173 --directory dist --bind 127.0.0.1",
+    "start": "python3 serve.py",
+    "dev": "python3 serve.py",
     "test": "node --test --test-isolation=none scripts/model.test.mjs",
-    "build:data": "python3 scripts/build-data.py"
+    "build:data": "python3 scripts/build-data.py",
+    "build:pages": "python3 scripts/prepare-pages.py"
   }
 }

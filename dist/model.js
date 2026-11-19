@@ -1,4 +1,7 @@
 export const YEARS = [2028, 2030, 2032];
+export const DEFAULT_ENABLED_YEARS = [true, true, false];
+// Illustrative national reference supplied in the brief, not a state baseline.
+export const APPROX_2024_SHIFT = -14;
 export const SCALES = {
   additive: {min: -25, max: 10, step: 1, tick: 1, baseline: 0, suggested: [-7, -15, -15]},
   interpolation: {min: -50, max: 150, step: 1, tick: 5, baseline: 100, suggested: [50, 0, 0]}
@@ -40,17 +43,18 @@ export function election(data, previousSeats, year, mode, value, tennesseeSpecia
     heldT: counts.T - contestedT, up: races.length};
 }
 
-export function scenario(data, mode, values, tennesseeSpecial = true) {
+export function scenario(data, mode, values, tennesseeSpecial = true, enabledYears = [true, true, true]) {
   let previous = data.seats;
   let unlocked = true;
   return YEARS.map((year, i) => {
     const base = previous;
-    const active = unlocked;
+    const enabled = i === 0 || enabledYears[i] !== false;
+    const active = unlocked && enabled;
     const selected = active && values[i] !== null;
     const result = selected ? election(data, base, year, mode, values[i], tennesseeSpecial) : null;
     if (result) previous = result.seats;
     if (!selected) unlocked = false;
-    return {year, active, selected, base, result};
+    return {year, enabled, active, selected, base, result};
   });
 }
 

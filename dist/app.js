@@ -1,8 +1,9 @@
-import {YEARS, SCALES, projectedMargin, election, scenario, majorityLabel, isUp} from './model.js';
+import {YEARS, SCALES, DEFAULT_ENABLED_YEARS, APPROX_2024_SHIFT, election, scenario, majorityLabel} from './model.js';
 
 const $ = id => document.getElementById(id);
 let data;
 let mode = 'additive';
+let enabledYears = DEFAULT_ENABLED_YEARS.slice();
 const savedValues = {additive: [null, null, null], interpolation: [null, null, null]};
 let tennesseeSpecial = true;
 let panels = [];
@@ -12,10 +13,13 @@ let toastTimer;
 const signed = n => n > 0 ? `+${n}` : n < 0 ? `−${Math.abs(n)}` : '0';
 const formatSetting = n => mode === 'additive' ? `${signed(n)} pts` : `${n}%`;
 const marginLabel = n => Math.abs(n) < 0.00001 ? 'Even' : `${n > 0 ? 'D' : 'R'}+${Math.abs(n).toFixed(1)}`;
+const seatTotals = result => `${result.D} D / ${result.R} R${result.T ? ` / ${result.T} tied` : ''}`;
 const percentY = n => (SCALES[mode].max - n) / (SCALES[mode].max - SCALES[mode].min) * 100;
 const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const values = () => savedValues[mode];
 const clamp = v => Math.max(SCALES[mode].min, Math.min(SCALES[mode].max, Math.round(v)));
+const signClass = v => v > 0 ? 'positive' : v < 0 ? 'negative' : 'zero';
+const enabledPrefix = () => enabledYears.map((on,i) => on && enabledYears.slice(0,i).every(Boolean));
 
 function notify(message) {
   $('toast').textContent = message;
@@ -34,9 +38,12 @@ function setValue(index, raw, focusSlider = false) {
 function updateURL() {
   const url = new URL(location.href);
   url.search = '';
-  if (values().some(v => v !== null) || mode !== 'additive' || !tennesseeSpecial) {
+  const customYears = enabledYears.some((on,i) => on !== DEFAULT_ENABLED_YEARS[i]);
+  if (values().some(v => v !== null) || mode !== 'additive' || !tennesseeSpecial || customYears) {
     url.searchParams.set('mode', mode);
     values().forEach((v, i) => {if (v !== null) url.searchParams.set(String(YEARS[i]), String(v));});
+    // Explicit flags preserve disabled years even when their settings are retained.
+    url.searchParams.set('years', YEARS.filter((_,i) => enabledYears[i]).join(','));
     if (!tennesseeSpecial) url.searchParams.set('tn', '0');
   }
   history.replaceState(null, '', url);
@@ -45,6 +52,14 @@ function updateURL() {
 function readURL() {
   const params = new URL(location.href).searchParams;
   if (params.get('mode') === 'interpolation') mode = 'interpolation';
+  enabledYears = DEFAULT_ENABLED_YEARS.slice();
+  if (params.has('years')) {
+    const included = params.get('years').split(',');
+    enabledYears = YEARS.map((year,i) => i === 0 || included.includes(String(year)));
+  } else if (params.has('2032')) {
+    // Scenario links created before year toggles retain their original behavior.
+    enabledYears[2] = true;
+  }
   let priorSet = true;
   YEARS.forEach((year, i) => {
     const val = params.get(String(year));
@@ -64,25 +79,39 @@ function renderPanel(panel, index) {
   for (let value = scale.max; value >= scale.min; value -= scale.tick) {
     const row = panel.active ? election(data, panel.base, panel.year, mode, value, tennesseeSpecial) : null;
     const line26 = value === scale.baseline;
-    const line24 = mode === 'interpolation' && value === 0;
+    const line24 = mode === 'interpolation' ? value === 0 : value === APPROX_2024_SHIFT;
     const color = row ? (row.D >= 51 ? 'd' : row.R >= 51 ? 'r' : 't') : 't';
     const width = row ? Math.max(8,Math.min(100,(row.D - 25)/45*100)) : 40 + (value - scale.min)/(scale.max - scale.min)*40;
-    const text = mode === 'additive' ? signed(value) : `${value}%`;
-    rows.push(`<button class="scenario-row ${color} ${value % (mode === 'additive' ? 5 : 25) === 0 ? 'major-tick' : ''} ${line26 || line24 ? 'waterline' : ''} ${line24 ? 'waterline-2024' : ''}" style="top:${percentY(value)}%;height:${640/((scale.max-scale.min)/scale.tick)}px" data-row-index="${index}" data-value="${value}" tabindex="-1" ${panel.active ? '' : 'disabled'} aria-label="${panel.year}, ${mode === 'additive' ? signed(value)+' percentage points from 2026' : value+' percent of the state shift'}, ${row ? row.D+' Democratic seats'+(row.T ? ', '+row.T+' tied' : '') : 'choose the previous election first'}"><span class="tick-value">${text}</span><span class="row-bar"><i style="width:${width}%"></i></span><span class="tick-seats">${row ? row.D : '—'}${row?.T ? '*' : ''}</span>${line26 || line24 ? `<span class="waterline-label">${line26 ? '2026' : '2024'}</span>` : ''}</button>`);
+    const text = mode === 'additive' ? signed(value) : `${signed(value)}%`;
+    const waterline = line26 ? 'Same as 2026' : mode === 'additive' ? '2024 (approx)' : 'Same as 2024';
+    const unavailable = panel.enabled ? 'choose the previous election first' : 'year switched off';
+    rows.push(`<button class="scenario-row ${color} ${value % (mode === 'additive' ? 5 : 25) === 0 ? 'major-tick' : ''} ${line26 || line24 ? 'waterline' : ''} ${line26 ? 'waterline-2026' : ''} ${line24 ? 'waterline-2024' : ''}" style="top:${percentY(value)}%;height:${640/((scale.max-scale.min)/scale.tick)}px" data-row-index="${index}" data-value="${value}" tabindex="-1" ${panel.active ? '' : 'disabled'} aria-label="${panel.year}, ${mode === 'additive' ? signed(value)+' percentage points from 2026' : value+' percent of the state shift'}, ${row ? row.D+' Democratic seats'+(row.T ? ', '+row.T+' tied' : '') : unavailable}"><span class="tick-value ${signClass(value)}">${text}</span><span class="row-bar"><i style="width:${width}%"></i></span><span class="tick-seats">${row ? row.D : '—'}${row?.T ? '*' : ''}</span>${line26 || line24 ? `<span class="waterline-label">${waterline}</span>` : ''}</button>`);
   }
-  const marker = panel.active ? `<div class="selection-marker ${panel.selected ? '' : 'preview-marker'}" style="top:${percentY(setting)}%"><span>${mode === 'additive' ? signed(setting) : setting+'%'}</span><span class="selection-grip" aria-hidden="true"><i></i><i></i></span><span class="selection-seat">${result ? result.D : election(data,panel.base,panel.year,mode,setting,tennesseeSpecial).D}${!panel.selected ? ' ?' : ''}</span></div>` : '';
+  const marker = panel.active ? `<div class="selection-marker ${panel.selected ? '' : 'preview-marker'}" style="top:${percentY(setting)}%"><span class="selection-value ${signClass(setting)}">${signed(setting)}${mode === 'interpolation' ? '%' : ''}</span><span class="selection-grip" aria-hidden="true"><i></i><i></i></span><span class="selection-seat">${result ? result.D : election(data,panel.base,panel.year,mode,setting,tennesseeSpecial).D}</span></div>` : '';
   const threshold = panel.active ? findThreshold(panel) : null;
-  let foot = panel.active ? `<strong>${baseline.heldD} Democratic holdovers</strong> · ${baseline.up} seats on the ballot.<br>` : `${baseline.up} seats on the ballot.<br>`;
-  foot += panel.active ? threshold !== null ? `51+ D seats at ${formatSetting(threshold)}${mode === 'additive' ? ' or better.' : ' (lowest shown setting).'} ` : 'No outright D majority in this range.' : `Waiting for your ${YEARS[index-1]} selection.`;
-  return `<article class="election-panel ${panel.active ? '' : 'locked'}" aria-labelledby="year-${panel.year}">
-    <div class="panel-year"><h3 id="year-${panel.year}">${panel.year}</h3><span class="class-label">Class ${{2028:'III',2030:'I',2032:'II'}[panel.year]}${panel.year === 2028 && tennesseeSpecial ? ' + TN special' : ''}</span></div>
+  let foot = panel.active ? `<strong>Carried forward: ${baseline.heldD} D / ${baseline.heldR} R${baseline.heldT ? ` / ${baseline.heldT} tied` : ''}</strong> · ${baseline.up} seats contested.<br>` : `${baseline.up} seats contested.<br>`;
+  foot += panel.active ? threshold !== null ? `51+ D seats at ${formatSetting(threshold)}${mode === 'additive' ? ' or higher.' : ' (lowest qualifying setting).'} ` : 'No D majority within this range.' : panel.enabled ? `Waiting for the ${YEARS[index-1]} selection.` : 'Not included in this scenario.';
+  const previousEnabled = index < 2 || enabledYears[index-1];
+  const blockedMessage = !panel.enabled
+    ? `<strong>${panel.year} is off.</strong>Use the toggle above to include it.`
+    : !previousEnabled
+      ? `<strong>First, turn on ${YEARS[index-1]}.</strong>Its election must be included<br>before choosing ${panel.year}.`
+      : `<strong>First, choose ${YEARS[index-1]}.</strong>That seat composition is used<br>for this election.`;
+  return `<article class="election-panel ${panel.active ? '' : 'locked'} ${panel.enabled ? '' : 'omitted'}" aria-labelledby="year-${panel.year}">
+    <div class="panel-top">
+    <div class="panel-year"><div class="panel-year-title"><h3 id="year-${panel.year}">${panel.year}</h3><span class="class-label">Class ${{2028:'III',2030:'I',2032:'II'}[panel.year]}${panel.year === 2028 && tennesseeSpecial ? ' + TN special' : ''}</span></div>${index > 0 ? `<button type="button" class="year-toggle" role="switch" aria-checked="${panel.enabled}" aria-label="Include ${panel.year} election" data-year-toggle="${index}"><span class="switch-track" aria-hidden="true"><i></i></span><span>${panel.enabled ? 'On' : 'Off'}</span></button>` : ''}</div>
     <div class="panel-total"><span class="d-total">${result ? result.D : '—'}</span><small>D</small><span class="r-total">${result ? result.R+' R' : ''}</span>${result?.T ? `<small>+ ${result.T} tied</small>` : ''}</div>
-    <div class="panel-status ${result?.D >= 51 ? 'has-majority' : result?.R >= 51 ? 'has-republican' : ''}">${result ? majorityLabel(result) : panel.active ? 'Choose your performance below' : `Set ${YEARS[index-1]} to unlock`}</div>
-    <div class="panel-input"><label class="input-wrap"><span class="sr-only">${panel.year} performance ${mode === 'additive' ? 'in points relative to 2026' : 'in percent of the state shift'}</span><input type="number" inputmode="numeric" min="${scale.min}" max="${scale.max}" step="1" value="${panel.selected ? setting : ''}" placeholder="${scale.suggested[index]}" data-number="${index}" ${panel.active ? '' : 'disabled'}><span>${mode === 'additive' ? 'pts' : '%'}</span></label>${panel.selected ? `<span class="selected-label">${formatSetting(setting)} selected</span>` : `<button class="choose-button" data-choose="${index}" ${panel.active ? '' : 'disabled'}>Set ${formatSetting(scale.suggested[index])}</button>`}</div>
-    <div class="axis-heading"><span>${mode === 'additive' ? 'Shift vs. 2026' : 'State shift retained'}</span><span>D seats</span></div>
-    <div class="chart-body"><div class="row-field">${rows.join('')}${panel.active ? `<div class="slider-rail" data-slider="${index}" role="slider" tabindex="0" aria-label="${panel.year} Democratic performance" aria-orientation="vertical" aria-valuemin="${scale.min}" aria-valuemax="${scale.max}" aria-valuenow="${setting}" aria-valuetext="${panel.selected ? formatSetting(setting) : 'Not selected. Press Enter to use '+formatSetting(setting)}"></div>` : ''}${marker}</div>${panel.active ? '' : `<div class="locked-overlay"><span class="lock-icon" aria-hidden="true"><svg width="17" height="19" viewBox="0 0 17 19" fill="none"><rect x="2.5" y="8.5" width="12" height="8" rx="2" stroke="currentColor" stroke-width="1.4"/><path d="M5 8.5V5a3.5 3.5 0 0 1 7 0v3.5" stroke="currentColor" stroke-width="1.4"/><path d="M8.5 12v2" stroke="currentColor" stroke-width="1.4"/></svg></span><strong>First, choose ${YEARS[index-1]}.</strong>Those winners carry forward<br>into this election.</div>`}</div>
+    <div class="panel-status ${result?.D >= 51 ? 'has-majority' : result?.R >= 51 ? 'has-republican' : ''}">${result ? majorityLabel(result) : !panel.enabled ? 'Excluded from this scenario' : panel.active ? 'Select a margin setting' : !previousEnabled ? `Turn on ${YEARS[index-1]} first` : `Set ${YEARS[index-1]} to unlock`}</div>
+    <div class="panel-input"><label class="input-wrap"><span class="sr-only">${panel.year} D-minus-R margin setting ${mode === 'additive' ? 'in points relative to 2026' : 'in percent of the state shift'}</span><input type="number" inputmode="numeric" min="${scale.min}" max="${scale.max}" step="1" value="${panel.selected ? setting : ''}" placeholder="${scale.suggested[index]}" data-number="${index}" ${panel.active ? '' : 'disabled'}><span>${mode === 'additive' ? 'pts' : '%'}</span></label>${panel.selected ? `<span class="selected-label">${formatSetting(setting)} selected</span>` : `<button class="choose-button" data-choose="${index}" ${panel.active ? '' : 'disabled'}>Set ${formatSetting(scale.suggested[index])}</button>`}</div>
+    <div class="axis-heading"><span>${mode === 'additive' ? 'Shift vs. 2026' : 'Interpolation level'}</span><span>D seats</span></div>
+    </div>
+    <div class="chart-body"><div class="row-field">${rows.join('')}${panel.active ? `<div class="slider-rail" data-slider="${index}" role="slider" tabindex="0" aria-label="${panel.year} vote-margin setting" aria-orientation="vertical" aria-valuemin="${scale.min}" aria-valuemax="${scale.max}" aria-valuenow="${setting}" aria-valuetext="${panel.selected ? formatSetting(setting) : 'Not selected. Press Enter to use '+formatSetting(setting)}"></div>` : ''}${marker}</div>${panel.active ? '' : `<div class="locked-overlay ${panel.enabled ? '' : 'off-overlay'}">${blockedMessage}</div>`}</div>
     <div class="panel-foot">${foot}</div>
   </article>`;
+}
+
+function directionColumn() {
+  return `<aside class="direction-column" aria-label="Up: higher D-minus-R margin. Down: lower D-minus-R margin."><div class="direction-spacer"></div><div class="chart-body"><div class="direction-field"><div class="direction-dem"><span class="direction-arrow" aria-hidden="true">↑</span><span class="direction-label">+Democrat</span></div><div class="direction-rep"><span class="direction-label">+Republican</span><span class="direction-arrow" aria-hidden="true">↓</span></div></div></div></aside>`;
 }
 
 function findThreshold(panel) {
@@ -96,25 +125,23 @@ function findThreshold(panel) {
 function renderSummary() {
   const selected = panels.filter(p => p.result);
   if (!selected.length) {
-    $('summary-text').innerHTML = 'Start with <strong>2028</strong>. How far could Democratic performance fall before the majority changes hands?';
+    $('summary-text').innerHTML = 'Select a <strong>2028</strong> margin setting to see the modeled Democratic and Republican seat totals. Include later elections to compare how the seat composition changes over time.';
   } else {
     const assumptions = selected.map((p,i) => {
       const v = values()[i];
-      if (mode === 'interpolation') return `<strong>${v}%</strong> of each state’s 2024–2026 shift in ${p.year}`;
-      return v < 0 ? `<strong>${Math.abs(v)} points worse</strong> in ${p.year}` : v > 0 ? `<strong>${v} points better</strong> in ${p.year}` : `<strong>the same</strong> in ${p.year}`;
+      if (mode === 'interpolation') return `<strong>${v}%</strong> in ${p.year}`;
+      return `<strong>${signed(v)} points</strong> in ${p.year}`;
     });
     const join = list => list.length < 2 ? list[0] : list.slice(0,-1).join(', ')+(list.length > 2 ? ', and ' : ' and ')+list.at(-1);
-    const outcomes = selected.map(p => `<strong>${p.result.D} seats in ${p.year}</strong>${p.result.T ? ` (${p.result.T} tied)` : ''}`);
-    $('summary-text').innerHTML = `If Democrats perform ${mode === 'interpolation' ? 'at ' : ''}${join(assumptions)}${mode === 'additive' ? ', relative to 2026,' : ','} the Democratic caucus would hold ${join(outcomes)}.`;
+    const outcomes = selected.map(p => `<strong>${seatTotals(p.result)} in ${p.year}</strong>`);
+    $('summary-text').innerHTML = `With ${mode === 'additive' ? 'margin shifts of ' : 'state interpolation levels of '}${join(assumptions)}${mode === 'additive' ? ' relative to 2026' : ''}, the modeled Senate totals are ${join(outcomes)}.`;
   }
-  $('summary-cards').innerHTML = panels.map((p,i) => `<div class="summary-card ${p.result ? '' : 'empty'}"><div class="summary-card-top"><b>${p.year}</b><span>${p.result ? formatSetting(values()[i]) : 'No selection'}</span></div><div class="summary-seat-number">${p.result ? p.result.D : '—'} <small>Democratic seats${p.result?.T ? ' · '+p.result.T+' tied' : ''}</small></div><div class="seat-strip">${p.result ? `<i style="width:${p.result.D}%"></i><i class="r" style="width:${p.result.R}%"></i>` : ''}</div></div>`).join('');
+  $('summary-cards').style.setProperty('--summary-years',panels.filter(p => p.enabled).length);
+  $('summary-cards').innerHTML = panels.filter(p => p.enabled).map(p => `<div class="summary-card ${p.result ? '' : 'empty'}"><div class="summary-card-top"><b>${p.year}</b><span>${p.result ? formatSetting(values()[YEARS.indexOf(p.year)]) : 'No selection'}</span></div><div class="summary-seat-number"><span>${p.result ? p.result.D : '—'} <small>D</small></span><span class="summary-seat-r">${p.result ? p.result.R : '—'} <small>R</small></span>${p.result?.T ? `<small>${p.result.T} tied</small>` : ''}</div><div class="seat-strip">${p.result ? `<i style="width:${p.result.D}%"></i><i class="r" style="width:${p.result.R}%"></i>` : ''}</div></div>`).join('');
   const last = selected.at(-1);
   if (!last) $('durability-note').textContent = 'The 2026 Class II winners are not up for regular election again until 2032. Ohio and Florida’s 2026 special elections filled Class III seats, which return to the ballot in 2028.';
   else {
-    const allMajority = selected.every(p => p.result.D >= 51);
-    $('durability-note').textContent = allMajority
-      ? `Democrats retain an outright majority in every selected election through ${last.year}. ${last.result.heldD} Democratic seats carry into ${last.year} without facing voters that year; ${last.result.contestedD} more are won in this scenario.`
-      : `${last.year}: ${last.result.heldD} Democratic holdovers + ${last.result.contestedD} projected victories = ${last.result.D} Democratic caucus seats${last.result.T ? ', with '+last.result.T+' unresolved ties' : ''}. An outright majority requires 51; control of a 50–50 chamber depends on the vice president.`;
+    $('durability-note').textContent = `${last.year}: ${last.result.heldD} D seats carried forward + ${last.result.contestedD} D seats assigned by the model = ${last.result.D} D; ${last.result.heldR} R seats carried forward + ${last.result.contestedR} R seats assigned by the model = ${last.result.R} R${last.result.T ? '; '+last.result.T+' unresolved ties' : ''}. An outright majority requires 51 seats. Control of a 50–50 chamber depends on the vice president.`;
   }
 }
 
@@ -122,15 +149,15 @@ function renderAudit() {
   const year = Number($('audit-year').value);
   const panel = panels.find(p => p.year === year);
   if (!panel.result) {
-    $('audit-description').textContent = `Select a ${year} performance to see the individual races behind the projected total.`;
-    $('race-table').innerHTML = `<tr><td colspan="5" class="empty-table">${panel.active ? 'Choose a performance on the '+year+' slider.' : 'Set the earlier election sliders to unlock '+year+'.'}</td></tr>`;
+    $('audit-description').textContent = `Select a ${year} margin setting to see the individual races behind the modeled seat totals.`;
+    $('race-table').innerHTML = `<tr><td colspan="5" class="empty-table">${panel.active ? 'Choose a margin setting on the '+year+' slider.' : 'Set the earlier election sliders to unlock '+year+'.'}</td></tr>`;
     return;
   }
   const result = panel.result;
   const states = new Map(data.states.map(s => [s.code,s]));
   let races = result.races.slice().sort((a,b) => Math.abs(a.margin)-Math.abs(b.margin));
   if ($('flips-only').checked) races = races.filter(r => r.before !== r.party);
-  $('audit-description').textContent = `${result.contestedD} projected Democratic victories and ${result.heldD} Democratic holdovers make ${result.D} caucus seats. ${result.flipsD} flip${result.flipsD === 1 ? '' : 's'} to D; ${result.flipsR} to R${result.contestedT ? '; '+result.contestedT+' tied' : ''}. Closest modeled races first.`;
+  $('audit-description').textContent = `Modeled races: ${result.contestedD} D / ${result.contestedR} R${result.contestedT ? ' / '+result.contestedT+' tied' : ''}. Seats carried forward: ${result.heldD} D / ${result.heldR} R${result.heldT ? ' / '+result.heldT+' tied' : ''}. Senate total: ${seatTotals(result)}. Party changes: ${result.flipsD} to D; ${result.flipsR} to R. Closest modeled margins first.`;
   $('race-table').innerHTML = races.length ? races.map(r => {
     const st = states.get(r.state);
     const marginCell = (record,year) => `<a class="source-margin ${record.margin < 0 ? 'negative' : ''}" href="${record.url}" target="_blank" rel="noreferrer" aria-label="${st.name} ${year} ${marginLabel(record.margin)}, ${record.type}, open source">${marginLabel(record.margin)}<small>${record.type}${record.note ? ' · independent proxy' : ''}</small></a>`;
@@ -140,20 +167,32 @@ function renderAudit() {
 }
 
 function render() {
-  panels = scenario(data, mode, values(), tennesseeSpecial);
+  panels = scenario(data, mode, values(), tennesseeSpecial, enabledYears);
   document.querySelectorAll('[data-mode]').forEach(b => b.setAttribute('aria-pressed',String(b.dataset.mode === mode)));
   $('mode-description').textContent = mode === 'additive'
-    ? 'Move every state by the same number of margin points from 2026. Each election has its own setting; earlier results determine which seats carry forward.'
-    : 'Keep a chosen percentage of each state’s change from 2024 to 2026. 0% matches 2024, 100% matches 2026; outside that range, the state’s trend extends linearly.';
-  $('example').textContent = mode === 'additive' ? 'Try −7 / −15 / −15' : 'Try 50% / 0% / 0%';
-  document.querySelector('.chart-heading>span:first-child').innerHTML = `<span class="key-line"></span>${mode === 'additive' ? '2026 performance baseline' : 'Waterlines: 2026 at 100% · 2024 at 0%'}`;
-  $('timeline').innerHTML = panels.map(renderPanel).join('');
+    ? 'Apply the same change to every state’s D-minus-R margin from 2026. Each election has its own setting; earlier results determine which seats carry forward.'
+    : 'Set a percentage of each state’s D-minus-R margin change from 2024 to 2026. 0% matches 2024, 100% matches 2026; values outside that range extend the change linearly.';
+  const examples = SCALES[mode].suggested.filter((_,i) => enabledPrefix()[i]);
+  $('example').textContent = 'Example: '+examples.map(v => mode === 'additive' ? signed(v) : v+'%').join(' / ');
+  document.querySelector('.chart-heading>span:first-child').innerHTML = `<span class="key-line"></span>${mode === 'additive' ? 'Same as 2026 · 2024 (approx) at −14 pts' : 'Same as 2026 at 100% · Same as 2024 at 0%'}`;
+  $('waterline-note').hidden = mode !== 'additive';
+  $('timeline').innerHTML = directionColumn()+panels.map(renderPanel).join('');
+  [...$('audit-year').options].forEach(option => {option.disabled = !panels.find(p => p.year === Number(option.value)).enabled;});
+  if ($('audit-year').selectedOptions[0].disabled) $('audit-year').value = '2028';
   renderSummary();
   renderAudit();
   updateURL();
 }
 
 document.addEventListener('click', e => {
+  const yearToggle = e.target.closest('[data-year-toggle]');
+  if (yearToggle) {
+    const index = Number(yearToggle.dataset.yearToggle);
+    enabledYears[index] = !enabledYears[index];
+    render();
+    document.querySelector(`[data-year-toggle="${index}"]`)?.focus({preventScroll:true});
+    return;
+  }
   const row = e.target.closest('[data-row-index]');
   if (row) {setValue(Number(row.dataset.rowIndex),Number(row.dataset.value));return;}
   const choose = e.target.closest('[data-choose]');
@@ -206,7 +245,7 @@ document.addEventListener('keydown', e => {
   setValue(i,v,true);
 });
 
-$('example').addEventListener('click',() => {savedValues[mode]=SCALES[mode].suggested.slice();render();});
+$('example').addEventListener('click',() => {const prefix=enabledPrefix();savedValues[mode]=values().map((v,i) => prefix[i] ? SCALES[mode].suggested[i] : v);render();});
 $('reset').addEventListener('click',() => {savedValues[mode]=[null,null,null];render();notify('Election selections reset.');});
 $('tennessee-special').addEventListener('change',e => {tennesseeSpecial=e.target.checked;render();});
 $('audit-year').addEventListener('change',renderAudit);

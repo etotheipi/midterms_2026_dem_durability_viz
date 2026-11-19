@@ -1,0 +1,1799 @@
+{
+  "asOf": "2026-11-18",
+  "states": [
+    {
+      "code": "AL",
+      "name": "Alabama",
+      "y2024": {
+        "type": "House aggregate",
+        "dVotes": 518197,
+        "rVotes": 1508754,
+        "margin": -48.869312,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "Senate",
+        "dVotes": 758465,
+        "rVotes": 917860,
+        "margin": -9.497,
+        "url": "https://www.callthemap.com/results/senate/al",
+        "updated": "2026-11-04T17:16:06Z",
+        "candidates": "Everett Wess / Barry Moore"
+      },
+      "senateWinner": "Barry Moore",
+      "senateParty": "R"
+    },
+    {
+      "code": "AK",
+      "name": "Alaska",
+      "y2024": {
+        "type": "House aggregate",
+        "dVotes": 156245,
+        "rVotes": 159550,
+        "margin": -1.046565,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "Senate",
+        "dVotes": 144302,
+        "rVotes": 131844,
+        "margin": 4.341,
+        "url": "https://www.callthemap.com/results/senate/ak",
+        "updated": "2026-11-18T03:15:57Z",
+        "candidates": "Mary Peltola / Dan Sullivan"
+      },
+      "senateWinner": "Mary Peltola",
+      "senateParty": "D"
+    },
+    {
+      "code": "AZ",
+      "name": "Arizona",
+      "y2024": {
+        "type": "Senate",
+        "dVotes": 1676335,
+        "rVotes": 1595761,
+        "margin": 2.406046,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "House aggregate",
+        "dVotes": 1394467,
+        "rVotes": 1116624,
+        "margin": 11.064633,
+        "url": "https://www.callthemap.com/results/house",
+        "districts": 9
+      },
+      "senateWinner": null,
+      "senateParty": null
+    },
+    {
+      "code": "AR",
+      "name": "Arkansas",
+      "y2024": {
+        "type": "House aggregate",
+        "dVotes": 358749,
+        "rVotes": 764367,
+        "margin": -36.115415,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "Senate",
+        "dVotes": 377104,
+        "rVotes": 481491,
+        "margin": -11.754,
+        "url": "https://www.callthemap.com/results/senate/ar",
+        "updated": "2026-11-16T22:38:24Z",
+        "candidates": "Hallie Shoffner / Tom Cotton"
+      },
+      "senateWinner": "Tom Cotton",
+      "senateParty": "R"
+    },
+    {
+      "code": "CA",
+      "name": "California",
+      "y2024": {
+        "type": "Senate",
+        "dVotes": 9036252,
+        "rVotes": 6312594,
+        "margin": 17.745034,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "House aggregate",
+        "dVotes": 8852605,
+        "rVotes": 3785991,
+        "margin": 40.088424,
+        "url": "https://www.callthemap.com/results/house",
+        "districts": 52
+      },
+      "senateWinner": null,
+      "senateParty": null
+    },
+    {
+      "code": "CO",
+      "name": "Colorado",
+      "y2024": {
+        "type": "House aggregate",
+        "dVotes": 1667301,
+        "rVotes": 1306086,
+        "margin": 12.148267,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "Senate",
+        "dVotes": 1629507,
+        "rVotes": 942089,
+        "margin": 25.521,
+        "url": "https://www.callthemap.com/results/senate/co",
+        "updated": "2026-11-13T23:49:55Z",
+        "candidates": "John Hickenlooper / Mark Baisley"
+      },
+      "senateWinner": "John Hickenlooper",
+      "senateParty": "D"
+    },
+    {
+      "code": "CT",
+      "name": "Connecticut",
+      "y2024": {
+        "type": "Senate",
+        "dVotes": 1000695,
+        "rVotes": 678256,
+        "margin": 18.875299,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "House aggregate",
+        "dVotes": 807788,
+        "rVotes": 460746,
+        "margin": 27.357722,
+        "url": "https://www.callthemap.com/results/house",
+        "districts": 5
+      },
+      "senateWinner": null,
+      "senateParty": null
+    },
+    {
+      "code": "DE",
+      "name": "Delaware",
+      "y2024": {
+        "type": "Senate",
+        "dVotes": 283298,
+        "rVotes": 197753,
+        "margin": 17.088289,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "Senate",
+        "dVotes": 240587,
+        "rVotes": 137837,
+        "margin": 27.152,
+        "url": "https://www.callthemap.com/results/senate/de",
+        "updated": "2026-11-16T06:30:18Z",
+        "candidates": "Chris Coons / Michael \"dr. Mike\" Katz"
+      },
+      "senateWinner": "Chris Coons",
+      "senateParty": "D"
+    },
+    {
+      "code": "FL",
+      "name": "Florida",
+      "y2024": {
+        "type": "Senate",
+        "dVotes": 4603077,
+        "rVotes": 5977706,
+        "margin": -12.778417,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "Senate",
+        "dVotes": 3974761,
+        "rVotes": 4211592,
+        "margin": -2.86,
+        "url": "https://www.callthemap.com/results/senate/fl",
+        "updated": "2026-11-18T20:54:45Z",
+        "candidates": "Angie Nixon / Ashley Moody"
+      },
+      "senateWinner": "Ashley Moody",
+      "senateParty": "R"
+    },
+    {
+      "code": "GA",
+      "name": "Georgia",
+      "y2024": {
+        "type": "House aggregate",
+        "dVotes": 2434984,
+        "rVotes": 2702118,
+        "margin": -5.200091,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "Senate",
+        "dVotes": 2469055,
+        "rVotes": 1713671,
+        "margin": 18.06,
+        "url": "https://www.callthemap.com/results/senate/ga",
+        "updated": "2026-11-16T21:42:20Z",
+        "candidates": "Jon Ossoff / Mike Collins"
+      },
+      "senateWinner": "Jon Ossoff",
+      "senateParty": "D"
+    },
+    {
+      "code": "HI",
+      "name": "Hawaii",
+      "y2024": {
+        "type": "Senate",
+        "dVotes": 324194,
+        "rVotes": 160075,
+        "margin": 32.70847,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "House aggregate",
+        "dVotes": 256268,
+        "rVotes": 105749,
+        "margin": 41.577882,
+        "url": "https://www.callthemap.com/results/house",
+        "districts": 2
+      },
+      "senateWinner": null,
+      "senateParty": null
+    },
+    {
+      "code": "ID",
+      "name": "Idaho",
+      "y2024": {
+        "type": "House aggregate",
+        "dVotes": 244885,
+        "rVotes": 581168,
+        "margin": -40.709615,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "Senate",
+        "dVotes": 239422,
+        "rVotes": 402983,
+        "margin": -22.931,
+        "url": "https://www.callthemap.com/results/senate/id",
+        "updated": "2026-11-16T20:35:07Z",
+        "candidates": "Todd Achilles / Jim Risch",
+        "note": "Todd Achilles (independent) used as Democratic-side proxy."
+      },
+      "senateWinner": "Jim Risch",
+      "senateParty": "R"
+    },
+    {
+      "code": "IL",
+      "name": "Illinois",
+      "y2024": {
+        "type": "House aggregate",
+        "dVotes": 2829169,
+        "rVotes": 2517389,
+        "margin": 5.831415,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "Senate",
+        "dVotes": 2615998,
+        "rVotes": 1530799,
+        "margin": 25.752,
+        "url": "https://www.callthemap.com/results/senate/il",
+        "updated": "2026-11-18T21:10:08Z",
+        "candidates": "Juliana Stratton / Don Tracy"
+      },
+      "senateWinner": "Juliana Stratton",
+      "senateParty": "D"
+    },
+    {
+      "code": "IN",
+      "name": "Indiana",
+      "y2024": {
+        "type": "Senate",
+        "dVotes": 1097061,
+        "rVotes": 1659416,
+        "margin": -19.871925,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "House aggregate",
+        "dVotes": 996981,
+        "rVotes": 926535,
+        "margin": 3.662356,
+        "url": "https://www.callthemap.com/results/house",
+        "districts": 9
+      },
+      "senateWinner": null,
+      "senateParty": null
+    },
+    {
+      "code": "IA",
+      "name": "Iowa",
+      "y2024": {
+        "type": "House aggregate",
+        "dVotes": 696033,
+        "rVotes": 904563,
+        "margin": -13.028272,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "Senate",
+        "dVotes": 688608,
+        "rVotes": 631274,
+        "margin": 4.205,
+        "url": "https://www.callthemap.com/results/senate/ia",
+        "updated": "2026-11-15T19:27:37Z",
+        "candidates": "Josh Turek / Ashley Hinson"
+      },
+      "senateWinner": "Josh Turek",
+      "senateParty": "D"
+    },
+    {
+      "code": "KS",
+      "name": "Kansas",
+      "y2024": {
+        "type": "House aggregate",
+        "dVotes": 526153,
+        "rVotes": 749375,
+        "margin": -17.500361,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "Senate",
+        "dVotes": 561143,
+        "rVotes": 505558,
+        "margin": 5.054,
+        "url": "https://www.callthemap.com/results/senate/ks",
+        "updated": "2026-11-16T01:56:18Z",
+        "candidates": "Adam Hamilton / Roger Marshall"
+      },
+      "senateWinner": "Adam Hamilton",
+      "senateParty": "D"
+    },
+    {
+      "code": "KY",
+      "name": "Kentucky",
+      "y2024": {
+        "type": "House aggregate",
+        "dVotes": 511998,
+        "rVotes": 1392354,
+        "margin": -46.228638,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "Senate",
+        "dVotes": 611987,
+        "rVotes": 784000,
+        "margin": -12.064,
+        "url": "https://www.callthemap.com/results/senate/ky",
+        "updated": "2026-11-16T02:07:49Z",
+        "candidates": "Charles Booker / Andy Barr"
+      },
+      "senateWinner": "Andy Barr",
+      "senateParty": "R"
+    },
+    {
+      "code": "LA",
+      "name": "Louisiana",
+      "y2024": {
+        "type": "House aggregate",
+        "dVotes": 650836,
+        "rVotes": 1248101,
+        "margin": -31.452597,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "Senate",
+        "dVotes": 720516,
+        "rVotes": 746466,
+        "margin": -1.769,
+        "url": "https://www.callthemap.com/results/senate/la",
+        "updated": "2026-11-17T03:12:14Z",
+        "candidates": "Jamie Davis / Julia Letlow"
+      },
+      "senateWinner": "Julia Letlow",
+      "senateParty": "R"
+    },
+    {
+      "code": "ME",
+      "name": "Maine",
+      "y2024": {
+        "type": "Senate",
+        "dVotes": 427331,
+        "rVotes": 284338,
+        "margin": 17.421557,
+        "note": "Independent opposition candidate used as Democratic-side proxy.",
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "Senate",
+        "dVotes": 376070,
+        "rVotes": 332806,
+        "margin": 6.103,
+        "url": "https://www.callthemap.com/results/senate/me",
+        "updated": "2026-11-17T23:59:37Z",
+        "candidates": "Troy Jackson / Susan Collins"
+      },
+      "senateWinner": "Troy Jackson",
+      "senateParty": "D"
+    },
+    {
+      "code": "MD",
+      "name": "Maryland",
+      "y2024": {
+        "type": "Senate",
+        "dVotes": 1650912,
+        "rVotes": 1294344,
+        "margin": 11.801502,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "House aggregate",
+        "dVotes": 1551325,
+        "rVotes": 649575,
+        "margin": 40.971875,
+        "url": "https://www.callthemap.com/results/house",
+        "districts": 8
+      },
+      "senateWinner": null,
+      "senateParty": null
+    },
+    {
+      "code": "MA",
+      "name": "Massachusetts",
+      "y2024": {
+        "type": "Senate",
+        "dVotes": 2041668,
+        "rVotes": 1365440,
+        "margin": 19.811392,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "Senate",
+        "dVotes": 1654264,
+        "rVotes": 838220,
+        "margin": 31.277,
+        "url": "https://www.callthemap.com/results/senate/ma",
+        "updated": "2026-11-17T23:57:32Z",
+        "candidates": "Edward J. Markey / John Deaton"
+      },
+      "senateWinner": "Edward J. Markey",
+      "senateParty": "D"
+    },
+    {
+      "code": "MI",
+      "name": "Michigan",
+      "y2024": {
+        "type": "Senate",
+        "dVotes": 2712686,
+        "rVotes": 2693680,
+        "margin": 0.340781,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "Senate",
+        "dVotes": 2509674,
+        "rVotes": 2173893,
+        "margin": 7.021,
+        "url": "https://www.callthemap.com/results/senate/mi",
+        "updated": "2026-11-18T00:47:21Z",
+        "candidates": "Abdul El-Sayed / Mike Rogers"
+      },
+      "senateWinner": "Abdul El-Sayed",
+      "senateParty": "D"
+    },
+    {
+      "code": "MN",
+      "name": "Minnesota",
+      "y2024": {
+        "type": "Senate",
+        "dVotes": 1792441,
+        "rVotes": 1291712,
+        "margin": 15.700166,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "Senate",
+        "dVotes": 1521794,
+        "rVotes": 1233555,
+        "margin": 10.175,
+        "url": "https://www.callthemap.com/results/senate/mn",
+        "updated": "2026-11-16T06:37:11Z",
+        "candidates": "Peggy Flanagan / Michele Tafoya"
+      },
+      "senateWinner": "Peggy Flanagan",
+      "senateParty": "D"
+    },
+    {
+      "code": "MS",
+      "name": "Mississippi",
+      "y2024": {
+        "type": "Senate",
+        "dVotes": 451981,
+        "rVotes": 763420,
+        "margin": -25.624382,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "Senate",
+        "dVotes": 480153,
+        "rVotes": 472122,
+        "margin": 0.826,
+        "url": "https://www.callthemap.com/results/senate/ms",
+        "updated": "2026-11-17T04:42:27Z",
+        "candidates": "Scott Colom / Cindy Hyde-Smith"
+      },
+      "senateWinner": "Scott Colom",
+      "senateParty": "D"
+    },
+    {
+      "code": "MO",
+      "name": "Missouri",
+      "y2024": {
+        "type": "Senate",
+        "dVotes": 1243728,
+        "rVotes": 1651907,
+        "margin": -13.731569,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "House aggregate",
+        "dVotes": 1008983,
+        "rVotes": 1024205,
+        "margin": -0.748676,
+        "url": "https://www.callthemap.com/results/house",
+        "districts": 8
+      },
+      "senateWinner": null,
+      "senateParty": null
+    },
+    {
+      "code": "MT",
+      "name": "Montana",
+      "y2024": {
+        "type": "Senate",
+        "dVotes": 276305,
+        "rVotes": 319682,
+        "margin": -7.143045,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "Senate",
+        "dVotes": 184574,
+        "rVotes": 235693,
+        "margin": -10.448,
+        "url": "https://www.callthemap.com/results/senate/mt",
+        "updated": "2026-11-18T03:50:29Z",
+        "candidates": "Seth Bodnar / Kurt Alme",
+        "note": "Seth Bodnar (independent) used as Democratic-side proxy."
+      },
+      "senateWinner": "Kurt Alme",
+      "senateParty": "R"
+    },
+    {
+      "code": "NE",
+      "name": "Nebraska",
+      "y2024": {
+        "type": "Senate",
+        "dVotes": 436493,
+        "rVotes": 499124,
+        "margin": -6.674688,
+        "note": "Independent opposition candidate used as Democratic-side proxy.",
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "Senate",
+        "dVotes": 338731,
+        "rVotes": 382374,
+        "margin": -5.689,
+        "url": "https://www.callthemap.com/results/senate/ne",
+        "updated": "2026-11-18T21:27:35Z",
+        "candidates": "Dan Osborn / Pete Ricketts",
+        "note": "Dan Osborn (independent) used as Democratic-side proxy."
+      },
+      "senateWinner": "Pete Ricketts",
+      "senateParty": "R"
+    },
+    {
+      "code": "NV",
+      "name": "Nevada",
+      "y2024": {
+        "type": "Senate",
+        "dVotes": 701105,
+        "rVotes": 677046,
+        "margin": 1.642558,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "House aggregate",
+        "dVotes": 616267,
+        "rVotes": 430779,
+        "margin": 17.715363,
+        "url": "https://www.callthemap.com/results/house",
+        "districts": 4
+      },
+      "senateWinner": null,
+      "senateParty": null
+    },
+    {
+      "code": "NH",
+      "name": "New Hampshire",
+      "y2024": {
+        "type": "House aggregate",
+        "dVotes": 430218,
+        "rVotes": 373746,
+        "margin": 7.024195,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "Senate",
+        "dVotes": 356426,
+        "rVotes": 268682,
+        "margin": 13.753,
+        "url": "https://www.callthemap.com/results/senate/nh",
+        "updated": "2026-11-16T06:40:12Z",
+        "candidates": "Chris Pappas / John E. Sununu"
+      },
+      "senateWinner": "Chris Pappas",
+      "senateParty": "D"
+    },
+    {
+      "code": "NJ",
+      "name": "New Jersey",
+      "y2024": {
+        "type": "Senate",
+        "dVotes": 2161491,
+        "rVotes": 1773589,
+        "margin": 9.621074,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "Senate",
+        "dVotes": 1839061,
+        "rVotes": 1027844,
+        "margin": 27.525,
+        "url": "https://www.callthemap.com/results/senate/nj",
+        "updated": "2026-11-15T11:43:27Z",
+        "candidates": "Cory Booker / Justin Murphy"
+      },
+      "senateWinner": "Cory Booker",
+      "senateParty": "D"
+    },
+    {
+      "code": "NM",
+      "name": "New Mexico",
+      "y2024": {
+        "type": "Senate",
+        "dVotes": 497333,
+        "rVotes": 405978,
+        "margin": 10.11335,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "Senate",
+        "dVotes": 458963,
+        "rVotes": 266507,
+        "margin": 26.528,
+        "url": "https://www.callthemap.com/results/senate/nm",
+        "updated": "2026-11-17T04:49:07Z",
+        "candidates": "Ben Ray Luj\u00e1n / Larry Marker"
+      },
+      "senateWinner": "Ben Ray Luj\u00e1n",
+      "senateParty": "D"
+    },
+    {
+      "code": "NY",
+      "name": "New York",
+      "y2024": {
+        "type": "Senate",
+        "dVotes": 4711298,
+        "rVotes": 3246114,
+        "margin": 18.291211,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "House aggregate",
+        "dVotes": 3707424,
+        "rVotes": 2240873,
+        "margin": 24.654973,
+        "url": "https://www.callthemap.com/results/house",
+        "districts": 26
+      },
+      "senateWinner": null,
+      "senateParty": null
+    },
+    {
+      "code": "NC",
+      "name": "North Carolina",
+      "y2024": {
+        "type": "House aggregate",
+        "dVotes": 2349621,
+        "rVotes": 2889999,
+        "margin": -10.313305,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "Senate",
+        "dVotes": 2480640,
+        "rVotes": 1648870,
+        "margin": 19.699,
+        "url": "https://www.callthemap.com/results/senate/nc",
+        "updated": "2026-11-16T06:37:28Z",
+        "candidates": "Roy Cooper / Michael Whatley"
+      },
+      "senateWinner": "Roy Cooper",
+      "senateParty": "D"
+    },
+    {
+      "code": "ND",
+      "name": "North Dakota",
+      "y2024": {
+        "type": "Senate",
+        "dVotes": 121602,
+        "rVotes": 241569,
+        "margin": -32.928386,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "House aggregate",
+        "dVotes": 86088,
+        "rVotes": 134636,
+        "margin": -21.99489,
+        "url": "https://www.callthemap.com/results/house",
+        "districts": 1
+      },
+      "senateWinner": null,
+      "senateParty": null
+    },
+    {
+      "code": "OH",
+      "name": "Ohio",
+      "y2024": {
+        "type": "Senate",
+        "dVotes": 2650949,
+        "rVotes": 2857383,
+        "margin": -3.618716,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "Senate",
+        "dVotes": 2301042,
+        "rVotes": 2077748,
+        "margin": 4.852,
+        "url": "https://www.callthemap.com/results/senate/oh",
+        "updated": "2026-11-16T02:12:05Z",
+        "candidates": "Sherrod Brown / Jon Husted"
+      },
+      "senateWinner": "Sherrod Brown",
+      "senateParty": "D"
+    },
+    {
+      "code": "OK",
+      "name": "Oklahoma",
+      "y2024": {
+        "type": "House aggregate",
+        "dVotes": 397856,
+        "rVotes": 834553,
+        "margin": -35.434422,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "Senate",
+        "dVotes": 439522,
+        "rVotes": 639860,
+        "margin": -17.908,
+        "url": "https://www.callthemap.com/results/senate/ok",
+        "updated": "2026-11-16T01:48:13Z",
+        "candidates": "N'Kiyla Jasmine Thomas / Kevin Hern"
+      },
+      "senateWinner": "Kevin Hern",
+      "senateParty": "R"
+    },
+    {
+      "code": "OR",
+      "name": "Oregon",
+      "y2024": {
+        "type": "House aggregate",
+        "dVotes": 1151394,
+        "rVotes": 912337,
+        "margin": 11.583729,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "Senate",
+        "dVotes": 1141127,
+        "rVotes": 757880,
+        "margin": 19.505,
+        "url": "https://www.callthemap.com/results/senate/or",
+        "updated": "2026-11-18T21:27:39Z",
+        "candidates": "Jeff Merkley / David Brock Smith"
+      },
+      "senateWinner": "Jeff Merkley",
+      "senateParty": "D"
+    },
+    {
+      "code": "PA",
+      "name": "Pennsylvania",
+      "y2024": {
+        "type": "Senate",
+        "dVotes": 3384180,
+        "rVotes": 3399295,
+        "margin": -0.217072,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "House aggregate",
+        "dVotes": 2832085,
+        "rVotes": 2148442,
+        "margin": 13.726319,
+        "url": "https://www.callthemap.com/results/house",
+        "districts": 17
+      },
+      "senateWinner": null,
+      "senateParty": null
+    },
+    {
+      "code": "RI",
+      "name": "Rhode Island",
+      "y2024": {
+        "type": "Senate",
+        "dVotes": 294665,
+        "rVotes": 196039,
+        "margin": 20.048054,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "Senate",
+        "dVotes": 240707,
+        "rVotes": 105459,
+        "margin": 37.525,
+        "url": "https://www.callthemap.com/results/senate/ri",
+        "updated": "2026-11-18T01:05:46Z",
+        "candidates": "John F. Reed / Raymond T. McKay"
+      },
+      "senateWinner": "John F. Reed",
+      "senateParty": "D"
+    },
+    {
+      "code": "SC",
+      "name": "South Carolina",
+      "y2024": {
+        "type": "House aggregate",
+        "dVotes": 964448,
+        "rVotes": 1475329,
+        "margin": -20.93966,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "Senate",
+        "dVotes": 1044001,
+        "rVotes": 952191,
+        "margin": 4.497,
+        "url": "https://www.callthemap.com/results/senate/sc",
+        "updated": "2026-11-10T22:20:31Z",
+        "candidates": "Annie Andrews / Darline Graham"
+      },
+      "senateWinner": "Annie Andrews",
+      "senateParty": "D"
+    },
+    {
+      "code": "SD",
+      "name": "South Dakota",
+      "y2024": {
+        "type": "House aggregate",
+        "dVotes": 117818,
+        "rVotes": 303630,
+        "margin": -44.08895,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "Senate",
+        "dVotes": 120513,
+        "rVotes": 184589,
+        "margin": -21.002,
+        "url": "https://www.callthemap.com/results/senate/sd",
+        "updated": "2026-11-17T04:50:35Z",
+        "candidates": "Brian L Bengs / Mike Rounds",
+        "note": "Brian L Bengs (independent) used as Democratic-side proxy."
+      },
+      "senateWinner": "Mike Rounds",
+      "senateParty": "R"
+    },
+    {
+      "code": "TN",
+      "name": "Tennessee",
+      "y2024": {
+        "type": "Senate",
+        "dVotes": 1027461,
+        "rVotes": 1918743,
+        "margin": -29.634248,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "Senate",
+        "dVotes": 886974,
+        "rVotes": 1138457,
+        "margin": -12.167,
+        "url": "https://www.callthemap.com/results/senate/tn",
+        "updated": "2026-11-16T01:53:00Z",
+        "candidates": "Marquita Bradshaw / Bill Hagerty"
+      },
+      "senateWinner": "Bill Hagerty",
+      "senateParty": "R"
+    },
+    {
+      "code": "TX",
+      "name": "Texas",
+      "y2024": {
+        "type": "Senate",
+        "dVotes": 5031249,
+        "rVotes": 5990741,
+        "margin": -8.497205,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "Senate",
+        "dVotes": 5458693,
+        "rVotes": 4256003,
+        "margin": 12.13,
+        "url": "https://www.callthemap.com/results/senate/tx",
+        "updated": "2026-11-18T00:06:15Z",
+        "candidates": "James Talarico / Ken Paxton"
+      },
+      "senateWinner": "James Talarico",
+      "senateParty": "D"
+    },
+    {
+      "code": "UT",
+      "name": "Utah",
+      "y2024": {
+        "type": "Senate",
+        "dVotes": 464515,
+        "rVotes": 914700,
+        "margin": -30.760658,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "House aggregate",
+        "dVotes": 491196,
+        "rVotes": 485313,
+        "margin": 0.602452,
+        "url": "https://www.callthemap.com/results/house",
+        "districts": 4
+      },
+      "senateWinner": null,
+      "senateParty": null
+    },
+    {
+      "code": "VT",
+      "name": "Vermont",
+      "y2024": {
+        "type": "Senate",
+        "dVotes": 229429,
+        "rVotes": 116512,
+        "margin": 31.084946,
+        "note": "Independent opposition candidate used as Democratic-side proxy.",
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "House aggregate",
+        "dVotes": 198759,
+        "rVotes": 94079,
+        "margin": 35.746727,
+        "url": "https://www.callthemap.com/results/house",
+        "districts": 1
+      },
+      "senateWinner": null,
+      "senateParty": null
+    },
+    {
+      "code": "VA",
+      "name": "Virginia",
+      "y2024": {
+        "type": "Senate",
+        "dVotes": 2417115,
+        "rVotes": 2019911,
+        "margin": 8.934898,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "Senate",
+        "dVotes": 2251628,
+        "rVotes": 1393710,
+        "margin": 23.472,
+        "url": "https://www.callthemap.com/results/senate/va",
+        "updated": "2026-11-18T19:08:15Z",
+        "candidates": "Mark R. Warner / Bert Mizusawa"
+      },
+      "senateWinner": "Mark R. Warner",
+      "senateParty": "D"
+    },
+    {
+      "code": "WA",
+      "name": "Washington",
+      "y2024": {
+        "type": "Senate",
+        "dVotes": 2252577,
+        "rVotes": 1549187,
+        "margin": 18.450101,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "House aggregate",
+        "dVotes": 2001097,
+        "rVotes": 1154430,
+        "margin": 26.831239,
+        "url": "https://www.callthemap.com/results/house",
+        "districts": 10
+      },
+      "senateWinner": null,
+      "senateParty": null
+    },
+    {
+      "code": "WV",
+      "name": "West Virginia",
+      "y2024": {
+        "type": "Senate",
+        "dVotes": 207548,
+        "rVotes": 514079,
+        "margin": -40.995591,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "Senate",
+        "dVotes": 173656,
+        "rVotes": 266772,
+        "margin": -20.348,
+        "url": "https://www.callthemap.com/results/senate/wv",
+        "updated": "2026-11-16T23:08:32Z",
+        "candidates": "Rachel Fetty Anderson / Shelley Moore Capito"
+      },
+      "senateWinner": "Shelley Moore Capito",
+      "senateParty": "R"
+    },
+    {
+      "code": "WI",
+      "name": "Wisconsin",
+      "y2024": {
+        "type": "Senate",
+        "dVotes": 1672777,
+        "rVotes": 1643996,
+        "margin": 0.8488,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "House aggregate",
+        "dVotes": 1453582,
+        "rVotes": 1108358,
+        "margin": 13.475101,
+        "url": "https://www.callthemap.com/results/house",
+        "districts": 8
+      },
+      "senateWinner": null,
+      "senateParty": null
+    },
+    {
+      "code": "WY",
+      "name": "Wyoming",
+      "y2024": {
+        "type": "Senate",
+        "dVotes": 63727,
+        "rVotes": 198418,
+        "margin": -49.697442,
+        "url": "https://history.house.gov/Institution/Election-Statistics/2024election/"
+      },
+      "y2026": {
+        "type": "Senate",
+        "dVotes": 65105,
+        "rVotes": 122174,
+        "margin": -30.305,
+        "url": "https://www.callthemap.com/results/senate/wy",
+        "updated": "2026-11-07T17:44:56Z",
+        "candidates": "James Byrd / Harriet Hageman"
+      },
+      "senateWinner": "Harriet Hageman",
+      "senateParty": "R"
+    }
+  ],
+  "seats": [
+    {
+      "id": "AZ-1",
+      "state": "AZ",
+      "class": 1,
+      "party": "D",
+      "name": "Ruben Gallego"
+    },
+    {
+      "id": "CA-1",
+      "state": "CA",
+      "class": 1,
+      "party": "D",
+      "name": "Adam Schiff"
+    },
+    {
+      "id": "CT-1",
+      "state": "CT",
+      "class": 1,
+      "party": "D",
+      "name": "Chris Murphy"
+    },
+    {
+      "id": "DE-1",
+      "state": "DE",
+      "class": 1,
+      "party": "D",
+      "name": "Lisa Blunt Rochester"
+    },
+    {
+      "id": "HI-1",
+      "state": "HI",
+      "class": 1,
+      "party": "D",
+      "name": "Mazie Hirono"
+    },
+    {
+      "id": "MA-1",
+      "state": "MA",
+      "class": 1,
+      "party": "D",
+      "name": "Elizabeth Warren"
+    },
+    {
+      "id": "MD-1",
+      "state": "MD",
+      "class": 1,
+      "party": "D",
+      "name": "Angela Alsobrooks"
+    },
+    {
+      "id": "ME-1",
+      "state": "ME",
+      "class": 1,
+      "party": "D",
+      "name": "Angus King"
+    },
+    {
+      "id": "MI-1",
+      "state": "MI",
+      "class": 1,
+      "party": "D",
+      "name": "Elissa Slotkin"
+    },
+    {
+      "id": "MN-1",
+      "state": "MN",
+      "class": 1,
+      "party": "D",
+      "name": "Amy Klobuchar"
+    },
+    {
+      "id": "NJ-1",
+      "state": "NJ",
+      "class": 1,
+      "party": "D",
+      "name": "Andy Kim"
+    },
+    {
+      "id": "NM-1",
+      "state": "NM",
+      "class": 1,
+      "party": "D",
+      "name": "Martin Heinrich"
+    },
+    {
+      "id": "NV-1",
+      "state": "NV",
+      "class": 1,
+      "party": "D",
+      "name": "Jacky Rosen"
+    },
+    {
+      "id": "NY-1",
+      "state": "NY",
+      "class": 1,
+      "party": "D",
+      "name": "Kirsten Gillibrand"
+    },
+    {
+      "id": "RI-1",
+      "state": "RI",
+      "class": 1,
+      "party": "D",
+      "name": "Sheldon Whitehouse"
+    },
+    {
+      "id": "VA-1",
+      "state": "VA",
+      "class": 1,
+      "party": "D",
+      "name": "Tim Kaine"
+    },
+    {
+      "id": "VT-1",
+      "state": "VT",
+      "class": 1,
+      "party": "D",
+      "name": "Bernie Sanders"
+    },
+    {
+      "id": "WA-1",
+      "state": "WA",
+      "class": 1,
+      "party": "D",
+      "name": "Maria Cantwell"
+    },
+    {
+      "id": "WI-1",
+      "state": "WI",
+      "class": 1,
+      "party": "D",
+      "name": "Tammy Baldwin"
+    },
+    {
+      "id": "FL-1",
+      "state": "FL",
+      "class": 1,
+      "party": "R",
+      "name": "Rick Scott"
+    },
+    {
+      "id": "IN-1",
+      "state": "IN",
+      "class": 1,
+      "party": "R",
+      "name": "Jim Banks"
+    },
+    {
+      "id": "MO-1",
+      "state": "MO",
+      "class": 1,
+      "party": "R",
+      "name": "Josh Hawley"
+    },
+    {
+      "id": "MS-1",
+      "state": "MS",
+      "class": 1,
+      "party": "R",
+      "name": "Roger Wicker"
+    },
+    {
+      "id": "MT-1",
+      "state": "MT",
+      "class": 1,
+      "party": "R",
+      "name": "Tim Sheehy"
+    },
+    {
+      "id": "ND-1",
+      "state": "ND",
+      "class": 1,
+      "party": "R",
+      "name": "Kevin Cramer"
+    },
+    {
+      "id": "NE-1",
+      "state": "NE",
+      "class": 1,
+      "party": "R",
+      "name": "Deb Fischer"
+    },
+    {
+      "id": "OH-1",
+      "state": "OH",
+      "class": 1,
+      "party": "R",
+      "name": "Bernie Moreno"
+    },
+    {
+      "id": "PA-1",
+      "state": "PA",
+      "class": 1,
+      "party": "R",
+      "name": "Dave McCormick"
+    },
+    {
+      "id": "TN-1",
+      "state": "TN",
+      "class": 1,
+      "party": "R",
+      "name": "Blackburn successor"
+    },
+    {
+      "id": "TX-1",
+      "state": "TX",
+      "class": 1,
+      "party": "R",
+      "name": "Ted Cruz"
+    },
+    {
+      "id": "UT-1",
+      "state": "UT",
+      "class": 1,
+      "party": "R",
+      "name": "John Curtis"
+    },
+    {
+      "id": "WV-1",
+      "state": "WV",
+      "class": 1,
+      "party": "R",
+      "name": "Jim Justice"
+    },
+    {
+      "id": "WY-1",
+      "state": "WY",
+      "class": 1,
+      "party": "R",
+      "name": "John Barrasso"
+    },
+    {
+      "id": "AZ-3",
+      "state": "AZ",
+      "class": 3,
+      "party": "D",
+      "name": "Mark Kelly"
+    },
+    {
+      "id": "CA-3",
+      "state": "CA",
+      "class": 3,
+      "party": "D",
+      "name": "Alex Padilla"
+    },
+    {
+      "id": "CO-3",
+      "state": "CO",
+      "class": 3,
+      "party": "D",
+      "name": "Michael Bennet"
+    },
+    {
+      "id": "CT-3",
+      "state": "CT",
+      "class": 3,
+      "party": "D",
+      "name": "Richard Blumenthal"
+    },
+    {
+      "id": "GA-3",
+      "state": "GA",
+      "class": 3,
+      "party": "D",
+      "name": "Raphael Warnock"
+    },
+    {
+      "id": "HI-3",
+      "state": "HI",
+      "class": 3,
+      "party": "D",
+      "name": "Brian Schatz"
+    },
+    {
+      "id": "IL-3",
+      "state": "IL",
+      "class": 3,
+      "party": "D",
+      "name": "Tammy Duckworth"
+    },
+    {
+      "id": "MD-3",
+      "state": "MD",
+      "class": 3,
+      "party": "D",
+      "name": "Chris Van Hollen"
+    },
+    {
+      "id": "NH-3",
+      "state": "NH",
+      "class": 3,
+      "party": "D",
+      "name": "Maggie Hassan"
+    },
+    {
+      "id": "NV-3",
+      "state": "NV",
+      "class": 3,
+      "party": "D",
+      "name": "Catherine Cortez Masto"
+    },
+    {
+      "id": "NY-3",
+      "state": "NY",
+      "class": 3,
+      "party": "D",
+      "name": "Chuck Schumer"
+    },
+    {
+      "id": "OR-3",
+      "state": "OR",
+      "class": 3,
+      "party": "D",
+      "name": "Ron Wyden"
+    },
+    {
+      "id": "PA-3",
+      "state": "PA",
+      "class": 3,
+      "party": "D",
+      "name": "John Fetterman"
+    },
+    {
+      "id": "VT-3",
+      "state": "VT",
+      "class": 3,
+      "party": "D",
+      "name": "Peter Welch"
+    },
+    {
+      "id": "WA-3",
+      "state": "WA",
+      "class": 3,
+      "party": "D",
+      "name": "Patty Murray"
+    },
+    {
+      "id": "OH-3",
+      "state": "OH",
+      "class": 3,
+      "party": "D",
+      "name": "Sherrod Brown"
+    },
+    {
+      "id": "AK-3",
+      "state": "AK",
+      "class": 3,
+      "party": "R",
+      "name": "Lisa Murkowski"
+    },
+    {
+      "id": "AL-3",
+      "state": "AL",
+      "class": 3,
+      "party": "R",
+      "name": "Katie Britt"
+    },
+    {
+      "id": "AR-3",
+      "state": "AR",
+      "class": 3,
+      "party": "R",
+      "name": "John Boozman"
+    },
+    {
+      "id": "FL-3",
+      "state": "FL",
+      "class": 3,
+      "party": "R",
+      "name": "Ashley Moody"
+    },
+    {
+      "id": "IA-3",
+      "state": "IA",
+      "class": 3,
+      "party": "R",
+      "name": "Chuck Grassley"
+    },
+    {
+      "id": "ID-3",
+      "state": "ID",
+      "class": 3,
+      "party": "R",
+      "name": "Mike Crapo"
+    },
+    {
+      "id": "IN-3",
+      "state": "IN",
+      "class": 3,
+      "party": "R",
+      "name": "Todd Young"
+    },
+    {
+      "id": "KS-3",
+      "state": "KS",
+      "class": 3,
+      "party": "R",
+      "name": "Jerry Moran"
+    },
+    {
+      "id": "KY-3",
+      "state": "KY",
+      "class": 3,
+      "party": "R",
+      "name": "Rand Paul"
+    },
+    {
+      "id": "LA-3",
+      "state": "LA",
+      "class": 3,
+      "party": "R",
+      "name": "John Kennedy"
+    },
+    {
+      "id": "MO-3",
+      "state": "MO",
+      "class": 3,
+      "party": "R",
+      "name": "Eric Schmitt"
+    },
+    {
+      "id": "NC-3",
+      "state": "NC",
+      "class": 3,
+      "party": "R",
+      "name": "Ted Budd"
+    },
+    {
+      "id": "ND-3",
+      "state": "ND",
+      "class": 3,
+      "party": "R",
+      "name": "John Hoeven"
+    },
+    {
+      "id": "OK-3",
+      "state": "OK",
+      "class": 3,
+      "party": "R",
+      "name": "James Lankford"
+    },
+    {
+      "id": "SC-3",
+      "state": "SC",
+      "class": 3,
+      "party": "R",
+      "name": "Tim Scott"
+    },
+    {
+      "id": "SD-3",
+      "state": "SD",
+      "class": 3,
+      "party": "R",
+      "name": "John Thune"
+    },
+    {
+      "id": "UT-3",
+      "state": "UT",
+      "class": 3,
+      "party": "R",
+      "name": "Mike Lee"
+    },
+    {
+      "id": "WI-3",
+      "state": "WI",
+      "class": 3,
+      "party": "R",
+      "name": "Ron Johnson"
+    },
+    {
+      "id": "AL-2",
+      "state": "AL",
+      "class": 2,
+      "party": "R",
+      "name": "Barry Moore"
+    },
+    {
+      "id": "AK-2",
+      "state": "AK",
+      "class": 2,
+      "party": "D",
+      "name": "Mary Peltola"
+    },
+    {
+      "id": "AR-2",
+      "state": "AR",
+      "class": 2,
+      "party": "R",
+      "name": "Tom Cotton"
+    },
+    {
+      "id": "CO-2",
+      "state": "CO",
+      "class": 2,
+      "party": "D",
+      "name": "John Hickenlooper"
+    },
+    {
+      "id": "DE-2",
+      "state": "DE",
+      "class": 2,
+      "party": "D",
+      "name": "Chris Coons"
+    },
+    {
+      "id": "GA-2",
+      "state": "GA",
+      "class": 2,
+      "party": "D",
+      "name": "Jon Ossoff"
+    },
+    {
+      "id": "ID-2",
+      "state": "ID",
+      "class": 2,
+      "party": "R",
+      "name": "Jim Risch"
+    },
+    {
+      "id": "IL-2",
+      "state": "IL",
+      "class": 2,
+      "party": "D",
+      "name": "Juliana Stratton"
+    },
+    {
+      "id": "IA-2",
+      "state": "IA",
+      "class": 2,
+      "party": "D",
+      "name": "Josh Turek"
+    },
+    {
+      "id": "KS-2",
+      "state": "KS",
+      "class": 2,
+      "party": "D",
+      "name": "Adam Hamilton"
+    },
+    {
+      "id": "KY-2",
+      "state": "KY",
+      "class": 2,
+      "party": "R",
+      "name": "Andy Barr"
+    },
+    {
+      "id": "LA-2",
+      "state": "LA",
+      "class": 2,
+      "party": "R",
+      "name": "Julia Letlow"
+    },
+    {
+      "id": "ME-2",
+      "state": "ME",
+      "class": 2,
+      "party": "D",
+      "name": "Troy Jackson"
+    },
+    {
+      "id": "MA-2",
+      "state": "MA",
+      "class": 2,
+      "party": "D",
+      "name": "Edward J. Markey"
+    },
+    {
+      "id": "MI-2",
+      "state": "MI",
+      "class": 2,
+      "party": "D",
+      "name": "Abdul El-Sayed"
+    },
+    {
+      "id": "MN-2",
+      "state": "MN",
+      "class": 2,
+      "party": "D",
+      "name": "Peggy Flanagan"
+    },
+    {
+      "id": "MS-2",
+      "state": "MS",
+      "class": 2,
+      "party": "D",
+      "name": "Scott Colom"
+    },
+    {
+      "id": "MT-2",
+      "state": "MT",
+      "class": 2,
+      "party": "R",
+      "name": "Kurt Alme"
+    },
+    {
+      "id": "NE-2",
+      "state": "NE",
+      "class": 2,
+      "party": "R",
+      "name": "Pete Ricketts"
+    },
+    {
+      "id": "NH-2",
+      "state": "NH",
+      "class": 2,
+      "party": "D",
+      "name": "Chris Pappas"
+    },
+    {
+      "id": "NJ-2",
+      "state": "NJ",
+      "class": 2,
+      "party": "D",
+      "name": "Cory Booker"
+    },
+    {
+      "id": "NM-2",
+      "state": "NM",
+      "class": 2,
+      "party": "D",
+      "name": "Ben Ray Luj\u00e1n"
+    },
+    {
+      "id": "NC-2",
+      "state": "NC",
+      "class": 2,
+      "party": "D",
+      "name": "Roy Cooper"
+    },
+    {
+      "id": "OK-2",
+      "state": "OK",
+      "class": 2,
+      "party": "R",
+      "name": "Kevin Hern"
+    },
+    {
+      "id": "OR-2",
+      "state": "OR",
+      "class": 2,
+      "party": "D",
+      "name": "Jeff Merkley"
+    },
+    {
+      "id": "RI-2",
+      "state": "RI",
+      "class": 2,
+      "party": "D",
+      "name": "John F. Reed"
+    },
+    {
+      "id": "SC-2",
+      "state": "SC",
+      "class": 2,
+      "party": "D",
+      "name": "Annie Andrews"
+    },
+    {
+      "id": "SD-2",
+      "state": "SD",
+      "class": 2,
+      "party": "R",
+      "name": "Mike Rounds"
+    },
+    {
+      "id": "TN-2",
+      "state": "TN",
+      "class": 2,
+      "party": "R",
+      "name": "Bill Hagerty"
+    },
+    {
+      "id": "TX-2",
+      "state": "TX",
+      "class": 2,
+      "party": "D",
+      "name": "James Talarico"
+    },
+    {
+      "id": "VA-2",
+      "state": "VA",
+      "class": 2,
+      "party": "D",
+      "name": "Mark R. Warner"
+    },
+    {
+      "id": "WV-2",
+      "state": "WV",
+      "class": 2,
+      "party": "R",
+      "name": "Shelley Moore Capito"
+    },
+    {
+      "id": "WY-2",
+      "state": "WY",
+      "class": 2,
+      "party": "R",
+      "name": "Harriet Hageman"
+    }
+  ]
+}
