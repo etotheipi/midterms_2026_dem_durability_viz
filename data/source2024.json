@@ -1,0 +1,7715 @@
+{
+  "AL": {
+    "name": "Alabama",
+    "senate": [],
+    "house": [
+      {
+        "name": "1. Barry Moore, Republican",
+        "party": "R",
+        "votes": 258619
+      },
+      {
+        "name": "Tom Holmes, Democrat",
+        "party": "D",
+        "votes": 70929
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 306
+      },
+      {
+        "name": "2. Caroleene Dobson, Republican",
+        "party": "R",
+        "votes": 131414
+      },
+      {
+        "name": "Shomari Figures, Democrat",
+        "party": "D",
+        "votes": 158041
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 219
+      },
+      {
+        "name": "3. Mike Rogers, Republican",
+        "party": "R",
+        "votes": 243848
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 5160
+      },
+      {
+        "name": "4. Robert B. Aderholt, Republican",
+        "party": "R",
+        "votes": 274498
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 3374
+      },
+      {
+        "name": "5. Dale W. Strong, Republican",
+        "party": "R",
+        "votes": 250322
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 12088
+      },
+      {
+        "name": "6. Gary J. Palmer, Republican",
+        "party": "R",
+        "votes": 243741
+      },
+      {
+        "name": "Elizabeth Anderson, Democrat",
+        "party": "D",
+        "votes": 102504
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 380
+      },
+      {
+        "name": "7. Robin Litaker, Republican",
+        "party": "R",
+        "votes": 106312
+      },
+      {
+        "name": "Terri A. Sewell, Democrat",
+        "party": "D",
+        "votes": 186723
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 185
+      }
+    ]
+  },
+  "AK": {
+    "name": "Alaska",
+    "senate": [],
+    "house": [
+      {
+        "name": "Nick Begich, Republican",
+        "party": "R",
+        "votes": 159550
+      },
+      {
+        "name": "Mary Sattler Peltola, Democrat",
+        "party": "D",
+        "votes": 152828
+      },
+      {
+        "name": "Eric Hafner, Democrat",
+        "party": "D",
+        "votes": 3417
+      },
+      {
+        "name": "John Wayne Howe, Independence",
+        "party": "O",
+        "votes": 13010
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 750
+      }
+    ]
+  },
+  "AZ": {
+    "name": "Arizona",
+    "senate": [
+      {
+        "name": "Kari Lake, Republican",
+        "party": "R",
+        "votes": 1595761
+      },
+      {
+        "name": "Ruben Gallego, Democrat",
+        "party": "D",
+        "votes": 1676335
+      },
+      {
+        "name": "Eduardo Quintana, Green",
+        "party": "O",
+        "votes": 75868
+      },
+      {
+        "name": "Sarah Williams, Write-in (Libertarian)",
+        "party": "O",
+        "votes": 535
+      },
+      {
+        "name": "Christopher Beckett, Write-in (Independent)",
+        "party": "O",
+        "votes": 103
+      },
+      {
+        "name": "Steven Cavin Sanders, Write-in (Independent)",
+        "party": "O",
+        "votes": 92
+      },
+      {
+        "name": "Jannie \u201cJannie\u201d Prosser, Write-in (Republican)",
+        "party": "R",
+        "votes": 82
+      },
+      {
+        "name": "Shawn Petty, Write-in (None)",
+        "party": "O",
+        "votes": 24
+      },
+      {
+        "name": "David Bozic, Write-in (None)",
+        "party": "O",
+        "votes": 12
+      },
+      {
+        "name": "Benjamin Rodriguez, Write-in (Us Altogether)",
+        "party": "O",
+        "votes": 2
+      }
+    ],
+    "house": [
+      {
+        "name": "1. David Schweikert, Republican",
+        "party": "R",
+        "votes": 225538
+      },
+      {
+        "name": "Amish Shah, Democrat",
+        "party": "D",
+        "votes": 208966
+      },
+      {
+        "name": "2. Elijah Crane, Republican",
+        "party": "R",
+        "votes": 221413
+      },
+      {
+        "name": "Jonathan Nez, Democrat",
+        "party": "D",
+        "votes": 184963
+      },
+      {
+        "name": "Richard William Ester, Write-in (Independent)",
+        "party": "O",
+        "votes": 28
+      },
+      {
+        "name": "David Alexander, Write-in (Democratic)",
+        "party": "D",
+        "votes": 22
+      },
+      {
+        "name": "Charles \u201cCharlie\u201d Everette Holt, Jr., Write-in (None)",
+        "party": "O",
+        "votes": 5
+      },
+      {
+        "name": "3. Jeff Zink, Republican",
+        "party": "R",
+        "votes": 53705
+      },
+      {
+        "name": "Yassamin Ansari, Democrat",
+        "party": "D",
+        "votes": 143336
+      },
+      {
+        "name": "Alan Aversa, Green",
+        "party": "O",
+        "votes": 5008
+      },
+      {
+        "name": "Candace Cunningham, Write-in (Green)",
+        "party": "O",
+        "votes": 16
+      },
+      {
+        "name": "4. Kelly Cooper, Republican",
+        "party": "R",
+        "votes": 152052
+      },
+      {
+        "name": "Greg Stanton, Democrat",
+        "party": "D",
+        "votes": 176428
+      },
+      {
+        "name": "Vincent Beck-Jones, Green",
+        "party": "O",
+        "votes": 6065
+      },
+      {
+        "name": "5. Andy Biggs, Republican",
+        "party": "R",
+        "votes": 255628
+      },
+      {
+        "name": "Katrina Schaffner, Democrat",
+        "party": "D",
+        "votes": 167680
+      },
+      {
+        "name": "6. Juan Ciscomani, Republican",
+        "party": "R",
+        "votes": 215596
+      },
+      {
+        "name": "Kirsten Engel, Democrat",
+        "party": "D",
+        "votes": 204774
+      },
+      {
+        "name": "Athena Eastwood, Green",
+        "party": "O",
+        "votes": 10759
+      },
+      {
+        "name": "Luis Pozzolo, Write-in (Independent)",
+        "party": "O",
+        "votes": 91
+      },
+      {
+        "name": "7. Daniel Francis Butierez, Sr., Republican",
+        "party": "R",
+        "votes": 99057
+      },
+      {
+        "name": "Ra\u00fal M. Grijalva, Democrat",
+        "party": "D",
+        "votes": 171954
+      },
+      {
+        "name": "8. Abraham \u201cAbe\u201d Hamadeh, Republican",
+        "party": "R",
+        "votes": 208269
+      },
+      {
+        "name": "Gregory Whitten, Democrat",
+        "party": "D",
+        "votes": 160344
+      },
+      {
+        "name": "9. Paul A. Gosar, Republican",
+        "party": "R",
+        "votes": 249583
+      },
+      {
+        "name": "Quacy Smith, Democrat",
+        "party": "D",
+        "votes": 132640
+      }
+    ]
+  },
+  "AR": {
+    "name": "Arkansas",
+    "senate": [],
+    "house": [
+      {
+        "name": "1. Eric A. \u201cRick\u201d Crawford, Republican",
+        "party": "R",
+        "votes": 194711
+      },
+      {
+        "name": "Rodney Govens, Democrat",
+        "party": "D",
+        "votes": 64113
+      },
+      {
+        "name": "Steve G. Parsons, Libertarian",
+        "party": "O",
+        "votes": 8353
+      },
+      {
+        "name": "2. J. French Hill, Republican",
+        "party": "R",
+        "votes": 180509
+      },
+      {
+        "name": "Marcus A. Jones, Democrat",
+        "party": "D",
+        "votes": 125777
+      },
+      {
+        "name": "3. Steve Womack, Republican",
+        "party": "R",
+        "votes": 192101
+      },
+      {
+        "name": "Caitlin Draper, Democrat",
+        "party": "D",
+        "votes": 95652
+      },
+      {
+        "name": "Bobby Wilson, Libertarian",
+        "party": "O",
+        "votes": 13331
+      },
+      {
+        "name": "4. Bruce Westerman, Republican",
+        "party": "R",
+        "votes": 197046
+      },
+      {
+        "name": "Risie Howard, Democrat",
+        "party": "D",
+        "votes": 73207
+      }
+    ]
+  },
+  "CA": {
+    "name": "California",
+    "senate": [
+      {
+        "name": "Steve Garvey, Republican",
+        "party": "R",
+        "votes": 6312594
+      },
+      {
+        "name": "Adam B. Schiff, Democrat",
+        "party": "D",
+        "votes": 9036252
+      }
+    ],
+    "house": [
+      {
+        "name": "1. Doug LaMalfa, Republican",
+        "party": "R",
+        "votes": 208592
+      },
+      {
+        "name": "Rose Penelope Yee, Democrat",
+        "party": "D",
+        "votes": 110636
+      },
+      {
+        "name": "2. Chris Coulombe, Republican",
+        "party": "R",
+        "votes": 106734
+      },
+      {
+        "name": "Jared Huffman, Democrat",
+        "party": "D",
+        "votes": 272883
+      },
+      {
+        "name": "3. Kevin Kiley, Republican",
+        "party": "R",
+        "votes": 234246
+      },
+      {
+        "name": "Jessica Morse, Democrat",
+        "party": "D",
+        "votes": 188067
+      },
+      {
+        "name": "4. John Munn, Republican",
+        "party": "R",
+        "votes": 114950
+      },
+      {
+        "name": "Mike Thompson, Democrat",
+        "party": "D",
+        "votes": 227730
+      },
+      {
+        "name": "5. Tom McClintock, Republican",
+        "party": "R",
+        "votes": 227643
+      },
+      {
+        "name": "Michael J. \u201cMike\u201d Barkley, Democrat",
+        "party": "D",
+        "votes": 140919
+      },
+      {
+        "name": "6. Christine Bish, Republican",
+        "party": "R",
+        "votes": 121664
+      },
+      {
+        "name": "Ami Bera, Democrat",
+        "party": "D",
+        "votes": 165408
+      },
+      {
+        "name": "7. Tom Silva, Republican",
+        "party": "R",
+        "votes": 98341
+      },
+      {
+        "name": "Doris O. Matsui, Democrat",
+        "party": "D",
+        "votes": 197429
+      },
+      {
+        "name": "8. Rudy Recile, Republican",
+        "party": "R",
+        "votes": 71068
+      },
+      {
+        "name": "John Garamendi, Democrat",
+        "party": "D",
+        "votes": 201962
+      },
+      {
+        "name": "9. Kevin Lincoln, Republican",
+        "party": "R",
+        "votes": 121174
+      },
+      {
+        "name": "Josh Harder, Democrat",
+        "party": "D",
+        "votes": 130183
+      },
+      {
+        "name": "10. Katherine Piccinini, Republican",
+        "party": "R",
+        "votes": 122219
+      },
+      {
+        "name": "Mark DeSaulnier, Democrat",
+        "party": "D",
+        "votes": 242325
+      },
+      {
+        "name": "11. Bruce Lou, Republican",
+        "party": "R",
+        "votes": 64315
+      },
+      {
+        "name": "Nancy Pelosi, Democrat",
+        "party": "D",
+        "votes": 274796
+      },
+      {
+        "name": "12. Lateefah Simon, Democrat",
+        "party": "D",
+        "votes": 185176
+      },
+      {
+        "name": "Jennifer Tran, Democrat",
+        "party": "D",
+        "votes": 97849
+      },
+      {
+        "name": "13. John S. Duarte, Republican",
+        "party": "R",
+        "votes": 105367
+      },
+      {
+        "name": "Adam Gray, Democrat",
+        "party": "D",
+        "votes": 105554
+      },
+      {
+        "name": "14. Vin Kruttiventi, Republican",
+        "party": "R",
+        "votes": 89125
+      },
+      {
+        "name": "Eric Swalwell, Democrat",
+        "party": "D",
+        "votes": 187263
+      },
+      {
+        "name": "15. Anna Cheng Kramer, Republican",
+        "party": "R",
+        "votes": 77896
+      },
+      {
+        "name": "Kevin Mullin, Democrat",
+        "party": "D",
+        "votes": 211648
+      },
+      {
+        "name": "16. Sam Liccardo, Democrat",
+        "party": "D",
+        "votes": 179583
+      },
+      {
+        "name": "Evan Low, Democrat",
+        "party": "D",
+        "votes": 128893
+      },
+      {
+        "name": "17. Anita Chen, Republican",
+        "party": "R",
+        "votes": 82415
+      },
+      {
+        "name": "Ro Khanna, Democrat",
+        "party": "D",
+        "votes": 172462
+      },
+      {
+        "name": "18. Peter D. Hernandez, Republican",
+        "party": "R",
+        "votes": 80832
+      },
+      {
+        "name": "Zoe Lofgren, Democrat",
+        "party": "D",
+        "votes": 147674
+      },
+      {
+        "name": "19. Jason Michael Anderson, Republican",
+        "party": "R",
+        "votes": 111862
+      },
+      {
+        "name": "Jimmy Panetta, Democrat",
+        "party": "D",
+        "votes": 252458
+      },
+      {
+        "name": "20. Vince Fong, Republican",
+        "party": "R",
+        "votes": 187862
+      },
+      {
+        "name": "Mike Boudreaux, Republican",
+        "party": "R",
+        "votes": 100926
+      },
+      {
+        "name": "21. Michael Maher, Republican",
+        "party": "R",
+        "votes": 92733
+      },
+      {
+        "name": "Jim Costa, Democrat",
+        "party": "D",
+        "votes": 102798
+      },
+      {
+        "name": "22. David G. Valadao, Republican",
+        "party": "R",
+        "votes": 89484
+      },
+      {
+        "name": "Rudy Salas, Democrat",
+        "party": "D",
+        "votes": 78023
+      },
+      {
+        "name": "23. Jay Obernolte, Republican",
+        "party": "R",
+        "votes": 159286
+      },
+      {
+        "name": "Derek Marshall, Democrat",
+        "party": "D",
+        "votes": 105563
+      },
+      {
+        "name": "24. Thomas Cole, Republican",
+        "party": "R",
+        "votes": 127755
+      },
+      {
+        "name": "Salud O. Carbajal, Democrat",
+        "party": "D",
+        "votes": 214724
+      },
+      {
+        "name": "25. Ian M. Weeks, Republican",
+        "party": "R",
+        "votes": 107194
+      },
+      {
+        "name": "Raul Ruiz, Democrat",
+        "party": "D",
+        "votes": 137837
+      },
+      {
+        "name": "26. Michael Koslow, Republican",
+        "party": "R",
+        "votes": 146913
+      },
+      {
+        "name": "Julia Brownley, Democrat",
+        "party": "D",
+        "votes": 187393
+      },
+      {
+        "name": "27. Mike Garcia, Republican",
+        "party": "R",
+        "votes": 146050
+      },
+      {
+        "name": "George Whitesides, Democrat",
+        "party": "D",
+        "votes": 154040
+      },
+      {
+        "name": "28. April A. Verlato, Republican",
+        "party": "R",
+        "votes": 110455
+      },
+      {
+        "name": "Judy Chu, Democrat",
+        "party": "D",
+        "votes": 204489
+      },
+      {
+        "name": "29. Benito Benny Bernal, Republican",
+        "party": "R",
+        "votes": 63374
+      },
+      {
+        "name": "Luz Maria Rivas, Democrat",
+        "party": "D",
+        "votes": 146312
+      },
+      {
+        "name": "30. Alex Balekian, Republican",
+        "party": "R",
+        "votes": 98559
+      },
+      {
+        "name": "Laura Friedman, Democrat",
+        "party": "D",
+        "votes": 213100
+      },
+      {
+        "name": "31. Daniel Jose Bocic Martinez, Republican",
+        "party": "R",
+        "votes": 99856
+      },
+      {
+        "name": "Gil Cisneros, Democrat",
+        "party": "D",
+        "votes": 148095
+      },
+      {
+        "name": "32. Larry Thompson, Republican",
+        "party": "R",
+        "votes": 108711
+      },
+      {
+        "name": "Brad Sherman, Democrat",
+        "party": "D",
+        "votes": 212934
+      },
+      {
+        "name": "33. Tom Herman, Republican",
+        "party": "R",
+        "votes": 96078
+      },
+      {
+        "name": "Pete Aguilar, Democrat",
+        "party": "D",
+        "votes": 137197
+      },
+      {
+        "name": "34. Jimmy Gomez, Democrat",
+        "party": "D",
+        "votes": 105394
+      },
+      {
+        "name": "David Kim, Democrat",
+        "party": "D",
+        "votes": 84020
+      },
+      {
+        "name": "35. Mike Cargile, Republican",
+        "party": "R",
+        "votes": 97142
+      },
+      {
+        "name": "Norma J. Torres, Democrat",
+        "party": "D",
+        "votes": 136413
+      },
+      {
+        "name": "36. Melissa Toomim, Republican",
+        "party": "R",
+        "votes": 111985
+      },
+      {
+        "name": "Ted Lieu, Democrat",
+        "party": "D",
+        "votes": 246002
+      },
+      {
+        "name": "37. Sydney Kamlager-Dove, Democrat",
+        "party": "D",
+        "votes": 160364
+      },
+      {
+        "name": "Juan Rey, No Party Preference",
+        "party": "O",
+        "votes": 44450
+      },
+      {
+        "name": "38. Eric J. Ching, Republican",
+        "party": "R",
+        "votes": 110818
+      },
+      {
+        "name": "Linda T. S\u00e1nchez, Democrat",
+        "party": "D",
+        "votes": 165110
+      },
+      {
+        "name": "39. David Serpa, Republican",
+        "party": "R",
+        "votes": 99469
+      },
+      {
+        "name": "Mark Takano, Democrat",
+        "party": "D",
+        "votes": 130191
+      },
+      {
+        "name": "40. Young Kim, Republican",
+        "party": "R",
+        "votes": 211998
+      },
+      {
+        "name": "Joe Kerr, Democrat",
+        "party": "D",
+        "votes": 171637
+      },
+      {
+        "name": "41. Ken Calvert, Republican",
+        "party": "R",
+        "votes": 183216
+      },
+      {
+        "name": "Will Rollins, Democrat",
+        "party": "D",
+        "votes": 171229
+      },
+      {
+        "name": "42. John Briscoe, Republican",
+        "party": "R",
+        "votes": 74410
+      },
+      {
+        "name": "Robert Garcia, Democrat",
+        "party": "D",
+        "votes": 159153
+      },
+      {
+        "name": "43. Steve Williams, Republican",
+        "party": "R",
+        "votes": 53152
+      },
+      {
+        "name": "Maxine Waters, Democrat",
+        "party": "D",
+        "votes": 160080
+      },
+      {
+        "name": "44. Roger Groh, Republican",
+        "party": "R",
+        "votes": 66087
+      },
+      {
+        "name": "Nanette Diaz Barrag\u00e1n, Democrat",
+        "party": "D",
+        "votes": 164765
+      },
+      {
+        "name": "45. Michelle Steel, Republican",
+        "party": "R",
+        "votes": 157611
+      },
+      {
+        "name": "Derek Tran, Democrat",
+        "party": "D",
+        "votes": 158264
+      },
+      {
+        "name": "46. David Pan, Republican",
+        "party": "R",
+        "votes": 77279
+      },
+      {
+        "name": "J. Luis Correa, Democrat",
+        "party": "D",
+        "votes": 134013
+      },
+      {
+        "name": "47. Scott Baugh, Republican",
+        "party": "R",
+        "votes": 171554
+      },
+      {
+        "name": "Dave Min, Democrat",
+        "party": "D",
+        "votes": 181721
+      },
+      {
+        "name": "48. Darrell Issa, Republican",
+        "party": "R",
+        "votes": 213625
+      },
+      {
+        "name": "Stephen Houlahan, Democrat",
+        "party": "D",
+        "votes": 146665
+      },
+      {
+        "name": "49. Matt Gunderson, Republican",
+        "party": "R",
+        "votes": 180950
+      },
+      {
+        "name": "Mike Levin, Democrat",
+        "party": "D",
+        "votes": 197397
+      },
+      {
+        "name": "50. Peter J. Bono, Republican",
+        "party": "R",
+        "votes": 128859
+      },
+      {
+        "name": "Scott H. Peters, Democrat",
+        "party": "D",
+        "votes": 231836
+      },
+      {
+        "name": "51. Bill Wells, Republican",
+        "party": "R",
+        "votes": 128749
+      },
+      {
+        "name": "Sara Jacobs, Democrat",
+        "party": "D",
+        "votes": 198835
+      },
+      {
+        "name": "52. Justin Lee, Republican",
+        "party": "R",
+        "votes": 87501
+      },
+      {
+        "name": "Juan Vargas, Democrat",
+        "party": "D",
+        "votes": 172217
+      }
+    ]
+  },
+  "CO": {
+    "name": "Colorado",
+    "senate": [],
+    "house": [
+      {
+        "name": "1. Valdamar Archuleta, Republican",
+        "party": "R",
+        "votes": 74598
+      },
+      {
+        "name": "Diana DeGette, Democrat",
+        "party": "D",
+        "votes": 264606
+      },
+      {
+        "name": "Critter Milton, Unity Party",
+        "party": "O",
+        "votes": 4084
+      },
+      {
+        "name": "Daniel Lutz, Approval Voting Party",
+        "party": "O",
+        "votes": 2351
+      },
+      {
+        "name": "Charles H. \u201cChuck\u201d Norris, Write-in (Democratic)",
+        "party": "D",
+        "votes": 88
+      },
+      {
+        "name": "John R. Johnson, Write-in (Unaffiliated)",
+        "party": "O",
+        "votes": 8
+      },
+      {
+        "name": "2. Marshall Dawson, Republican",
+        "party": "R",
+        "votes": 120633
+      },
+      {
+        "name": "Joe Neguse, Democrat",
+        "party": "D",
+        "votes": 284994
+      },
+      {
+        "name": "Gaylon Kent, Libertarian",
+        "party": "O",
+        "votes": 5180
+      },
+      {
+        "name": "Cynthia Munhos de Aquino Sirianni, Unity Party",
+        "party": "O",
+        "votes": 3744
+      },
+      {
+        "name": "Jan Kok, Approval Voting Party",
+        "party": "O",
+        "votes": 2349
+      },
+      {
+        "name": "Mike Watson, Write-in (Unaffiliated)",
+        "party": "O",
+        "votes": 8
+      },
+      {
+        "name": "3. Jeff Hurd, Republican",
+        "party": "R",
+        "votes": 201951
+      },
+      {
+        "name": "Adam Frisch, Democrat",
+        "party": "D",
+        "votes": 182147
+      },
+      {
+        "name": "James Wiley, Libertarian",
+        "party": "O",
+        "votes": 10734
+      },
+      {
+        "name": "Adam Withrow, Unity Party",
+        "party": "O",
+        "votes": 2721
+      },
+      {
+        "name": "4. Lauren Boebert, Republican",
+        "party": "R",
+        "votes": 240213
+      },
+      {
+        "name": "Trisha Calvarese, Democrat",
+        "party": "D",
+        "votes": 188249
+      },
+      {
+        "name": "Hannah Goodman, Libertarian",
+        "party": "O",
+        "votes": 11676
+      },
+      {
+        "name": "Frank Atwood, Approval Voting Party",
+        "party": "O",
+        "votes": 6233
+      },
+      {
+        "name": "Paul Noel Fiorino, Unity Party",
+        "party": "O",
+        "votes": 1436
+      },
+      {
+        "name": "5. Jeff Crank, Republican",
+        "party": "R",
+        "votes": 197924
+      },
+      {
+        "name": "River Gassen, Democrat",
+        "party": "D",
+        "votes": 147972
+      },
+      {
+        "name": "Michael Keith Vance, Libertarian",
+        "party": "O",
+        "votes": 6458
+      },
+      {
+        "name": "Joseph Gaye, Unaffiliated",
+        "party": "O",
+        "votes": 4094
+      },
+      {
+        "name": "Christopher Mitchell, American Constitution",
+        "party": "O",
+        "votes": 4006
+      },
+      {
+        "name": "Christopher Sweat, Forward Party",
+        "party": "O",
+        "votes": 1627
+      },
+      {
+        "name": "Marcus Murphy, Write-in (Unaffiliated)",
+        "party": "O",
+        "votes": 4
+      },
+      {
+        "name": "6. John E. Fabbricatore, Republican",
+        "party": "R",
+        "votes": 132174
+      },
+      {
+        "name": "Jason Crow, Democrat",
+        "party": "D",
+        "votes": 202686
+      },
+      {
+        "name": "John Kittleson, Libertarian",
+        "party": "O",
+        "votes": 4832
+      },
+      {
+        "name": "Travis Nicks, Approval Voting Party",
+        "party": "O",
+        "votes": 4004
+      },
+      {
+        "name": "Brad Nickle, Write-in (Unaffiliated)",
+        "party": "O",
+        "votes": 25
+      },
+      {
+        "name": "7. Sergei Matveyuk, Republican",
+        "party": "R",
+        "votes": 175273
+      },
+      {
+        "name": "Brittany Pettersen, Democrat",
+        "party": "D",
+        "votes": 235688
+      },
+      {
+        "name": "Patrick Bohan, Libertarian",
+        "party": "O",
+        "votes": 9697
+      },
+      {
+        "name": "Ron Tupa, Unity Party",
+        "party": "O",
+        "votes": 5271
+      },
+      {
+        "name": "Patrick Flaherty, Write-in (Unaffiliated)",
+        "party": "O",
+        "votes": 37
+      },
+      {
+        "name": "8. Gabe Evans, Republican",
+        "party": "R",
+        "votes": 163320
+      },
+      {
+        "name": "Yadira Caraveo, Democrat",
+        "party": "D",
+        "votes": 160871
+      },
+      {
+        "name": "Chris Baum, Approval Voting Party",
+        "party": "O",
+        "votes": 5741
+      },
+      {
+        "name": "Susan Patricia Hall, Unity Party",
+        "party": "O",
+        "votes": 3677
+      },
+      {
+        "name": "James K. Treibert, Write-in (Unaffiliated)",
+        "party": "O",
+        "votes": 7
+      }
+    ]
+  },
+  "CT": {
+    "name": "Connecticut",
+    "senate": [
+      {
+        "name": "Matthew M. Corey, Republican",
+        "party": "R",
+        "votes": 678256
+      },
+      {
+        "name": "Christopher Murphy, Democrat",
+        "party": "D",
+        "votes": 1000695
+      },
+      {
+        "name": "Robert Finley Hyde, Cheaper Gas Groceries Party",
+        "party": "O",
+        "votes": 14879
+      },
+      {
+        "name": "Justin C. Paglino, Green",
+        "party": "O",
+        "votes": 14422
+      },
+      {
+        "name": "John Flynn, Write-in",
+        "party": "O",
+        "votes": 7
+      }
+    ],
+    "house": [
+      {
+        "name": "1. Jim Griffin, Republican",
+        "party": "R",
+        "votes": 115065
+      },
+      {
+        "name": "John B. Larson, Democrat",
+        "party": "D",
+        "votes": 208649
+      },
+      {
+        "name": "Mary L. Sanders, Green",
+        "party": "O",
+        "votes": 6768
+      },
+      {
+        "name": "2. Mike France, Republican",
+        "party": "R",
+        "votes": 157878
+      },
+      {
+        "name": "Joe Courtney, Democrat",
+        "party": "D",
+        "votes": 218162
+      },
+      {
+        "name": "Jeffery Russell, Write-in",
+        "party": "O",
+        "votes": 4
+      },
+      {
+        "name": "Kenneth Kusmierski, Jr., Write-in",
+        "party": "O",
+        "votes": 3
+      },
+      {
+        "name": "3. Michael Massey, Republican",
+        "party": "R",
+        "votes": 130095
+      },
+      {
+        "name": "Independent",
+        "party": "O",
+        "votes": 5018
+      },
+      {
+        "name": "Rosa L. DeLauro, Democrat",
+        "party": "D",
+        "votes": 193684
+      },
+      {
+        "name": "Shahd Omar, Write-in",
+        "party": "O",
+        "votes": 124
+      },
+      {
+        "name": "Omar Scott Antar, Write-in",
+        "party": "O",
+        "votes": 2
+      },
+      {
+        "name": "4. Michael Goldstein, Republican",
+        "party": "R",
+        "votes": 122793
+      },
+      {
+        "name": "James A. Himes, Democrat",
+        "party": "D",
+        "votes": 200791
+      },
+      {
+        "name": "Benjamin Wesley, Independent",
+        "party": "O",
+        "votes": 5273
+      },
+      {
+        "name": "5. George Logan, Republican",
+        "party": "R",
+        "votes": 157258
+      },
+      {
+        "name": "Jahana Hayes, Democrat",
+        "party": "D",
+        "votes": 180268
+      },
+      {
+        "name": "Ahmad A J Darwish, Write-in",
+        "party": "O",
+        "votes": 76
+      },
+      {
+        "name": "Bertram Ferguson, Write-in",
+        "party": "O",
+        "votes": 3
+      }
+    ]
+  },
+  "DE": {
+    "name": "Delaware",
+    "senate": [
+      {
+        "name": "Eric Hansen, Republican",
+        "party": "R",
+        "votes": 197753
+      },
+      {
+        "name": "Lisa Blunt Rochester, Democrat",
+        "party": "D",
+        "votes": 283298
+      },
+      {
+        "name": "Michael \u201cDr. Mike\u201d Katz, Independent",
+        "party": "O",
+        "votes": 19555
+      }
+    ],
+    "house": [
+      {
+        "name": "John J. Whalen III, Republican",
+        "party": "R",
+        "votes": 209606
+      },
+      {
+        "name": "Sarah McBride, Democrat",
+        "party": "D",
+        "votes": 287830
+      }
+    ]
+  },
+  "FL": {
+    "name": "Florida",
+    "senate": [
+      {
+        "name": "Rick Scott, Republican",
+        "party": "R",
+        "votes": 5977706
+      },
+      {
+        "name": "Debbie Mucarsel-Powell, Democrat",
+        "party": "D",
+        "votes": 4603077
+      },
+      {
+        "name": "Ben Everidge, No Party Affiliation",
+        "party": "O",
+        "votes": 62683
+      },
+      {
+        "name": "Feena Bonoan, Libertarian Party of Florida",
+        "party": "O",
+        "votes": 57363
+      },
+      {
+        "name": "Tuan \u201cT Q\u201d Nguyen, No Party Affiliation",
+        "party": "O",
+        "votes": 56586
+      },
+      {
+        "name": "Howard Knepper, Write-in",
+        "party": "O",
+        "votes": 13
+      }
+    ],
+    "house": [
+      {
+        "name": "1. Matt Gaetz, Republican",
+        "party": "R",
+        "votes": 274108
+      },
+      {
+        "name": "Gay Valimont, Democrat",
+        "party": "D",
+        "votes": 140980
+      },
+      {
+        "name": "2. Neal P. Dunn, Republican",
+        "party": "R",
+        "votes": 247957
+      },
+      {
+        "name": "Yen Bailey, Democrat",
+        "party": "D",
+        "votes": 154323
+      },
+      {
+        "name": "3. Kat Cammack, Republican",
+        "party": "R",
+        "votes": 241174
+      },
+      {
+        "name": "Tom Wells, Democrat",
+        "party": "D",
+        "votes": 150283
+      },
+      {
+        "name": "4. Aaron Bean, Republican",
+        "party": "R",
+        "votes": 222364
+      },
+      {
+        "name": "LaShonda \u201cL. J.\u201d Holloway, Democrat",
+        "party": "D",
+        "votes": 165912
+      },
+      {
+        "name": "Todd Schaefer, Write-in",
+        "party": "O",
+        "votes": 73
+      },
+      {
+        "name": "5. John H. Rutherford, Republican",
+        "party": "R",
+        "votes": 267471
+      },
+      {
+        "name": "Jay McGovern, Democrat",
+        "party": "D",
+        "votes": 156570
+      },
+      {
+        "name": "Gary L. Koniz, Write-in",
+        "party": "O",
+        "votes": 23
+      },
+      {
+        "name": "6. Michael Waltz, Republican",
+        "party": "R",
+        "votes": 284414
+      },
+      {
+        "name": "James David Stockton III, Democrat",
+        "party": "D",
+        "votes": 143050
+      },
+      {
+        "name": "Richard Paul Dembinsky, Write-in",
+        "party": "O",
+        "votes": 10
+      },
+      {
+        "name": "7. Cory Mills, Republican",
+        "party": "R",
+        "votes": 233937
+      },
+      {
+        "name": "Jennifer Adams, Democrat",
+        "party": "D",
+        "votes": 179917
+      },
+      {
+        "name": "8. Mike Haridopolos, Republican",
+        "party": "R",
+        "votes": 280352
+      },
+      {
+        "name": "Sandy Kennedy, Democrat",
+        "party": "D",
+        "votes": 170096
+      },
+      {
+        "name": "9. Thomas Chalifoux, Republican",
+        "party": "R",
+        "votes": 138076
+      },
+      {
+        "name": "Darren Soto, Democrat",
+        "party": "D",
+        "votes": 178785
+      },
+      {
+        "name": "Marcus Carter, No Party Affiliation",
+        "party": "O",
+        "votes": 7412
+      },
+      {
+        "name": "10. Willie J. Montague, Republican",
+        "party": "R",
+        "votes": 109460
+      },
+      {
+        "name": "Maxwell Frost, Democrat",
+        "party": "D",
+        "votes": 181455
+      },
+      {
+        "name": "11. Daniel Webster, Republican",
+        "party": "R",
+        "votes": 269277
+      },
+      {
+        "name": "Barbie Harden Hall, Democrat",
+        "party": "D",
+        "votes": 176726
+      },
+      {
+        "name": "12. Gus M. Bilirakis, Republican",
+        "party": "R",
+        "votes": 306487
+      },
+      {
+        "name": "Rock Aboujaoude, Jr., Democrat",
+        "party": "D",
+        "votes": 124949
+      },
+      {
+        "name": "13. Anna Paulina Luna, Republican",
+        "party": "R",
+        "votes": 225636
+      },
+      {
+        "name": "Whitney Fox, Democrat",
+        "party": "D",
+        "votes": 185930
+      },
+      {
+        "name": "Tony D\u2019Arrigo, Write-in",
+        "party": "O",
+        "votes": 27
+      },
+      {
+        "name": "14. Robert \u201cRocky\u201d Rochford, Republican",
+        "party": "R",
+        "votes": 145643
+      },
+      {
+        "name": "Kathy Castor, Democrat",
+        "party": "D",
+        "votes": 199423
+      },
+      {
+        "name": "Christopher Bradley, No Party Affiliation",
+        "party": "O",
+        "votes": 2595
+      },
+      {
+        "name": "Nathaniel T. Snyder, Libertarian Party of Florida",
+        "party": "O",
+        "votes": 2524
+      },
+      {
+        "name": "15. Laurel M. Lee, Republican",
+        "party": "R",
+        "votes": 195334
+      },
+      {
+        "name": "Patricia \u201cPat\u201d Kemp, Democrat",
+        "party": "D",
+        "votes": 152361
+      },
+      {
+        "name": "16. Vern Buchanan, Republican",
+        "party": "R",
+        "votes": 247516
+      },
+      {
+        "name": "Jan Schneider, Democrat",
+        "party": "D",
+        "votes": 168625
+      },
+      {
+        "name": "17. W. Gregory Steube, Republican",
+        "party": "R",
+        "votes": 291347
+      },
+      {
+        "name": "Manny Lopez, Democrat",
+        "party": "D",
+        "votes": 164566
+      },
+      {
+        "name": "Ralph E. Hartman, Write-in",
+        "party": "O",
+        "votes": 8
+      },
+      {
+        "name": "18. Scott Franklin, Republican",
+        "party": "R",
+        "votes": 225170
+      },
+      {
+        "name": "Andrea Doria Kale, Democrat",
+        "party": "D",
+        "votes": 119637
+      },
+      {
+        "name": "19. Byron Donalds, Republican",
+        "party": "R",
+        "votes": 275708
+      },
+      {
+        "name": "Kari L. Lerner, Democrat",
+        "party": "D",
+        "votes": 140038
+      },
+      {
+        "name": "21. Brian J. Mast, Republican",
+        "party": "R",
+        "votes": 277435
+      },
+      {
+        "name": "Thomas Witkop, Democrat",
+        "party": "D",
+        "votes": 171312
+      },
+      {
+        "name": "Elizabeth Felton, Write-in",
+        "party": "O",
+        "votes": 19
+      },
+      {
+        "name": "22. Dan Franzese, Republican",
+        "party": "R",
+        "votes": 165248
+      },
+      {
+        "name": "Lois Frankel, Democrat",
+        "party": "D",
+        "votes": 201608
+      },
+      {
+        "name": "23. Joseph \u201cJoe\u201d Kaufman, Republican",
+        "party": "R",
+        "votes": 178006
+      },
+      {
+        "name": "Jared Moskowitz, Democrat",
+        "party": "D",
+        "votes": 196311
+      },
+      {
+        "name": "24. Jesus Gabriel Navarro, Republican",
+        "party": "R",
+        "votes": 90692
+      },
+      {
+        "name": "Frederica S. Wilson, Democrat",
+        "party": "D",
+        "votes": 194874
+      },
+      {
+        "name": "Lavern Spicer, Write-in",
+        "party": "O",
+        "votes": 22
+      },
+      {
+        "name": "25. Chris Eddy, Republican",
+        "party": "R",
+        "votes": 156208
+      },
+      {
+        "name": "Debbie Wasserman Schultz, Democrat",
+        "party": "D",
+        "votes": 186942
+      },
+      {
+        "name": "Eddie Goldfarb, Write-in",
+        "party": "O",
+        "votes": 41
+      },
+      {
+        "name": "26. Mario Diaz-Balart, Republican",
+        "party": "R",
+        "votes": 217199
+      },
+      {
+        "name": "Joey Atkins, Democrat",
+        "party": "D",
+        "votes": 89072
+      },
+      {
+        "name": "27. Maria Elvira Salazar, Republican",
+        "party": "R",
+        "votes": 199159
+      },
+      {
+        "name": "Lucia Baez-Geller, Democrat",
+        "party": "D",
+        "votes": 130708
+      },
+      {
+        "name": "28. Carlos A. Gimenez, Republican",
+        "party": "R",
+        "votes": 210057
+      },
+      {
+        "name": "Phil Ehr, Democrat",
+        "party": "D",
+        "votes": 115280
+      }
+    ]
+  },
+  "GA": {
+    "name": "Georgia",
+    "senate": [],
+    "house": [
+      {
+        "name": "1. Earl L. \u201cBuddy\u201d Carter, Republican",
+        "party": "R",
+        "votes": 220576
+      },
+      {
+        "name": "Patti Hewitt, Democrat",
+        "party": "D",
+        "votes": 135281
+      },
+      {
+        "name": "2. A. Wayne Johnson, Republican",
+        "party": "R",
+        "votes": 136473
+      },
+      {
+        "name": "Sanford D. Bishop, Jr., Democrat",
+        "party": "D",
+        "votes": 176028
+      },
+      {
+        "name": "3. Brian Jack, Republican",
+        "party": "R",
+        "votes": 273036
+      },
+      {
+        "name": "Maura Keller, Democrat",
+        "party": "D",
+        "votes": 138749
+      },
+      {
+        "name": "4. Eugene Yu, Republican",
+        "party": "R",
+        "votes": 74071
+      },
+      {
+        "name": "Henry C. \u201cHank\u201d Johnson, Jr., Democrat",
+        "party": "D",
+        "votes": 229290
+      },
+      {
+        "name": "5. John \u201cBongo\u201d Salvesen, Republican",
+        "party": "R",
+        "votes": 49221
+      },
+      {
+        "name": "Nikema Williams, Democrat",
+        "party": "D",
+        "votes": 294470
+      },
+      {
+        "name": "6. Jeff Criswell, Republican",
+        "party": "R",
+        "votes": 93909
+      },
+      {
+        "name": "Lucy McBath, Democrat",
+        "party": "D",
+        "votes": 277027
+      },
+      {
+        "name": "7. Richard McCormick, Republican",
+        "party": "R",
+        "votes": 275907
+      },
+      {
+        "name": "Bob Christian, Democrat",
+        "party": "D",
+        "votes": 149535
+      },
+      {
+        "name": "8. Austin Scott, Republican",
+        "party": "R",
+        "votes": 231547
+      },
+      {
+        "name": "Darrius Butler, Democrat",
+        "party": "D",
+        "votes": 104434
+      },
+      {
+        "name": "9. Andrew S. Clyde, Republican",
+        "party": "R",
+        "votes": 271062
+      },
+      {
+        "name": "Tambrei Cash, Democrat",
+        "party": "D",
+        "votes": 121754
+      },
+      {
+        "name": "10. Mike Collins, Republican",
+        "party": "R",
+        "votes": 256442
+      },
+      {
+        "name": "Alexandra \u201cLexy\u201d Doherty, Democrat",
+        "party": "D",
+        "votes": 150274
+      },
+      {
+        "name": "11. Barry Loudermilk, Republican",
+        "party": "R",
+        "votes": 269849
+      },
+      {
+        "name": "Katy \u201cKate\u201d L. Stamper, Democrat",
+        "party": "D",
+        "votes": 131064
+      },
+      {
+        "name": "12. Rick W. Allen, Republican",
+        "party": "R",
+        "votes": 205849
+      },
+      {
+        "name": "Elizabeth \u201cLiz\u201d Johnson, Democrat",
+        "party": "D",
+        "votes": 135417
+      },
+      {
+        "name": "13. Jonathan Chavez, Republican",
+        "party": "R",
+        "votes": 100730
+      },
+      {
+        "name": "David Scott, Democrat",
+        "party": "D",
+        "votes": 256902
+      },
+      {
+        "name": "14. Marjorie Taylor Greene, Republican",
+        "party": "R",
+        "votes": 243446
+      },
+      {
+        "name": "Shawn Harris, Democrat",
+        "party": "D",
+        "votes": 134759
+      }
+    ]
+  },
+  "HI": {
+    "name": "Hawaii",
+    "senate": [
+      {
+        "name": "Bob McDermott, Republican",
+        "party": "R",
+        "votes": 160075
+      },
+      {
+        "name": "Mazie K. Hirono, Democrat",
+        "party": "D",
+        "votes": 324194
+      },
+      {
+        "name": "Shelby Pikachu Billionaire, We The People",
+        "party": "O",
+        "votes": 9224
+      },
+      {
+        "name": "Emma Jane Avila Pohlman, Green",
+        "party": "O",
+        "votes": 8270
+      },
+      {
+        "name": "Blank Votes",
+        "party": "O",
+        "votes": 19772
+      },
+      {
+        "name": "Over Votes",
+        "party": "O",
+        "votes": 701
+      }
+    ],
+    "house": [
+      {
+        "name": "1. Patrick C. Largey, Republican",
+        "party": "R",
+        "votes": 64373
+      },
+      {
+        "name": "Ed Case, Democrat",
+        "party": "D",
+        "votes": 164237
+      },
+      {
+        "name": "Blank Votes",
+        "party": "O",
+        "votes": 22669
+      },
+      {
+        "name": "Over Votes",
+        "party": "O",
+        "votes": 153
+      },
+      {
+        "name": "2. Steve Bond, Republican",
+        "party": "R",
+        "votes": 75471
+      },
+      {
+        "name": "Jill N. Tokuda, Democrat",
+        "party": "D",
+        "votes": 166251
+      },
+      {
+        "name": "Aaron Toman, Libertarian",
+        "party": "O",
+        "votes": 4497
+      },
+      {
+        "name": "Randall Kelly Meyer, Nonpartisan",
+        "party": "O",
+        "votes": 3937
+      },
+      {
+        "name": "Blank Votes",
+        "party": "O",
+        "votes": 20266
+      },
+      {
+        "name": "Over Votes",
+        "party": "O",
+        "votes": 382
+      }
+    ]
+  },
+  "ID": {
+    "name": "Idaho",
+    "senate": [],
+    "house": [
+      {
+        "name": "1. Russ Fulcher, Republican",
+        "party": "R",
+        "votes": 331049
+      },
+      {
+        "name": "Kaylee Peterson, Democrat",
+        "party": "D",
+        "votes": 118656
+      },
+      {
+        "name": "Matt Loesby, Libertarian",
+        "party": "O",
+        "votes": 9594
+      },
+      {
+        "name": "Brendan J. Gomez, Constitution",
+        "party": "O",
+        "votes": 6933
+      },
+      {
+        "name": "Margot Dupre, Write-in",
+        "party": "O",
+        "votes": 7
+      },
+      {
+        "name": "David D. Bot, Write-in",
+        "party": "O",
+        "votes": 3
+      },
+      {
+        "name": "Under Votes",
+        "party": "O",
+        "votes": 22598
+      },
+      {
+        "name": "Over Votes",
+        "party": "O",
+        "votes": 246
+      },
+      {
+        "name": "2. Michael K. Simpson, Republican",
+        "party": "R",
+        "votes": 250119
+      },
+      {
+        "name": "David Roth, Democrat",
+        "party": "D",
+        "votes": 126229
+      },
+      {
+        "name": "Todd Corsetti, Libertarian",
+        "party": "O",
+        "votes": 21310
+      },
+      {
+        "name": "Idaho Law - Carta Sierra, Constitution",
+        "party": "O",
+        "votes": 9804
+      },
+      {
+        "name": "Under Votes",
+        "party": "O",
+        "votes": 20500
+      },
+      {
+        "name": "Over Votes",
+        "party": "O",
+        "votes": 552
+      }
+    ]
+  },
+  "IL": {
+    "name": "Illinois",
+    "senate": [],
+    "house": [
+      {
+        "name": "1. Marcus Lewis, Republican",
+        "party": "R",
+        "votes": 108064
+      },
+      {
+        "name": "Jonathan L. Jackson, Democrat",
+        "party": "D",
+        "votes": 208398
+      },
+      {
+        "name": "Hilary Myrick-Winston, Write-in",
+        "party": "O",
+        "votes": 45
+      },
+      {
+        "name": "2. Ashley Ramos, Republican",
+        "party": "R",
+        "votes": 94004
+      },
+      {
+        "name": "Robin L. Kelly, Democrat",
+        "party": "D",
+        "votes": 195777
+      },
+      {
+        "name": "Mike Vick, Write-in",
+        "party": "O",
+        "votes": 33
+      },
+      {
+        "name": "Hilary Myrick-Winston, Write-in",
+        "party": "O",
+        "votes": 29
+      },
+      {
+        "name": "3. John Booras, Republican",
+        "party": "R",
+        "votes": 84987
+      },
+      {
+        "name": "Delia C. Ramirez, Democrat",
+        "party": "D",
+        "votes": 174825
+      },
+      {
+        "name": "Angel Oakley, Write-in",
+        "party": "O",
+        "votes": 96
+      },
+      {
+        "name": "4. Lupe Castillo, Republican",
+        "party": "R",
+        "votes": 56323
+      },
+      {
+        "name": "Jes\u00fas G. \u201cChuy\u201d Garc\u00eda, Democrat",
+        "party": "D",
+        "votes": 139343
+      },
+      {
+        "name": "Ed Hershey, Working Class",
+        "party": "O",
+        "votes": 10704
+      },
+      {
+        "name": "Alicia Martinez, Write-in",
+        "party": "O",
+        "votes": 26
+      },
+      {
+        "name": "5. Tommy Hanson, Republican",
+        "party": "R",
+        "votes": 112931
+      },
+      {
+        "name": "Mike Quigley, Democrat",
+        "party": "D",
+        "votes": 251025
+      },
+      {
+        "name": "Frank Rowder, Write-in",
+        "party": "O",
+        "votes": 9
+      },
+      {
+        "name": "6. Niki Conforti, Republican",
+        "party": "R",
+        "votes": 166116
+      },
+      {
+        "name": "Sean Casten, Democrat",
+        "party": "D",
+        "votes": 196647
+      },
+      {
+        "name": "Peter J. Meyer, Jr., Write-in",
+        "party": "O",
+        "votes": 86
+      },
+      {
+        "name": "7. Chad Koppie, Republican",
+        "party": "R",
+        "votes": 44598
+      },
+      {
+        "name": "Danny K. Davis, Democrat",
+        "party": "D",
+        "votes": 222408
+      },
+      {
+        "name": "Lien Choi, Write-in",
+        "party": "O",
+        "votes": 133
+      },
+      {
+        "name": "Lowell Martin Seida, Write-in",
+        "party": "O",
+        "votes": 13
+      },
+      {
+        "name": "8. Mark Rice, Republican",
+        "party": "R",
+        "votes": 130153
+      },
+      {
+        "name": "Raja Krishnamoorthi, Democrat",
+        "party": "D",
+        "votes": 172920
+      },
+      {
+        "name": "9. Seth Alan Cohen, Republican",
+        "party": "R",
+        "votes": 107106
+      },
+      {
+        "name": "Janice D. Schakowsky, Democrat",
+        "party": "D",
+        "votes": 231722
+      },
+      {
+        "name": "10. Jim Carris, Republican",
+        "party": "R",
+        "votes": 131025
+      },
+      {
+        "name": "Bradley Scott Schneider, Democrat",
+        "party": "D",
+        "votes": 196358
+      },
+      {
+        "name": "Joseph Severino, Write-in",
+        "party": "O",
+        "votes": 238
+      },
+      {
+        "name": "11. Jerry Evans, Republican",
+        "party": "R",
+        "votes": 159630
+      },
+      {
+        "name": "Bill Foster, Democrat",
+        "party": "D",
+        "votes": 199825
+      },
+      {
+        "name": "Anna Schiefelbein, Write-in",
+        "party": "O",
+        "votes": 229
+      },
+      {
+        "name": "12. Mike Bost, Republican",
+        "party": "R",
+        "votes": 272754
+      },
+      {
+        "name": "Brian Roberts, Democrat",
+        "party": "D",
+        "votes": 94875
+      },
+      {
+        "name": "13. Joshua Loyd, Republican",
+        "party": "R",
+        "votes": 137917
+      },
+      {
+        "name": "Nikki Budzinski, Democrat",
+        "party": "D",
+        "votes": 191339
+      },
+      {
+        "name": "Chibuihe Asonye, Write-in",
+        "party": "O",
+        "votes": 244
+      },
+      {
+        "name": "14. James T. \u201cJim\u201d Marter, Republican",
+        "party": "R",
+        "votes": 149464
+      },
+      {
+        "name": "Lauren Underwood, Democrat",
+        "party": "D",
+        "votes": 183446
+      },
+      {
+        "name": "Roy Jones, Write-in",
+        "party": "O",
+        "votes": 16
+      },
+      {
+        "name": "Constant Connor VlaKancic, Write-in",
+        "party": "O",
+        "votes": 3
+      },
+      {
+        "name": "15. Mary E. Miller, Republican",
+        "party": "R",
+        "votes": 308825
+      },
+      {
+        "name": "William Bonnett, Write-in",
+        "party": "O",
+        "votes": 1409
+      },
+      {
+        "name": "16. Darin LaHood, Republican",
+        "party": "R",
+        "votes": 310925
+      },
+      {
+        "name": "Scott Summers, Write-in",
+        "party": "O",
+        "votes": 183
+      },
+      {
+        "name": "17. Joe McGraw, Republican",
+        "party": "R",
+        "votes": 142567
+      },
+      {
+        "name": "Eric Sorensen, Democrat",
+        "party": "D",
+        "votes": 170261
+      }
+    ]
+  },
+  "IN": {
+    "name": "Indiana",
+    "senate": [
+      {
+        "name": "Jim Banks, Republican",
+        "party": "R",
+        "votes": 1659416
+      },
+      {
+        "name": "Valerie McCray, Democrat",
+        "party": "D",
+        "votes": 1097061
+      },
+      {
+        "name": "Andrew Horning, Libertarian",
+        "party": "O",
+        "votes": 73233
+      },
+      {
+        "name": "Phillip \u201cPhil\u201d D. Beachy, Write-in (Independent)",
+        "party": "O",
+        "votes": 168
+      },
+      {
+        "name": "Antonio Xavier Alvarez, Write-in (Independent)",
+        "party": "O",
+        "votes": 19
+      }
+    ],
+    "house": [
+      {
+        "name": "1. Randy Niemeyer, Republican",
+        "party": "R",
+        "votes": 145056
+      },
+      {
+        "name": "Frank J. Mrvan, Democrat",
+        "party": "D",
+        "votes": 172467
+      },
+      {
+        "name": "Dakotah Miskus, Libertarian",
+        "party": "O",
+        "votes": 5200
+      },
+      {
+        "name": "2. Rudy Yakym III, Republican",
+        "party": "R",
+        "votes": 184848
+      },
+      {
+        "name": "Lori A. Camp, Democrat",
+        "party": "D",
+        "votes": 101962
+      },
+      {
+        "name": "William E. Henry, Libertarian",
+        "party": "O",
+        "votes": 7795
+      },
+      {
+        "name": "Michael John Hubbard, Write-in (Independent)",
+        "party": "O",
+        "votes": 13
+      },
+      {
+        "name": "3. Marlin A. Stutzman, Republican",
+        "party": "R",
+        "votes": 202653
+      },
+      {
+        "name": "Kiley M. Adolph, Democrat",
+        "party": "D",
+        "votes": 97871
+      },
+      {
+        "name": "Jarrad Lancaster, Libertarian",
+        "party": "O",
+        "votes": 11015
+      },
+      {
+        "name": "4. James R. Baird, Republican",
+        "party": "R",
+        "votes": 209794
+      },
+      {
+        "name": "Derrick Holder, Democrat",
+        "party": "D",
+        "votes": 100091
+      },
+      {
+        "name": "Ashley Groff, Libertarian",
+        "party": "O",
+        "votes": 13710
+      },
+      {
+        "name": "5. Victoria Spartz, Republican",
+        "party": "R",
+        "votes": 203293
+      },
+      {
+        "name": "Deborah A. Pickett, Democrat",
+        "party": "D",
+        "votes": 136554
+      },
+      {
+        "name": "Robby Slaughter, Independent",
+        "party": "O",
+        "votes": 9790
+      },
+      {
+        "name": "Lauri Shillings, Libertarian",
+        "party": "O",
+        "votes": 9567
+      },
+      {
+        "name": "6. Jefferson Shreve, Republican",
+        "party": "R",
+        "votes": 201357
+      },
+      {
+        "name": "Cynthia \u201cCinde\u201d Wirth, Democrat",
+        "party": "D",
+        "votes": 99841
+      },
+      {
+        "name": "James Michael Sceniak, Libertarian",
+        "party": "O",
+        "votes": 13711
+      },
+      {
+        "name": "7. John P. Schmitz, Republican",
+        "party": "R",
+        "votes": 78792
+      },
+      {
+        "name": "Andr\u00e9 Carson, Democrat",
+        "party": "D",
+        "votes": 185987
+      },
+      {
+        "name": "Rusty Johnson, Libertarian",
+        "party": "O",
+        "votes": 7369
+      },
+      {
+        "name": "8. Mark Messmer, Republican",
+        "party": "R",
+        "votes": 219941
+      },
+      {
+        "name": "Erik Hurt, Democrat",
+        "party": "D",
+        "votes": 95311
+      },
+      {
+        "name": "K. Richard Fitzlaff, Libertarian",
+        "party": "O",
+        "votes": 8381
+      },
+      {
+        "name": "9. Erin Houchin, Republican",
+        "party": "R",
+        "votes": 222884
+      },
+      {
+        "name": "Timothy \u201cTim\u201d Peck, Democrat",
+        "party": "D",
+        "votes": 113400
+      },
+      {
+        "name": "Russell \u201cRuss\u201d Brooksbank, Libertarian",
+        "party": "O",
+        "votes": 9454
+      }
+    ]
+  },
+  "IA": {
+    "name": "Iowa",
+    "senate": [],
+    "house": [
+      {
+        "name": "1. Mariannette Miller-Meeks, Republican",
+        "party": "R",
+        "votes": 206955
+      },
+      {
+        "name": "Christina Bohannan, Democrat",
+        "party": "D",
+        "votes": 206156
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 967
+      },
+      {
+        "name": "2. Ashley Hinson, Republican",
+        "party": "R",
+        "votes": 233340
+      },
+      {
+        "name": "Sarah Corkery, Democrat",
+        "party": "D",
+        "votes": 169740
+      },
+      {
+        "name": "Jody Madlom Puffett, No Party",
+        "party": "O",
+        "votes": 5381
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 341
+      },
+      {
+        "name": "3. Zachary Nunn, Republican",
+        "party": "R",
+        "votes": 213746
+      },
+      {
+        "name": "Lanon Baccam, Democrat",
+        "party": "D",
+        "votes": 197962
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 1197
+      },
+      {
+        "name": "4. Randy Feenstra, Republican",
+        "party": "R",
+        "votes": 250522
+      },
+      {
+        "name": "Ryan Melton, Democrat",
+        "party": "D",
+        "votes": 122175
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 1127
+      }
+    ]
+  },
+  "KS": {
+    "name": "Kansas",
+    "senate": [],
+    "house": [
+      {
+        "name": "1. Tracey Mann, Republican",
+        "party": "R",
+        "votes": 210493
+      },
+      {
+        "name": "Paul Buskirk, Democrat",
+        "party": "D",
+        "votes": 93965
+      },
+      {
+        "name": "2. Derek Schmidt, Republican",
+        "party": "R",
+        "votes": 172847
+      },
+      {
+        "name": "Nancy Boyda, Democrat",
+        "party": "D",
+        "votes": 115685
+      },
+      {
+        "name": "John Hauer, Libertarian",
+        "party": "O",
+        "votes": 14229
+      },
+      {
+        "name": "3. Prasanth Reddy, Republican",
+        "party": "R",
+        "votes": 167570
+      },
+      {
+        "name": "Sharice Davids, Democrat",
+        "party": "D",
+        "votes": 209871
+      },
+      {
+        "name": "Steve Roberts, Libertarian",
+        "party": "O",
+        "votes": 15892
+      },
+      {
+        "name": "4. Ron Estes, Republican",
+        "party": "R",
+        "votes": 198465
+      },
+      {
+        "name": "Esau Freeman, Democrat",
+        "party": "D",
+        "votes": 106632
+      }
+    ]
+  },
+  "KY": {
+    "name": "Kentucky",
+    "senate": [],
+    "house": [
+      {
+        "name": "1. James Comer, Republican",
+        "party": "R",
+        "votes": 252729
+      },
+      {
+        "name": "Erin Marshall, Democrat",
+        "party": "D",
+        "votes": 85524
+      },
+      {
+        "name": "2. Brett Guthrie, Republican",
+        "party": "R",
+        "votes": 252826
+      },
+      {
+        "name": "Hank Linderman, Democrat",
+        "party": "D",
+        "votes": 93029
+      },
+      {
+        "name": "3. Mike Craven, Republican",
+        "party": "R",
+        "votes": 124713
+      },
+      {
+        "name": "Morgan McGarvey, Democrat",
+        "party": "D",
+        "votes": 203100
+      },
+      {
+        "name": "Daniel Cobble, Write-in",
+        "party": "O",
+        "votes": 27
+      },
+      {
+        "name": "Jared Randall, Write-in",
+        "party": "O",
+        "votes": 24
+      },
+      {
+        "name": "4. Thomas Massie, Republican",
+        "party": "R",
+        "votes": 278386
+      },
+      {
+        "name": "Benjamin August Middendorf, Write-in",
+        "party": "O",
+        "votes": 1131
+      },
+      {
+        "name": "5. Harold Rogers, Republican",
+        "party": "R",
+        "votes": 261407
+      },
+      {
+        "name": "6. Andy Barr, Republican",
+        "party": "R",
+        "votes": 222293
+      },
+      {
+        "name": "Randy Cravens, Democrat",
+        "party": "D",
+        "votes": 130345
+      }
+    ]
+  },
+  "LA": {
+    "name": "Louisiana",
+    "senate": [],
+    "house": [
+      {
+        "name": "1. Steve Scalise, Republican",
+        "party": "R",
+        "votes": 238842
+      },
+      {
+        "name": "Randall Arrington, Republican",
+        "party": "R",
+        "votes": 17856
+      },
+      {
+        "name": "Ross Shales, Republican",
+        "party": "R",
+        "votes": 8330
+      },
+      {
+        "name": "Mel Manuel, Democrat",
+        "party": "D",
+        "votes": 85911
+      },
+      {
+        "name": "J. \u201cFrankie\u201d Hyers, No Party",
+        "party": "O",
+        "votes": 6781
+      },
+      {
+        "name": "2. Christy Lynch, Republican",
+        "party": "R",
+        "votes": 41641
+      },
+      {
+        "name": "Devin Lance Graham, Republican",
+        "party": "R",
+        "votes": 39174
+      },
+      {
+        "name": "Shondrell Perrilloux, Republican",
+        "party": "R",
+        "votes": 7878
+      },
+      {
+        "name": "Troy A. Carter, Democrat",
+        "party": "D",
+        "votes": 184009
+      },
+      {
+        "name": "Devin Davis, Democrat",
+        "party": "D",
+        "votes": 32482
+      },
+      {
+        "name": "3. Clay Higgins, Republican",
+        "party": "R",
+        "votes": 226279
+      },
+      {
+        "name": "\u201cXan\u201d John, Republican",
+        "party": "R",
+        "votes": 13246
+      },
+      {
+        "name": "Priscilla Gonzalez, Democrat",
+        "party": "D",
+        "votes": 59834
+      },
+      {
+        "name": "Sadi Summerlin, Democrat",
+        "party": "D",
+        "votes": 21323
+      },
+      {
+        "name": "4. Mike Johnson, Republican",
+        "party": "R",
+        "votes": 262821
+      },
+      {
+        "name": "Joshua Morott, Republican",
+        "party": "R",
+        "votes": 43427
+      },
+      {
+        "name": "5. Julia Letlow, Republican",
+        "party": "R",
+        "votes": 201037
+      },
+      {
+        "name": "M. V. \u201cVinny\u201d Mendoza, Republican",
+        "party": "R",
+        "votes": 35833
+      },
+      {
+        "name": "Michael Vallien, Jr., Democrat",
+        "party": "D",
+        "votes": 82981
+      },
+      {
+        "name": "6. Elbert Guillory, Republican",
+        "party": "R",
+        "votes": 111737
+      },
+      {
+        "name": "Cleo Fields, Democrat",
+        "party": "D",
+        "votes": 150323
+      },
+      {
+        "name": "Quentin Anthony Anderson, Democrat",
+        "party": "D",
+        "votes": 23811
+      },
+      {
+        "name": "Peter Williams, Democrat",
+        "party": "D",
+        "votes": 6252
+      },
+      {
+        "name": "Wilken Jones, Jr., Democrat",
+        "party": "D",
+        "votes": 3910
+      }
+    ]
+  },
+  "ME": {
+    "name": "Maine",
+    "senate": [
+      {
+        "name": "Demi Kouzounas, Republican",
+        "party": "R",
+        "votes": 284338
+      },
+      {
+        "name": "David Allen Costello, Democrat",
+        "party": "D",
+        "votes": 88891
+      },
+      {
+        "name": "Angus S. King, Jr., Independent",
+        "party": "O",
+        "votes": 427331
+      },
+      {
+        "name": "Jason S. Cherry, Independent",
+        "party": "O",
+        "votes": 20222
+      },
+      {
+        "name": "Blank",
+        "party": "O",
+        "votes": 21665
+      }
+    ],
+    "house": [
+      {
+        "name": "1. Ronald C. Russell, Republican",
+        "party": "R",
+        "votes": 154849
+      },
+      {
+        "name": "Chellie Pingree, Democrat",
+        "party": "D",
+        "votes": 249798
+      },
+      {
+        "name": "Ethan Weld Alcorn, Unenrolled Independent",
+        "party": "O",
+        "votes": 20883
+      },
+      {
+        "name": "Blank",
+        "party": "O",
+        "votes": 14037
+      },
+      {
+        "name": "2. Austin Theriault, Republican",
+        "party": "R",
+        "votes": 194445
+      },
+      {
+        "name": "Jared F. Golden, Democrat",
+        "party": "D",
+        "votes": 197151
+      },
+      {
+        "name": "Continuing Ballots",
+        "party": "O",
+        "votes": 391596
+      },
+      {
+        "name": "Exhausted Ballots",
+        "party": "O",
+        "votes": 11340
+      }
+    ]
+  },
+  "MD": {
+    "name": "Maryland",
+    "senate": [
+      {
+        "name": "Larry Hogan, Republican",
+        "party": "R",
+        "votes": 1294344
+      },
+      {
+        "name": "Angela Alsobrooks, Democrat",
+        "party": "D",
+        "votes": 1650912
+      },
+      {
+        "name": "Mike Scott, Libertarian",
+        "party": "O",
+        "votes": 69396
+      },
+      {
+        "name": "Patrick J. Burke, Write-in (Other Candidates)",
+        "party": "O",
+        "votes": 879
+      },
+      {
+        "name": "Billy Bridges, Write-in (Unaffiliated)",
+        "party": "O",
+        "votes": 70
+      },
+      {
+        "name": "Robin Rowe, Write-in (Unaffiliated)",
+        "party": "O",
+        "votes": 17
+      },
+      {
+        "name": "Christy Renee Helmondollar, Write-in (Unaffiliated)",
+        "party": "O",
+        "votes": 3
+      },
+      {
+        "name": "Irwin William Gibbs, Write-in (Unaffiliated)",
+        "party": "O",
+        "votes": 2
+      },
+      {
+        "name": "Other Write-ins",
+        "party": "O",
+        "votes": 5755
+      }
+    ],
+    "house": [
+      {
+        "name": "1. Andy Harris, Republican",
+        "party": "R",
+        "votes": 246356
+      },
+      {
+        "name": "Blane H. Miller III, Democrat",
+        "party": "D",
+        "votes": 154985
+      },
+      {
+        "name": "Joshua W. O\u2019Brien, Libertarian",
+        "party": "O",
+        "votes": 12664
+      },
+      {
+        "name": "Other Write-ins",
+        "party": "O",
+        "votes": 675
+      },
+      {
+        "name": "2. Kim Klacik, Republican",
+        "party": "R",
+        "votes": 152079
+      },
+      {
+        "name": "John \u201cJohnny O\u201d Olszewski, Jr., Democrat",
+        "party": "D",
+        "votes": 223797
+      },
+      {
+        "name": "Jasen Joseph Wunder, Libertarian",
+        "party": "O",
+        "votes": 8169
+      },
+      {
+        "name": "Other Write-ins",
+        "party": "O",
+        "votes": 749
+      },
+      {
+        "name": "3. Robert J. Steinberger, Republican",
+        "party": "R",
+        "votes": 151186
+      },
+      {
+        "name": "Sarah Elfreth, Democrat",
+        "party": "D",
+        "votes": 236681
+      },
+      {
+        "name": "Miguel Barajas, Libertarian",
+        "party": "O",
+        "votes": 10471
+      },
+      {
+        "name": "Other Write-ins",
+        "party": "O",
+        "votes": 862
+      },
+      {
+        "name": "4. George McDermott, Republican",
+        "party": "R",
+        "votes": 30454
+      },
+      {
+        "name": "Glenn Ivey, Democrat",
+        "party": "D",
+        "votes": 239596
+      },
+      {
+        "name": "Other Write-ins",
+        "party": "O",
+        "votes": 920
+      },
+      {
+        "name": "5. Michelle Talkington, Republican",
+        "party": "R",
+        "votes": 133985
+      },
+      {
+        "name": "Steny H. Hoyer, Democrat",
+        "party": "D",
+        "votes": 283619
+      },
+      {
+        "name": "Other Write-ins",
+        "party": "O",
+        "votes": 999
+      },
+      {
+        "name": "6. Neil C. Parrott, Republican",
+        "party": "R",
+        "votes": 175974
+      },
+      {
+        "name": "April McClain Delaney, Democrat",
+        "party": "D",
+        "votes": 199788
+      },
+      {
+        "name": "Other Write-ins",
+        "party": "O",
+        "votes": 862
+      },
+      {
+        "name": "7. Scott M. Collier, Republican",
+        "party": "R",
+        "votes": 49799
+      },
+      {
+        "name": "Kweisi Mfume, Democrat",
+        "party": "D",
+        "votes": 232849
+      },
+      {
+        "name": "Ronald M. Owens-Bey, Libertarian",
+        "party": "O",
+        "votes": 6840
+      },
+      {
+        "name": "Other Write-ins",
+        "party": "O",
+        "votes": 649
+      },
+      {
+        "name": "8. Cheryl Riley, Republican",
+        "party": "R",
+        "votes": 77821
+      },
+      {
+        "name": "Jamie Raskin, Democrat",
+        "party": "D",
+        "votes": 292101
+      },
+      {
+        "name": "Nancy Wallace, Green",
+        "party": "O",
+        "votes": 9612
+      },
+      {
+        "name": "Other Write-ins",
+        "party": "O",
+        "votes": 786
+      }
+    ]
+  },
+  "MA": {
+    "name": "Massachusetts",
+    "senate": [
+      {
+        "name": "John Deaton, Republican",
+        "party": "R",
+        "votes": 1365440
+      },
+      {
+        "name": "Elizabeth Warren, Democrat",
+        "party": "D",
+        "votes": 2041668
+      },
+      {
+        "name": "Blanks",
+        "party": "O",
+        "votes": 99601
+      },
+      {
+        "name": "All Others",
+        "party": "O",
+        "votes": 6221
+      }
+    ],
+    "house": [
+      {
+        "name": "1. Richard E. Neal, Democrat",
+        "party": "D",
+        "votes": 223325
+      },
+      {
+        "name": "Nadia Donya Milleron, Independent",
+        "party": "O",
+        "votes": 133552
+      },
+      {
+        "name": "Blanks",
+        "party": "O",
+        "votes": 26947
+      },
+      {
+        "name": "All Others",
+        "party": "O",
+        "votes": 1181
+      },
+      {
+        "name": "2. James P. McGovern, Democrat",
+        "party": "D",
+        "votes": 251441
+      },
+      {
+        "name": "Cornelius Shea, Independent",
+        "party": "O",
+        "votes": 114065
+      },
+      {
+        "name": "Blanks",
+        "party": "O",
+        "votes": 23009
+      },
+      {
+        "name": "All Others",
+        "party": "O",
+        "votes": 822
+      },
+      {
+        "name": "3. Lori Trahan, Democrat",
+        "party": "D",
+        "votes": 264698
+      },
+      {
+        "name": "Blanks",
+        "party": "O",
+        "votes": 91119
+      },
+      {
+        "name": "All Others",
+        "party": "O",
+        "votes": 6861
+      },
+      {
+        "name": "4. Jake Auchincloss, Democrat",
+        "party": "D",
+        "votes": 289347
+      },
+      {
+        "name": "Sana A. Fadel, Write-in",
+        "party": "O",
+        "votes": 1099
+      },
+      {
+        "name": "Blanks",
+        "party": "O",
+        "votes": 113853
+      },
+      {
+        "name": "All Others",
+        "party": "O",
+        "votes": 7279
+      },
+      {
+        "name": "5. Katherine M. Clark, Democrat",
+        "party": "D",
+        "votes": 286689
+      },
+      {
+        "name": "Blanks",
+        "party": "O",
+        "votes": 87811
+      },
+      {
+        "name": "All Others",
+        "party": "O",
+        "votes": 5201
+      },
+      {
+        "name": "6. Seth Moulton, Democrat",
+        "party": "D",
+        "votes": 321186
+      },
+      {
+        "name": "Blanks",
+        "party": "O",
+        "votes": 110196
+      },
+      {
+        "name": "All Others",
+        "party": "O",
+        "votes": 7191
+      },
+      {
+        "name": "7. Ayanna Pressley, Democrat",
+        "party": "D",
+        "votes": 232094
+      },
+      {
+        "name": "Blanks",
+        "party": "O",
+        "votes": 44193
+      },
+      {
+        "name": "All Others",
+        "party": "O",
+        "votes": 6907
+      },
+      {
+        "name": "8. Robert G. Burke, Republican",
+        "party": "R",
+        "votes": 110638
+      },
+      {
+        "name": "Stephen F. Lynch, Democrat",
+        "party": "D",
+        "votes": 265432
+      },
+      {
+        "name": "Blanks",
+        "party": "O",
+        "votes": 20937
+      },
+      {
+        "name": "All Others",
+        "party": "O",
+        "votes": 760
+      },
+      {
+        "name": "9. Dan Sullivan, Republican",
+        "party": "R",
+        "votes": 193822
+      },
+      {
+        "name": "William R. Keating, Democrat",
+        "party": "D",
+        "votes": 251931
+      },
+      {
+        "name": "Blanks",
+        "party": "O",
+        "votes": 18702
+      },
+      {
+        "name": "All Others",
+        "party": "O",
+        "votes": 642
+      }
+    ]
+  },
+  "MI": {
+    "name": "Michigan",
+    "senate": [
+      {
+        "name": "Mike Rogers, Republican",
+        "party": "R",
+        "votes": 2693680
+      },
+      {
+        "name": "Elissa Slotkin, Democrat",
+        "party": "D",
+        "votes": 2712686
+      },
+      {
+        "name": "Joseph Solis-Mullen, Libertarian",
+        "party": "O",
+        "votes": 56697
+      },
+      {
+        "name": "Douglas P. Marsh, Green",
+        "party": "O",
+        "votes": 53978
+      },
+      {
+        "name": "Dave Stein, U.S. Taxpayers",
+        "party": "O",
+        "votes": 41363
+      },
+      {
+        "name": "Doug Dern, Natural Law",
+        "party": "O",
+        "votes": 18779
+      },
+      {
+        "name": "Valerie Lee Willis, Write-in",
+        "party": "O",
+        "votes": 2
+      },
+      {
+        "name": "James Chapman, Write-in",
+        "party": "O",
+        "votes": 1
+      },
+      {
+        "name": "Marcus A. Irvine, Write-in",
+        "party": "O",
+        "votes": 1
+      }
+    ],
+    "house": [
+      {
+        "name": "1. Jack Bergman, Republican",
+        "party": "R",
+        "votes": 282264
+      },
+      {
+        "name": "Callie Barr, Democrat",
+        "party": "D",
+        "votes": 180937
+      },
+      {
+        "name": "Liz Hakola, Working Class",
+        "party": "O",
+        "votes": 8497
+      },
+      {
+        "name": "Andrew Gale, Libertarian",
+        "party": "O",
+        "votes": 5486
+      },
+      {
+        "name": "2. John R. Moolenaar, Republican",
+        "party": "R",
+        "votes": 279167
+      },
+      {
+        "name": "Michael Lynch, Democrat",
+        "party": "D",
+        "votes": 135824
+      },
+      {
+        "name": "Ben DeJong, Libertarian",
+        "party": "O",
+        "votes": 7037
+      },
+      {
+        "name": "Scott Adams, U.S. Taxpayers",
+        "party": "O",
+        "votes": 6522
+      },
+      {
+        "name": "3. Paul Hudson, Republican",
+        "party": "R",
+        "votes": 183952
+      },
+      {
+        "name": "Hillary J. Scholten, Democrat",
+        "party": "D",
+        "votes": 225510
+      },
+      {
+        "name": "Louis Palus, Working Class",
+        "party": "O",
+        "votes": 5546
+      },
+      {
+        "name": "Alex Avery, Libertarian",
+        "party": "O",
+        "votes": 5281
+      },
+      {
+        "name": "4. Bill Huizenga, Republican",
+        "party": "R",
+        "votes": 234489
+      },
+      {
+        "name": "Jessica Swartz, Democrat",
+        "party": "D",
+        "votes": 184641
+      },
+      {
+        "name": "Curtis Clark, U.S. Taxpayers",
+        "party": "O",
+        "votes": 6687
+      },
+      {
+        "name": "5. Tim Walberg, Republican",
+        "party": "R",
+        "votes": 269215
+      },
+      {
+        "name": "Libbi Urban, Democrat",
+        "party": "D",
+        "votes": 134282
+      },
+      {
+        "name": "James Bronke, Green",
+        "party": "O",
+        "votes": 6379
+      },
+      {
+        "name": "6. Heather Smiley, Republican",
+        "party": "R",
+        "votes": 158658
+      },
+      {
+        "name": "Debbie Dingell, Democrat",
+        "party": "D",
+        "votes": 281162
+      },
+      {
+        "name": "Clyde K. Shabazz, Green",
+        "party": "O",
+        "votes": 7963
+      },
+      {
+        "name": "Bill Krebaum, Libertarian",
+        "party": "O",
+        "votes": 5523
+      },
+      {
+        "name": "7. Tom Barrett, Republican",
+        "party": "R",
+        "votes": 226722
+      },
+      {
+        "name": "Curtis Hertel, Democrat",
+        "party": "D",
+        "votes": 209959
+      },
+      {
+        "name": "L. Rachel Dailey, Libertarian",
+        "party": "O",
+        "votes": 14231
+      },
+      {
+        "name": "8. Paul Junge, Republican",
+        "party": "R",
+        "votes": 189317
+      },
+      {
+        "name": "Kristen McDonald Rivet, Democrat",
+        "party": "D",
+        "votes": 217490
+      },
+      {
+        "name": "Kathy Goodwin, Working Class",
+        "party": "O",
+        "votes": 8492
+      },
+      {
+        "name": "Steve Barcelo, Libertarian",
+        "party": "O",
+        "votes": 4768
+      },
+      {
+        "name": "James Allen Little, U.S. Taxpayers",
+        "party": "O",
+        "votes": 2681
+      },
+      {
+        "name": "Jim Casha, Green",
+        "party": "O",
+        "votes": 1602
+      },
+      {
+        "name": "9. Lisa C. McClain, Republican",
+        "party": "R",
+        "votes": 312593
+      },
+      {
+        "name": "Clinton St. Mosley, Democrat",
+        "party": "D",
+        "votes": 138138
+      },
+      {
+        "name": "Jim Walkowicz, Working Class",
+        "party": "O",
+        "votes": 12169
+      },
+      {
+        "name": "Kevin Vayko, Libertarian",
+        "party": "O",
+        "votes": 5338
+      },
+      {
+        "name": "10. John James, Republican",
+        "party": "R",
+        "votes": 217437
+      },
+      {
+        "name": "Carl J. Marlinga, Democrat",
+        "party": "D",
+        "votes": 191363
+      },
+      {
+        "name": "Andrea L. Kirby, Working Class",
+        "party": "O",
+        "votes": 11162
+      },
+      {
+        "name": "Mike Saliba, Libertarian",
+        "party": "O",
+        "votes": 5339
+      },
+      {
+        "name": "11. Nick Somberg, Republican",
+        "party": "R",
+        "votes": 177432
+      },
+      {
+        "name": "Haley M. Stevens, Democrat",
+        "party": "D",
+        "votes": 260780
+      },
+      {
+        "name": "Douglas Campbell, Green",
+        "party": "O",
+        "votes": 9713
+      },
+      {
+        "name": "12. James D. Hooper, Republican",
+        "party": "R",
+        "votes": 92490
+      },
+      {
+        "name": "Rashida Tlaib, Democrat",
+        "party": "D",
+        "votes": 253354
+      },
+      {
+        "name": "Gary Walkowicz, Working Class",
+        "party": "O",
+        "votes": 9401
+      },
+      {
+        "name": "Brenda K. Sanders, Green",
+        "party": "O",
+        "votes": 8254
+      },
+      {
+        "name": "13. Martell D. Bivings, Republican",
+        "party": "R",
+        "votes": 78917
+      },
+      {
+        "name": "Shri Thanedar, Democrat",
+        "party": "D",
+        "votes": 220788
+      },
+      {
+        "name": "Simone R. Coleman, Working Class",
+        "party": "O",
+        "votes": 13367
+      },
+      {
+        "name": "Chris Clark, Libertarian",
+        "party": "O",
+        "votes": 5726
+      },
+      {
+        "name": "Chris Dardzinski, U.S. Taxpayers",
+        "party": "O",
+        "votes": 2825
+      },
+      {
+        "name": "Shakira Lynette Hawkins, Write-in",
+        "party": "O",
+        "votes": 25
+      },
+      {
+        "name": "Danetta Lynese Simpson, Write-in",
+        "party": "O",
+        "votes": 1
+      }
+    ]
+  },
+  "MN": {
+    "name": "Minnesota",
+    "senate": [
+      {
+        "name": "Royce White, Republican",
+        "party": "R",
+        "votes": 1291712
+      },
+      {
+        "name": "Amy Klobuchar, Democrat",
+        "party": "D",
+        "votes": 1792441
+      },
+      {
+        "name": "Rebecca Whiting, Libertarian",
+        "party": "O",
+        "votes": 55215
+      },
+      {
+        "name": "Joyce Lynne Lacey, Independence-Alliance",
+        "party": "O",
+        "votes": 46377
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 3578
+      }
+    ],
+    "house": [
+      {
+        "name": "1. Brad Finstad, Republican",
+        "party": "R",
+        "votes": 220929
+      },
+      {
+        "name": "Rachel Bohman, Democratic-Farmer-Labor",
+        "party": "D",
+        "votes": 156375
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 297
+      },
+      {
+        "name": "2. Joe Teirab, Republican",
+        "party": "R",
+        "votes": 175621
+      },
+      {
+        "name": "Angie Craig, Democrat",
+        "party": "D",
+        "votes": 231751
+      },
+      {
+        "name": "Thomas William Bowman, Constitutional Conservative",
+        "party": "O",
+        "votes": 9492
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 455
+      },
+      {
+        "name": "3. Tad Jude, Republican",
+        "party": "R",
+        "votes": 170427
+      },
+      {
+        "name": "Kelly Morrison, Democratic-Farmer-Labor",
+        "party": "D",
+        "votes": 240209
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 504
+      },
+      {
+        "name": "4. May Lor Xiong, Republican",
+        "party": "R",
+        "votes": 117618
+      },
+      {
+        "name": "Betty McCollum, Democrat",
+        "party": "D",
+        "votes": 242802
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 623
+      },
+      {
+        "name": "5. Dalia Al-Aqidi, Republican",
+        "party": "R",
+        "votes": 86213
+      },
+      {
+        "name": "Ilhan Omar, Democrat",
+        "party": "D",
+        "votes": 261066
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 3768
+      },
+      {
+        "name": "6. Tom Emmer, Republican",
+        "party": "R",
+        "votes": 260095
+      },
+      {
+        "name": "Jeanne Hendricks, Democratic-Farmer-Labor",
+        "party": "D",
+        "votes": 155836
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 565
+      },
+      {
+        "name": "7. Michelle Fischbach, Republican",
+        "party": "R",
+        "votes": 275098
+      },
+      {
+        "name": "A J \u201cJohn\u201d Peters, Democratic-Farmer-Labor",
+        "party": "D",
+        "votes": 114979
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 433
+      },
+      {
+        "name": "8. Pete Stauber, Republican",
+        "party": "R",
+        "votes": 244498
+      },
+      {
+        "name": "Jen Schultz, Democratic-Farmer-Labor",
+        "party": "D",
+        "votes": 176724
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 384
+      }
+    ]
+  },
+  "MS": {
+    "name": "Mississippi",
+    "senate": [
+      {
+        "name": "Roger F. Wicker, Republican",
+        "party": "R",
+        "votes": 763420
+      },
+      {
+        "name": "Ty Pinkins, Democrat",
+        "party": "D",
+        "votes": 451981
+      }
+    ],
+    "house": [
+      {
+        "name": "1. Trent Kelly, Republican",
+        "party": "R",
+        "votes": 223589
+      },
+      {
+        "name": "Dianne Dodson Black, Democrat",
+        "party": "D",
+        "votes": 96697
+      },
+      {
+        "name": "2. Ron Eller, Republican",
+        "party": "R",
+        "votes": 108956
+      },
+      {
+        "name": "Bennie G. Thompson, Democrat",
+        "party": "D",
+        "votes": 177885
+      },
+      {
+        "name": "3. Michael Guest, Republican",
+        "party": "R",
+        "votes": 265159
+      },
+      {
+        "name": "4. Mike Ezell, Republican",
+        "party": "R",
+        "votes": 215095
+      },
+      {
+        "name": "Craig Elliot Raybon, Democrat",
+        "party": "D",
+        "votes": 75771
+      }
+    ]
+  },
+  "MO": {
+    "name": "Missouri",
+    "senate": [
+      {
+        "name": "Josh Hawley, Republican",
+        "party": "R",
+        "votes": 1651907
+      },
+      {
+        "name": "Lucas Kunce, Democrat",
+        "party": "D",
+        "votes": 1243728
+      },
+      {
+        "name": "W. C. Young, Libertarian",
+        "party": "O",
+        "votes": 35671
+      },
+      {
+        "name": "Jared Young, Better Party",
+        "party": "O",
+        "votes": 21111
+      },
+      {
+        "name": "Nathan Kline, Green",
+        "party": "O",
+        "votes": 20123
+      },
+      {
+        "name": "Gina Bufe, Write-in",
+        "party": "O",
+        "votes": 19
+      }
+    ],
+    "house": [
+      {
+        "name": "1. Andrew Jones, Republican",
+        "party": "R",
+        "votes": 56453
+      },
+      {
+        "name": "Wesley Bell, Democrat",
+        "party": "D",
+        "votes": 233312
+      },
+      {
+        "name": "Rochelle A. Riggins, Libertarian",
+        "party": "O",
+        "votes": 10070
+      },
+      {
+        "name": "Don Fitz, Green",
+        "party": "O",
+        "votes": 5151
+      },
+      {
+        "name": "Blake Ashby, Better Party",
+        "party": "O",
+        "votes": 2279
+      },
+      {
+        "name": "2. Ann Wagner, Republican",
+        "party": "R",
+        "votes": 233444
+      },
+      {
+        "name": "Ray Hartmann, Democrat",
+        "party": "D",
+        "votes": 182056
+      },
+      {
+        "name": "Brandon Daugherty, Libertarian",
+        "party": "O",
+        "votes": 8951
+      },
+      {
+        "name": "Shelby Davis, Green",
+        "party": "O",
+        "votes": 3941
+      },
+      {
+        "name": "3. Bob Onder, Republican",
+        "party": "R",
+        "votes": 240620
+      },
+      {
+        "name": "Bethany E. Mann, Democrat",
+        "party": "D",
+        "votes": 138532
+      },
+      {
+        "name": "Jordan Rowden, Libertarian",
+        "party": "O",
+        "votes": 9298
+      },
+      {
+        "name": "William Hastings, Green",
+        "party": "O",
+        "votes": 4013
+      },
+      {
+        "name": "4. Mark Alford, Republican",
+        "party": "R",
+        "votes": 259886
+      },
+      {
+        "name": "Jeanette Cass, Democrat",
+        "party": "D",
+        "votes": 96568
+      },
+      {
+        "name": "Thomas Holbrook, Libertarian",
+        "party": "O",
+        "votes": 9240
+      },
+      {
+        "name": "David Haave, Write-in",
+        "party": "O",
+        "votes": 2
+      },
+      {
+        "name": "5. Sean E. Smith, Republican",
+        "party": "R",
+        "votes": 120957
+      },
+      {
+        "name": "Emanuel Cleaver, Democrat",
+        "party": "D",
+        "votes": 199900
+      },
+      {
+        "name": "William Truman \u201cBill\u201d Wayne, Libertarian",
+        "party": "O",
+        "votes": 6658
+      },
+      {
+        "name": "Michael Day, Green",
+        "party": "O",
+        "votes": 4414
+      },
+      {
+        "name": "6. Sam Graves, Republican",
+        "party": "R",
+        "votes": 265210
+      },
+      {
+        "name": "Pam May, Democrat",
+        "party": "D",
+        "votes": 100999
+      },
+      {
+        "name": "Andy Maidment, Libertarian",
+        "party": "O",
+        "votes": 5919
+      },
+      {
+        "name": "Mike Diel, Green",
+        "party": "O",
+        "votes": 3058
+      },
+      {
+        "name": "7. Eric Burlison, Republican",
+        "party": "R",
+        "votes": 263231
+      },
+      {
+        "name": "Missi Hesketh, Democrat",
+        "party": "D",
+        "votes": 96655
+      },
+      {
+        "name": "Kevin Craig, Libertarian",
+        "party": "O",
+        "votes": 7982
+      },
+      {
+        "name": "8. Jason Smith, Republican",
+        "party": "R",
+        "votes": 271249
+      },
+      {
+        "name": "Randi McCallian, Democrat",
+        "party": "D",
+        "votes": 77649
+      },
+      {
+        "name": "Jake Dawson, Libertarian",
+        "party": "O",
+        "votes": 7166
+      }
+    ]
+  },
+  "MT": {
+    "name": "Montana",
+    "senate": [
+      {
+        "name": "Tim Sheehy, Republican",
+        "party": "R",
+        "votes": 319682
+      },
+      {
+        "name": "Jon Tester, Democrat",
+        "party": "D",
+        "votes": 276305
+      },
+      {
+        "name": "Sid Daoud, Libertarian",
+        "party": "O",
+        "votes": 7272
+      },
+      {
+        "name": "Robert Barb, Green",
+        "party": "O",
+        "votes": 4003
+      }
+    ],
+    "house": [
+      {
+        "name": "1. Ryan K. Zinke, Republican",
+        "party": "R",
+        "votes": 168529
+      },
+      {
+        "name": "Monica Tranel, Democrat",
+        "party": "D",
+        "votes": 143783
+      },
+      {
+        "name": "Dennis Hayes, Libertarian",
+        "party": "O",
+        "votes": 9954
+      },
+      {
+        "name": "2. Troy Downing, Republican",
+        "party": "R",
+        "votes": 181832
+      },
+      {
+        "name": "John B. Driscoll, Democrat",
+        "party": "D",
+        "votes": 93713
+      }
+    ]
+  },
+  "NE": {
+    "name": "Nebraska",
+    "senate": [
+      {
+        "name": "Deb Fischer, Republican",
+        "party": "R",
+        "votes": 499124
+      },
+      {
+        "name": "Dan Osborn, By Petition",
+        "party": "O",
+        "votes": 436493
+      },
+      {
+        "name": "Write-in (Scattering)",
+        "party": "O",
+        "votes": 2719
+      }
+    ],
+    "house": [
+      {
+        "name": "1. Mike Flood, Republican",
+        "party": "R",
+        "votes": 187559
+      },
+      {
+        "name": "Carol Blood, Democrat",
+        "party": "D",
+        "votes": 124498
+      },
+      {
+        "name": "2. Don Bacon, Republican",
+        "party": "R",
+        "votes": 160198
+      },
+      {
+        "name": "Tony Vargas, Democrat",
+        "party": "D",
+        "votes": 154369
+      },
+      {
+        "name": "3. Adrian Smith, Republican",
+        "party": "R",
+        "votes": 243481
+      },
+      {
+        "name": "Daniel Ebers, Democrat",
+        "party": "D",
+        "votes": 59287
+      }
+    ]
+  },
+  "NV": {
+    "name": "Nevada",
+    "senate": [
+      {
+        "name": "Sam Brown, Republican",
+        "party": "R",
+        "votes": 677046
+      },
+      {
+        "name": "Jacky Rosen, Democrat",
+        "party": "D",
+        "votes": 701105
+      },
+      {
+        "name": "Janine Hansen, Independent American",
+        "party": "O",
+        "votes": 21316
+      },
+      {
+        "name": "Christopher Cunningham, Libertarian",
+        "party": "O",
+        "votes": 20881
+      },
+      {
+        "name": "None of These Candidates",
+        "party": "O",
+        "votes": 44380
+      }
+    ],
+    "house": [
+      {
+        "name": "1. Mark Robertson, Republican",
+        "party": "R",
+        "votes": 143650
+      },
+      {
+        "name": "Dina Titus, Democrat",
+        "party": "D",
+        "votes": 167885
+      },
+      {
+        "name": "Ron \u201cRon Q.\u201d Quince, No Political Party",
+        "party": "O",
+        "votes": 3321
+      },
+      {
+        "name": "William Hoge, Independent American",
+        "party": "O",
+        "votes": 2736
+      },
+      {
+        "name": "David Havlicek, Libertarian",
+        "party": "O",
+        "votes": 2711
+      },
+      {
+        "name": "David Goossen, No Political Party",
+        "party": "O",
+        "votes": 2596
+      },
+      {
+        "name": "2. Mark E. Amodei, Republican",
+        "party": "R",
+        "votes": 219919
+      },
+      {
+        "name": "Greg Kidd, No Political Party",
+        "party": "O",
+        "votes": 144064
+      },
+      {
+        "name": "Lynn Chapman, Independent American",
+        "party": "O",
+        "votes": 19784
+      },
+      {
+        "name": "Javi \u201cTrujillo\u201d Tachiquin, Libertarian",
+        "party": "O",
+        "votes": 15817
+      },
+      {
+        "name": "3. Drew Johnson, Republican",
+        "party": "R",
+        "votes": 181084
+      },
+      {
+        "name": "Susie Lee, Democrat",
+        "party": "D",
+        "votes": 191304
+      },
+      {
+        "name": "4. John Lee, Republican",
+        "party": "R",
+        "votes": 148061
+      },
+      {
+        "name": "Steven Horsford, Democrat",
+        "party": "D",
+        "votes": 174926
+      },
+      {
+        "name": "Russell Best, Independent American",
+        "party": "O",
+        "votes": 4919
+      },
+      {
+        "name": "Tim \u201cT J\u201d Ferreira, Libertarian",
+        "party": "O",
+        "votes": 4300
+      }
+    ]
+  },
+  "NH": {
+    "name": "New Hampshire",
+    "senate": [],
+    "house": [
+      {
+        "name": "1. Russell Prescott, Republican",
+        "party": "R",
+        "votes": 185936
+      },
+      {
+        "name": "Chris Pappas, Democrat",
+        "party": "D",
+        "votes": 218577
+      },
+      {
+        "name": "Under Votes",
+        "party": "O",
+        "votes": 11678
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 295
+      },
+      {
+        "name": "Over Votes",
+        "party": "O",
+        "votes": 76
+      },
+      {
+        "name": "2. Lily Tang Williams, Republican",
+        "party": "R",
+        "votes": 187810
+      },
+      {
+        "name": "Maggie Goodlander, Democrat",
+        "party": "D",
+        "votes": 211641
+      },
+      {
+        "name": "Under Votes",
+        "party": "O",
+        "votes": 14548
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 367
+      },
+      {
+        "name": "Over Votes",
+        "party": "O",
+        "votes": 58
+      }
+    ]
+  },
+  "NJ": {
+    "name": "New Jersey",
+    "senate": [
+      {
+        "name": "Curtis Bashaw, Republican",
+        "party": "R",
+        "votes": 1773589
+      },
+      {
+        "name": "Andy Kim, Democrat",
+        "party": "D",
+        "votes": 2161491
+      },
+      {
+        "name": "Christina Khalil, Green",
+        "party": "O",
+        "votes": 45443
+      },
+      {
+        "name": "Kenneth R. Kaplan, Libertarian",
+        "party": "O",
+        "votes": 24242
+      },
+      {
+        "name": "Patricia G. Mooneyham, Vote Better",
+        "party": "O",
+        "votes": 17224
+      },
+      {
+        "name": "Joanne Kuniansky, Socialist Workers",
+        "party": "O",
+        "votes": 9806
+      }
+    ],
+    "house": [
+      {
+        "name": "1. Theodore \u201cTeddy\u201d Liddell, Republican",
+        "party": "R",
+        "votes": 144390
+      },
+      {
+        "name": "Donald Norcross, Democrat",
+        "party": "D",
+        "votes": 208808
+      },
+      {
+        "name": "Robin Brownfield, Green",
+        "party": "O",
+        "votes": 5771
+      },
+      {
+        "name": "Austin Johnson, No Slogan",
+        "party": "O",
+        "votes": 2091
+      },
+      {
+        "name": "2. Jefferson Van Drew, Republican",
+        "party": "R",
+        "votes": 215946
+      },
+      {
+        "name": "Joseph F. Salerno, Democrat",
+        "party": "D",
+        "votes": 153117
+      },
+      {
+        "name": "Thomas Cannavo, Green",
+        "party": "O",
+        "votes": 2557
+      },
+      {
+        "name": "3. Rajesh Mohan, Republican",
+        "party": "R",
+        "votes": 169454
+      },
+      {
+        "name": "Herb Conaway, Democrat",
+        "party": "D",
+        "votes": 202034
+      },
+      {
+        "name": "Steven Welzer, Green",
+        "party": "O",
+        "votes": 3478
+      },
+      {
+        "name": "Chris Russomanno, Libertarian",
+        "party": "O",
+        "votes": 1951
+      },
+      {
+        "name": "Douglas Anthony Wynn, Why Not Wynn",
+        "party": "O",
+        "votes": 1332
+      },
+      {
+        "name": "Justin R. Barbera, Join The Revolution",
+        "party": "O",
+        "votes": 1235
+      },
+      {
+        "name": "4. Christopher H. Smith, Republican",
+        "party": "R",
+        "votes": 265652
+      },
+      {
+        "name": "Matthew Jenkins, Democrat",
+        "party": "D",
+        "votes": 124803
+      },
+      {
+        "name": "John Morrison, Libertarian",
+        "party": "O",
+        "votes": 1950
+      },
+      {
+        "name": "Barry Bendar, Green",
+        "party": "O",
+        "votes": 1823
+      },
+      {
+        "name": "5. Mary Jo Guinchard, Republican",
+        "party": "R",
+        "votes": 165287
+      },
+      {
+        "name": "Josh Gottheimer, Democrat",
+        "party": "D",
+        "votes": 208359
+      },
+      {
+        "name": "Beau Forte, Green",
+        "party": "O",
+        "votes": 3428
+      },
+      {
+        "name": "James Tosone, Libertarian",
+        "party": "O",
+        "votes": 2440
+      },
+      {
+        "name": "Aamir Arif, Peace Freedom Liberty",
+        "party": "O",
+        "votes": 2375
+      },
+      {
+        "name": "6. Scott Fegler, Republican",
+        "party": "R",
+        "votes": 122519
+      },
+      {
+        "name": "Frank Pallone, Jr., Democrat",
+        "party": "D",
+        "votes": 170275
+      },
+      {
+        "name": "Fahad Akhtar, Common Sense Independent",
+        "party": "O",
+        "votes": 4871
+      },
+      {
+        "name": "Herb Tarbous, Green",
+        "party": "O",
+        "votes": 4246
+      },
+      {
+        "name": "Matthew Amitrano, Libertarian",
+        "party": "O",
+        "votes": 1770
+      },
+      {
+        "name": "7. Thomas H. Kean, Jr., Republican",
+        "party": "R",
+        "votes": 223331
+      },
+      {
+        "name": "Sue Altman, Democrat",
+        "party": "D",
+        "votes": 200025
+      },
+      {
+        "name": "Andrew Black, Green",
+        "party": "O",
+        "votes": 4258
+      },
+      {
+        "name": "Lana Leguia, Libertarian",
+        "party": "O",
+        "votes": 3784
+      },
+      {
+        "name": "8. Anthony Valdes, Republican",
+        "party": "R",
+        "votes": 68152
+      },
+      {
+        "name": "Robert Menendez, Democrat",
+        "party": "D",
+        "votes": 116434
+      },
+      {
+        "name": "Christian J. Robbins, Green",
+        "party": "O",
+        "votes": 5465
+      },
+      {
+        "name": "Pablo R. Olivera, Labour",
+        "party": "O",
+        "votes": 4295
+      },
+      {
+        "name": "Lea Sherman, Socialist Workers",
+        "party": "O",
+        "votes": 2419
+      },
+      {
+        "name": "9. Billy Prempeh, Republican",
+        "party": "R",
+        "votes": 117939
+      },
+      {
+        "name": "Nellie Pou, Democrat",
+        "party": "D",
+        "votes": 130514
+      },
+      {
+        "name": "Benjamin Taylor, Green",
+        "party": "O",
+        "votes": 5027
+      },
+      {
+        "name": "Bruno Pereira, Libertarian",
+        "party": "O",
+        "votes": 3533
+      },
+      {
+        "name": "10. Carmen Bucco, Republican",
+        "party": "R",
+        "votes": 54405
+      },
+      {
+        "name": "LaMonica McIver, Democrat",
+        "party": "D",
+        "votes": 182020
+      },
+      {
+        "name": "Jon Carlos Serrano, Green",
+        "party": "O",
+        "votes": 3198
+      },
+      {
+        "name": "Cynthia A. Johnson, C4C 2024",
+        "party": "O",
+        "votes": 2132
+      },
+      {
+        "name": "Michelle Middleton, All Of Us!",
+        "party": "O",
+        "votes": 1686
+      },
+      {
+        "name": "Donna Weiss, Social Activist",
+        "party": "O",
+        "votes": 1136
+      },
+      {
+        "name": "11. Joseph Belnome, Republican",
+        "party": "R",
+        "votes": 164556
+      },
+      {
+        "name": "Mikie Sherrill, Democrat",
+        "party": "D",
+        "votes": 222583
+      },
+      {
+        "name": "Lily Benavides, Green",
+        "party": "O",
+        "votes": 4780
+      },
+      {
+        "name": "Joshua Lanzara, Truth Freedom Prosperity",
+        "party": "O",
+        "votes": 1832
+      },
+      {
+        "name": "12. Darius Mayfield, Republican",
+        "party": "R",
+        "votes": 117222
+      },
+      {
+        "name": "Bonnie Watson Coleman, Democrat",
+        "party": "D",
+        "votes": 196871
+      },
+      {
+        "name": "Kim Meudt, Green",
+        "party": "O",
+        "votes": 4652
+      },
+      {
+        "name": "Vic Kaplan, Libertarian",
+        "party": "O",
+        "votes": 2915
+      }
+    ]
+  },
+  "NM": {
+    "name": "New Mexico",
+    "senate": [
+      {
+        "name": "Nella Louise Domenici, Republican",
+        "party": "R",
+        "votes": 405978
+      },
+      {
+        "name": "Martin Heinrich, Democrat",
+        "party": "D",
+        "votes": 497333
+      }
+    ],
+    "house": [
+      {
+        "name": "1. Steve Jones, Republican",
+        "party": "R",
+        "votes": 149546
+      },
+      {
+        "name": "Melanie A. Stansbury, Democrat",
+        "party": "D",
+        "votes": 193203
+      },
+      {
+        "name": "2. Yvette Herrell, Republican",
+        "party": "R",
+        "votes": 127145
+      },
+      {
+        "name": "Gabe Vasquez, Democrat",
+        "party": "D",
+        "votes": 138177
+      },
+      {
+        "name": "3. Sharon E. Clahchischilliage, Republican",
+        "party": "R",
+        "votes": 126085
+      },
+      {
+        "name": "Teresa Leger Fernandez, Democrat",
+        "party": "D",
+        "votes": 162342
+      }
+    ]
+  },
+  "NY": {
+    "name": "New York",
+    "senate": [
+      {
+        "name": "Michael D. Sapraicone, Republican",
+        "party": "R",
+        "votes": 3246114
+      },
+      {
+        "name": "Kirsten E. Gillibrand, Democrat",
+        "party": "D",
+        "votes": 4711298
+      },
+      {
+        "name": "Diane Sare, LaRouche",
+        "party": "O",
+        "votes": 39413
+      },
+      {
+        "name": "Blank",
+        "party": "O",
+        "votes": 365214
+      },
+      {
+        "name": "Scattering",
+        "party": "O",
+        "votes": 13492
+      },
+      {
+        "name": "Void",
+        "party": "O",
+        "votes": 4895
+      }
+    ],
+    "house": [
+      {
+        "name": "1. Nick LaLota, Republican",
+        "party": "R",
+        "votes": 226285
+      },
+      {
+        "name": "John P. Avlon, Democrat",
+        "party": "D",
+        "votes": 181647
+      },
+      {
+        "name": "Common Sense Suffolk",
+        "party": "O",
+        "votes": 1893
+      },
+      {
+        "name": "Blank",
+        "party": "O",
+        "votes": 19984
+      },
+      {
+        "name": "Void",
+        "party": "O",
+        "votes": 376
+      },
+      {
+        "name": "Scattering",
+        "party": "O",
+        "votes": 275
+      },
+      {
+        "name": "2. Andrew R. Garbarino, Republican",
+        "party": "R",
+        "votes": 202597
+      },
+      {
+        "name": "Rob Lubin, Democrat",
+        "party": "D",
+        "votes": 136371
+      },
+      {
+        "name": "Blank",
+        "party": "O",
+        "votes": 23708
+      },
+      {
+        "name": "Void",
+        "party": "O",
+        "votes": 251
+      },
+      {
+        "name": "Scattering",
+        "party": "O",
+        "votes": 189
+      },
+      {
+        "name": "3. Michael J. LiPetri, Jr., Republican",
+        "party": "R",
+        "votes": 174693
+      },
+      {
+        "name": "Thomas R. Suozzi, Democrat",
+        "party": "D",
+        "votes": 187651
+      },
+      {
+        "name": "Blank",
+        "party": "O",
+        "votes": 18315
+      },
+      {
+        "name": "Scattering",
+        "party": "O",
+        "votes": 780
+      },
+      {
+        "name": "Void",
+        "party": "O",
+        "votes": 443
+      },
+      {
+        "name": "4. Anthony D\u2019Esposito, Republican",
+        "party": "R",
+        "votes": 183157
+      },
+      {
+        "name": "Laura A. Gillen, Democrat",
+        "party": "D",
+        "votes": 191760
+      },
+      {
+        "name": "Blank",
+        "party": "O",
+        "votes": 16465
+      },
+      {
+        "name": "Scattering",
+        "party": "O",
+        "votes": 601
+      },
+      {
+        "name": "Void",
+        "party": "O",
+        "votes": 347
+      },
+      {
+        "name": "5. Paul King, Republican",
+        "party": "R",
+        "votes": 56689
+      },
+      {
+        "name": "Conservative, Common Sense",
+        "party": "O",
+        "votes": 5840
+      },
+      {
+        "name": "Gregory W. Meeks, Democrat",
+        "party": "D",
+        "votes": 168425
+      },
+      {
+        "name": "Blank",
+        "party": "O",
+        "votes": 12060
+      },
+      {
+        "name": "Scattering",
+        "party": "O",
+        "votes": 782
+      },
+      {
+        "name": "6. Thomas J. Zmich, Republican",
+        "party": "R",
+        "votes": 74559
+      },
+      {
+        "name": "Grace Meng, Democrat",
+        "party": "D",
+        "votes": 120205
+      },
+      {
+        "name": "Joseph J. Chou, Truth",
+        "party": "O",
+        "votes": 3272
+      },
+      {
+        "name": "Blank",
+        "party": "O",
+        "votes": 12467
+      },
+      {
+        "name": "Scattering",
+        "party": "O",
+        "votes": 654
+      },
+      {
+        "name": "7. Bill Kregler, Republican",
+        "party": "R",
+        "votes": 48435
+      },
+      {
+        "name": "Nydia M. Vel\u00e1zquez, Democrat",
+        "party": "D",
+        "votes": 172795
+      },
+      {
+        "name": "Blank",
+        "party": "O",
+        "votes": 15556
+      },
+      {
+        "name": "Scattering",
+        "party": "O",
+        "votes": 549
+      },
+      {
+        "name": "8. John J. Delaney, Republican",
+        "party": "R",
+        "votes": 54863
+      },
+      {
+        "name": "Hakeem S. Jeffries, Democrat",
+        "party": "D",
+        "votes": 168036
+      },
+      {
+        "name": "Blank",
+        "party": "O",
+        "votes": 17346
+      },
+      {
+        "name": "Scattering",
+        "party": "O",
+        "votes": 905
+      },
+      {
+        "name": "9. Menachem M. Raitport, Republican",
+        "party": "R",
+        "votes": 60064
+      },
+      {
+        "name": "Yvette D. Clarke, Democrat",
+        "party": "D",
+        "votes": 173207
+      },
+      {
+        "name": "Blank",
+        "party": "O",
+        "votes": 17562
+      },
+      {
+        "name": "Scattering",
+        "party": "O",
+        "votes": 2501
+      },
+      {
+        "name": "10. Alexander Dodenhoff, Republican",
+        "party": "R",
+        "votes": 37555
+      },
+      {
+        "name": "Daniel S. Goldman, Democrat",
+        "party": "D",
+        "votes": 206206
+      },
+      {
+        "name": "Paul J. Briscoe, Conservative",
+        "party": "O",
+        "votes": 6747
+      },
+      {
+        "name": "Blank",
+        "party": "O",
+        "votes": 24718
+      },
+      {
+        "name": "Scattering",
+        "party": "O",
+        "votes": 4048
+      },
+      {
+        "name": "11. Nicole Malliotakis, Republican",
+        "party": "R",
+        "votes": 167099
+      },
+      {
+        "name": "Andrea S. Morse, Democrat",
+        "party": "D",
+        "votes": 93586
+      },
+      {
+        "name": "Blank",
+        "party": "O",
+        "votes": 12861
+      },
+      {
+        "name": "Scattering",
+        "party": "O",
+        "votes": 1043
+      },
+      {
+        "name": "12. Michael K. Zumbluskas, Republican",
+        "party": "R",
+        "votes": 62989
+      },
+      {
+        "name": "Jerrold Nadler, Democrat",
+        "party": "D",
+        "votes": 260165
+      },
+      {
+        "name": "Blank",
+        "party": "O",
+        "votes": 17949
+      },
+      {
+        "name": "Scattering",
+        "party": "O",
+        "votes": 866
+      },
+      {
+        "name": "13. Ruben D. Vargas, Republican",
+        "party": "R",
+        "votes": 35822
+      },
+      {
+        "name": "Adriano Espaillat, Democrat",
+        "party": "D",
+        "votes": 181800
+      },
+      {
+        "name": "Blank",
+        "party": "O",
+        "votes": 22917
+      },
+      {
+        "name": "Scattering",
+        "party": "O",
+        "votes": 1351
+      },
+      {
+        "name": "14. Tina Forte, Republican",
+        "party": "R",
+        "votes": 59078
+      },
+      {
+        "name": "Alexandria Ocasio-Cortez, Democrat",
+        "party": "D",
+        "votes": 132714
+      },
+      {
+        "name": "Blank",
+        "party": "O",
+        "votes": 12366
+      },
+      {
+        "name": "Scattering",
+        "party": "O",
+        "votes": 759
+      },
+      {
+        "name": "15. Gonzalo Duran, Republican",
+        "party": "R",
+        "votes": 36010
+      },
+      {
+        "name": "Ritchie Torres, Democrat",
+        "party": "D",
+        "votes": 130392
+      },
+      {
+        "name": "Jose Vega, LaRouche",
+        "party": "O",
+        "votes": 4086
+      },
+      {
+        "name": "Blank",
+        "party": "O",
+        "votes": 17450
+      },
+      {
+        "name": "Scattering",
+        "party": "O",
+        "votes": 607
+      },
+      {
+        "name": "16. Miriam Levitt Flisser, Republican",
+        "party": "R",
+        "votes": 86408
+      },
+      {
+        "name": "George S. Latimer, Democrat",
+        "party": "D",
+        "votes": 217668
+      },
+      {
+        "name": "Blank",
+        "party": "O",
+        "votes": 26008
+      },
+      {
+        "name": "Scattering",
+        "party": "O",
+        "votes": 1003
+      },
+      {
+        "name": "17. Michael Lawler, Republican",
+        "party": "R",
+        "votes": 197845
+      },
+      {
+        "name": "Mondaire L. Jones, Democrat",
+        "party": "D",
+        "votes": 173899
+      },
+      {
+        "name": "Anthony Frascone, Working Families",
+        "party": "O",
+        "votes": 7530
+      },
+      {
+        "name": "Blank",
+        "party": "O",
+        "votes": 13917
+      },
+      {
+        "name": "Void",
+        "party": "O",
+        "votes": 535
+      },
+      {
+        "name": "Scattering",
+        "party": "O",
+        "votes": 234
+      },
+      {
+        "name": "18. Alison Esposito, Republican",
+        "party": "R",
+        "votes": 155129
+      },
+      {
+        "name": "Patrick Ryan, Democrat",
+        "party": "D",
+        "votes": 207106
+      },
+      {
+        "name": "Blank",
+        "party": "O",
+        "votes": 13490
+      },
+      {
+        "name": "Void",
+        "party": "O",
+        "votes": 289
+      },
+      {
+        "name": "Scattering",
+        "party": "O",
+        "votes": 274
+      },
+      {
+        "name": "19. Marcus J. Molinaro, Republican",
+        "party": "R",
+        "votes": 184290
+      },
+      {
+        "name": "Josh Riley, Democrat",
+        "party": "D",
+        "votes": 192647
+      },
+      {
+        "name": "Blank",
+        "party": "O",
+        "votes": 11862
+      },
+      {
+        "name": "Scattering",
+        "party": "O",
+        "votes": 406
+      },
+      {
+        "name": "Void",
+        "party": "O",
+        "votes": 121
+      },
+      {
+        "name": "20. Kevin M. Waltz, Republican",
+        "party": "R",
+        "votes": 141151
+      },
+      {
+        "name": "Paul Tonko, Democrat",
+        "party": "D",
+        "votes": 221997
+      },
+      {
+        "name": "Blank",
+        "party": "O",
+        "votes": 14140
+      },
+      {
+        "name": "Scattering",
+        "party": "O",
+        "votes": 297
+      },
+      {
+        "name": "Void",
+        "party": "O",
+        "votes": 163
+      },
+      {
+        "name": "21. Elise M. Stefanik, Republican",
+        "party": "R",
+        "votes": 215996
+      },
+      {
+        "name": "Paula Collins, Democrat",
+        "party": "D",
+        "votes": 132447
+      },
+      {
+        "name": "Blank",
+        "party": "O",
+        "votes": 11688
+      },
+      {
+        "name": "Scattering",
+        "party": "O",
+        "votes": 197
+      },
+      {
+        "name": "Void",
+        "party": "O",
+        "votes": 130
+      },
+      {
+        "name": "22. Brandon Williams, Republican",
+        "party": "R",
+        "votes": 161939
+      },
+      {
+        "name": "John W. Mannion, Democrat",
+        "party": "D",
+        "votes": 194450
+      },
+      {
+        "name": "Blank",
+        "party": "O",
+        "votes": 10310
+      },
+      {
+        "name": "Scattering",
+        "party": "O",
+        "votes": 403
+      },
+      {
+        "name": "Void",
+        "party": "O",
+        "votes": 161
+      },
+      {
+        "name": "23. Nicholas A. Langworthy, Republican",
+        "party": "R",
+        "votes": 246969
+      },
+      {
+        "name": "Thomas A. Carle, Democrat",
+        "party": "D",
+        "votes": 128397
+      },
+      {
+        "name": "Blank",
+        "party": "O",
+        "votes": 21881
+      },
+      {
+        "name": "Scattering",
+        "party": "O",
+        "votes": 228
+      },
+      {
+        "name": "Void",
+        "party": "O",
+        "votes": 146
+      },
+      {
+        "name": "24. Claudia Tenney, Republican",
+        "party": "R",
+        "votes": 235867
+      },
+      {
+        "name": "David Wagenhauser, Democrat",
+        "party": "D",
+        "votes": 123317
+      },
+      {
+        "name": "Blank",
+        "party": "O",
+        "votes": 19371
+      },
+      {
+        "name": "Scattering",
+        "party": "O",
+        "votes": 223
+      },
+      {
+        "name": "Void",
+        "party": "O",
+        "votes": 133
+      },
+      {
+        "name": "25. Gregg A. Sadwick, Republican",
+        "party": "R",
+        "votes": 141195
+      },
+      {
+        "name": "Joseph D. Morelle, Democrat",
+        "party": "D",
+        "votes": 219175
+      },
+      {
+        "name": "Blank",
+        "party": "O",
+        "votes": 18899
+      },
+      {
+        "name": "Scattering",
+        "party": "O",
+        "votes": 263
+      },
+      {
+        "name": "Void",
+        "party": "O",
+        "votes": 84
+      },
+      {
+        "name": "26. Anthony G. Marecki, Republican",
+        "party": "R",
+        "votes": 111772
+      },
+      {
+        "name": "Timothy M. Kennedy, Democrat",
+        "party": "D",
+        "votes": 209131
+      },
+      {
+        "name": "Blank",
+        "party": "O",
+        "votes": 20903
+      },
+      {
+        "name": "Scattering",
+        "party": "O",
+        "votes": 401
+      },
+      {
+        "name": "Void",
+        "party": "O",
+        "votes": 197
+      }
+    ]
+  },
+  "NC": {
+    "name": "North Carolina",
+    "senate": [],
+    "house": [
+      {
+        "name": "1. Laurie Buckhout, Republican",
+        "party": "R",
+        "votes": 180034
+      },
+      {
+        "name": "Donald G. Davis, Democrat",
+        "party": "D",
+        "votes": 186341
+      },
+      {
+        "name": "Tom Bailey, Libertarian",
+        "party": "O",
+        "votes": 9949
+      },
+      {
+        "name": "2. Alan D. Swain, Republican",
+        "party": "R",
+        "votes": 128164
+      },
+      {
+        "name": "Deborah K. Ross, Democrat",
+        "party": "D",
+        "votes": 268662
+      },
+      {
+        "name": "Michael Dublin, Green",
+        "party": "O",
+        "votes": 8691
+      },
+      {
+        "name": "3. Gregory F. Murphy, Republican",
+        "party": "R",
+        "votes": 248276
+      },
+      {
+        "name": "Gheorghe Cormos, Libertarian",
+        "party": "O",
+        "votes": 72565
+      },
+      {
+        "name": "4. Eric Blankenburg, Republican",
+        "party": "R",
+        "votes": 112084
+      },
+      {
+        "name": "Valerie P. Foushee, Democrat",
+        "party": "D",
+        "votes": 308064
+      },
+      {
+        "name": "Guy Meilleur, Libertarian",
+        "party": "O",
+        "votes": 8632
+      },
+      {
+        "name": "5. Virginia Foxx, Republican",
+        "party": "R",
+        "votes": 238304
+      },
+      {
+        "name": "Chuck Hubbard, Democrat",
+        "party": "D",
+        "votes": 162390
+      },
+      {
+        "name": "6. Addison McDowell, Republican",
+        "party": "R",
+        "votes": 233303
+      },
+      {
+        "name": "Kevin E. Hayes, Constitution",
+        "party": "O",
+        "votes": 104017
+      },
+      {
+        "name": "7. David Rouzer, Republican",
+        "party": "R",
+        "votes": 254022
+      },
+      {
+        "name": "Marlando D. Pridgen, Democrat",
+        "party": "D",
+        "votes": 179512
+      },
+      {
+        "name": "8. Mark Harris, Republican",
+        "party": "R",
+        "votes": 238640
+      },
+      {
+        "name": "Justin E. Dues, Democrat",
+        "party": "D",
+        "votes": 161709
+      },
+      {
+        "name": "9. Richard Hudson, Republican",
+        "party": "R",
+        "votes": 210042
+      },
+      {
+        "name": "Nigel William Bristow, Democrat",
+        "party": "D",
+        "votes": 140852
+      },
+      {
+        "name": "Shelane Etchison, Unaffiliated",
+        "party": "O",
+        "votes": 22183
+      },
+      {
+        "name": "10. Pat Harrigan, Republican",
+        "party": "R",
+        "votes": 233814
+      },
+      {
+        "name": "Ralph R. Scott, Jr., Democrat",
+        "party": "D",
+        "votes": 155383
+      },
+      {
+        "name": "Steven Feldman, Libertarian",
+        "party": "O",
+        "votes": 11614
+      },
+      {
+        "name": "Todd Helm, Constitution",
+        "party": "O",
+        "votes": 5884
+      },
+      {
+        "name": "11. Chuck Edwards, Republican",
+        "party": "R",
+        "votes": 245546
+      },
+      {
+        "name": "Caleb Rudow, Democrat",
+        "party": "D",
+        "votes": 186977
+      },
+      {
+        "name": "12. Addul Ali, Republican",
+        "party": "R",
+        "votes": 91128
+      },
+      {
+        "name": "Alma S. Adams, Democrat",
+        "party": "D",
+        "votes": 259627
+      },
+      {
+        "name": "13. Brad Knott, Republican",
+        "party": "R",
+        "votes": 243655
+      },
+      {
+        "name": "Frank Pierce, Democrat",
+        "party": "D",
+        "votes": 171835
+      },
+      {
+        "name": "14. Tim Moore, Republican",
+        "party": "R",
+        "votes": 232987
+      },
+      {
+        "name": "Pam Genant, Democrat",
+        "party": "D",
+        "votes": 168269
+      }
+    ]
+  },
+  "ND": {
+    "name": "North Dakota",
+    "senate": [
+      {
+        "name": "Kevin Cramer, Republican",
+        "party": "R",
+        "votes": 241569
+      },
+      {
+        "name": "Katrina Christiansen, Democratic-Nonpartisan League",
+        "party": "D",
+        "votes": 121602
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 1156
+      }
+    ],
+    "house": [
+      {
+        "name": "Julie Fedorchak, Republican",
+        "party": "R",
+        "votes": 249101
+      },
+      {
+        "name": "Trygve Hammer, Democratic-Nonpartisan League",
+        "party": "D",
+        "votes": 109231
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 1455
+      }
+    ]
+  },
+  "OH": {
+    "name": "Ohio",
+    "senate": [
+      {
+        "name": "Bernie Moreno, Republican",
+        "party": "R",
+        "votes": 2857383
+      },
+      {
+        "name": "Sherrod Brown, Democrat",
+        "party": "D",
+        "votes": 2650949
+      },
+      {
+        "name": "Don Kissick, Libertarian",
+        "party": "O",
+        "votes": 195648
+      },
+      {
+        "name": "Tariq K. Shabazz, Write-in",
+        "party": "O",
+        "votes": 524
+      },
+      {
+        "name": "Stephen Faris, Write-in",
+        "party": "O",
+        "votes": 84
+      },
+      {
+        "name": "Nathan Russell, Write-in",
+        "party": "O",
+        "votes": 19
+      },
+      {
+        "name": "David Allen Pastorius, Write-in",
+        "party": "O",
+        "votes": 13
+      }
+    ],
+    "house": [
+      {
+        "name": "1. Orlando Sonza, Republican",
+        "party": "R",
+        "votes": 177993
+      },
+      {
+        "name": "Greg Landsman, Democrat",
+        "party": "D",
+        "votes": 213916
+      },
+      {
+        "name": "2. David J. Taylor, Republican",
+        "party": "R",
+        "votes": 268211
+      },
+      {
+        "name": "Samantha Meadows, Democrat",
+        "party": "D",
+        "votes": 96401
+      },
+      {
+        "name": "Alexander David Schrank, Write-in",
+        "party": "O",
+        "votes": 4
+      },
+      {
+        "name": "3. Michael Young, Republican",
+        "party": "R",
+        "votes": 100355
+      },
+      {
+        "name": "Joyce Beatty, Democrat",
+        "party": "D",
+        "votes": 242632
+      },
+      {
+        "name": "4. Jim Jordan, Republican",
+        "party": "R",
+        "votes": 273297
+      },
+      {
+        "name": "Tamie Wilson, Democrat",
+        "party": "D",
+        "votes": 125905
+      },
+      {
+        "name": "5. Robert E. Latta, Republican",
+        "party": "R",
+        "votes": 255633
+      },
+      {
+        "name": "Keith Mundy, Democrat",
+        "party": "D",
+        "votes": 123024
+      },
+      {
+        "name": "6. Michael A. Rulli, Republican",
+        "party": "R",
+        "votes": 245860
+      },
+      {
+        "name": "Michael L. Kripchak, Democrat",
+        "party": "D",
+        "votes": 122515
+      },
+      {
+        "name": "7. Max L. Miller, Republican",
+        "party": "R",
+        "votes": 204494
+      },
+      {
+        "name": "Matt Diemer, Democrat",
+        "party": "D",
+        "votes": 144613
+      },
+      {
+        "name": "Dennis Kucinich, Independent",
+        "party": "O",
+        "votes": 51264
+      },
+      {
+        "name": "8. Warren Davidson, Republican",
+        "party": "R",
+        "votes": 237503
+      },
+      {
+        "name": "Vanessa Enoch, Democrat",
+        "party": "D",
+        "votes": 140625
+      },
+      {
+        "name": "9. Derek Merrin, Republican",
+        "party": "R",
+        "votes": 178716
+      },
+      {
+        "name": "Marcy Kaptur, Democrat",
+        "party": "D",
+        "votes": 181098
+      },
+      {
+        "name": "Tom Pruss, Libertarian",
+        "party": "O",
+        "votes": 15381
+      },
+      {
+        "name": "10. Michael R. Turner, Republican",
+        "party": "R",
+        "votes": 213695
+      },
+      {
+        "name": "Amy Cox, Democrat",
+        "party": "D",
+        "votes": 145420
+      },
+      {
+        "name": "Michael Harbaugh, Independent",
+        "party": "O",
+        "votes": 11631
+      },
+      {
+        "name": "11. Alan Rapoport, Republican",
+        "party": "R",
+        "votes": 59394
+      },
+      {
+        "name": "Shontel M. Brown, Democrat",
+        "party": "D",
+        "votes": 236883
+      },
+      {
+        "name": "Sean Freeman, Independent",
+        "party": "O",
+        "votes": 6107
+      },
+      {
+        "name": "Tracy Deforde, Write-in",
+        "party": "O",
+        "votes": 27
+      },
+      {
+        "name": "Christopher Zelonish, Write-in",
+        "party": "O",
+        "votes": 2
+      },
+      {
+        "name": "12. Troy Balderson, Republican",
+        "party": "R",
+        "votes": 260450
+      },
+      {
+        "name": "Jerrad Christian, Democrat",
+        "party": "D",
+        "votes": 119738
+      },
+      {
+        "name": "13. Kevin Coughlin, Republican",
+        "party": "R",
+        "votes": 188924
+      },
+      {
+        "name": "Emilia Strong Sykes, Democrat",
+        "party": "D",
+        "votes": 197466
+      },
+      {
+        "name": "14. David P. Joyce, Republican",
+        "party": "R",
+        "votes": 243427
+      },
+      {
+        "name": "Brian Bob Kenderes, Democrat",
+        "party": "D",
+        "votes": 140431
+      },
+      {
+        "name": "15. Mike Carey, Republican",
+        "party": "R",
+        "votes": 196338
+      },
+      {
+        "name": "Adam Miller, Democrat",
+        "party": "D",
+        "votes": 151411
+      }
+    ]
+  },
+  "OK": {
+    "name": "Oklahoma",
+    "senate": [],
+    "house": [
+      {
+        "name": "1. Kevin Hern, Republican",
+        "party": "R",
+        "votes": 188832
+      },
+      {
+        "name": "Dennis Baker, Democrat",
+        "party": "D",
+        "votes": 107903
+      },
+      {
+        "name": "Mark David Garcia Sanders, Independent",
+        "party": "O",
+        "votes": 15766
+      },
+      {
+        "name": "2. Josh Brecheen, Republican",
+        "party": "R",
+        "votes": 238123
+      },
+      {
+        "name": "Brandon Wade, Democrat",
+        "party": "D",
+        "votes": 68841
+      },
+      {
+        "name": "Ronnie Hopkins, Independent",
+        "party": "O",
+        "votes": 14061
+      },
+      {
+        "name": "4. Tom Cole, Republican",
+        "party": "R",
+        "votes": 199962
+      },
+      {
+        "name": "Mary Brannon, Democrat",
+        "party": "D",
+        "votes": 86641
+      },
+      {
+        "name": "James Stacy, Independent",
+        "party": "O",
+        "votes": 19870
+      },
+      {
+        "name": "5. Stephanie I. Bice, Republican",
+        "party": "R",
+        "votes": 207636
+      },
+      {
+        "name": "Madison Horn, Democrat",
+        "party": "D",
+        "votes": 134471
+      }
+    ]
+  },
+  "OR": {
+    "name": "Oregon",
+    "senate": [],
+    "house": [
+      {
+        "name": "1. Bob Todd, Republican",
+        "party": "R",
+        "votes": 98908
+      },
+      {
+        "name": "Suzanne Bonamici, Democrat",
+        "party": "D",
+        "votes": 241556
+      },
+      {
+        "name": "Joe Christman, Libertarian",
+        "party": "O",
+        "votes": 10840
+      },
+      {
+        "name": "Miscellaneous",
+        "party": "O",
+        "votes": 687
+      },
+      {
+        "name": "2. Cliff Bentz, Republican",
+        "party": "R",
+        "votes": 224601
+      },
+      {
+        "name": "Dan Ruby, Democrat",
+        "party": "D",
+        "votes": 115337
+      },
+      {
+        "name": "Michael Kurt Stettler, Constitution",
+        "party": "O",
+        "votes": 11255
+      },
+      {
+        "name": "Miscellaneous",
+        "party": "O",
+        "votes": 296
+      },
+      {
+        "name": "3. Joanna Harbour, Republican",
+        "party": "R",
+        "votes": 84344
+      },
+      {
+        "name": "Maxine E. Dexter, Democrat",
+        "party": "D",
+        "votes": 226405
+      },
+      {
+        "name": "David W. Walker, Progressive, Independent",
+        "party": "O",
+        "votes": 10245
+      },
+      {
+        "name": "Joe Meyer, Pacific Green",
+        "party": "O",
+        "votes": 10106
+      },
+      {
+        "name": "David K. Frosch, Constitution",
+        "party": "O",
+        "votes": 2459
+      },
+      {
+        "name": "Miscellaneous",
+        "party": "O",
+        "votes": 810
+      },
+      {
+        "name": "4. Monique DeSpain, Republican",
+        "party": "R",
+        "votes": 166430
+      },
+      {
+        "name": "Val T. Hoyle, Democrat",
+        "party": "D",
+        "votes": 195862
+      },
+      {
+        "name": "Justin Filip, Pacific Green",
+        "party": "O",
+        "votes": 10315
+      },
+      {
+        "name": "Dan Bahlen, Libertarian",
+        "party": "O",
+        "votes": 5704
+      },
+      {
+        "name": "Miscellaneous",
+        "party": "O",
+        "votes": 454
+      },
+      {
+        "name": "5. Lori Chavez-DeRemer, Republican",
+        "party": "R",
+        "votes": 180420
+      },
+      {
+        "name": "Janelle S. Bynum, Democrat",
+        "party": "D",
+        "votes": 191365
+      },
+      {
+        "name": "Brett Smith, Independent",
+        "party": "O",
+        "votes": 18665
+      },
+      {
+        "name": "Sonja Feintech, Libertarian",
+        "party": "O",
+        "votes": 6193
+      },
+      {
+        "name": "Andrea Thorn Townsend, Pacific Green",
+        "party": "O",
+        "votes": 4155
+      },
+      {
+        "name": "Miscellaneous",
+        "party": "O",
+        "votes": 495
+      },
+      {
+        "name": "6. Mike Erickson, Republican",
+        "party": "R",
+        "votes": 157634
+      },
+      {
+        "name": "Andrea Salinas, Democrat",
+        "party": "D",
+        "votes": 180869
+      },
+      {
+        "name": "Miscellaneous",
+        "party": "O",
+        "votes": 562
+      }
+    ]
+  },
+  "PA": {
+    "name": "Pennsylvania",
+    "senate": [
+      {
+        "name": "Dave McCormick, Republican",
+        "party": "R",
+        "votes": 3399295
+      },
+      {
+        "name": "Robert P. Casey, Jr., Democrat",
+        "party": "D",
+        "votes": 3384180
+      },
+      {
+        "name": "John C. Thomas, Libertarian",
+        "party": "O",
+        "votes": 89653
+      },
+      {
+        "name": "Leila Hazou, Green",
+        "party": "O",
+        "votes": 66388
+      },
+      {
+        "name": "Marty Selker, Constitution",
+        "party": "O",
+        "votes": 23621
+      }
+    ],
+    "house": [
+      {
+        "name": "1. Brian K. Fitzpatrick, Republican",
+        "party": "R",
+        "votes": 261390
+      },
+      {
+        "name": "Ashley Ehasz, Democrat",
+        "party": "D",
+        "votes": 202042
+      },
+      {
+        "name": "2. Aaron Bashir, Republican",
+        "party": "R",
+        "votes": 77355
+      },
+      {
+        "name": "Brendan F. Boyle, Democrat",
+        "party": "D",
+        "votes": 193691
+      },
+      {
+        "name": "3. Dwight Evans, Democrat",
+        "party": "D",
+        "votes": 340223
+      },
+      {
+        "name": "4. David Winkler, Republican",
+        "party": "R",
+        "votes": 186457
+      },
+      {
+        "name": "Madeleine Dean, Democrat",
+        "party": "D",
+        "votes": 269066
+      },
+      {
+        "name": "5. Alfeia Goodwin, Republican",
+        "party": "R",
+        "votes": 142355
+      },
+      {
+        "name": "Mary Gay Scanlon, Democrat",
+        "party": "D",
+        "votes": 267754
+      },
+      {
+        "name": "6. Neil Young, Republican",
+        "party": "R",
+        "votes": 183638
+      },
+      {
+        "name": "Chrissy Houlahan, Democrat",
+        "party": "D",
+        "votes": 235625
+      },
+      {
+        "name": "7. Ryan E. Mackenzie, Republican",
+        "party": "R",
+        "votes": 203688
+      },
+      {
+        "name": "Susan Wild, Democrat",
+        "party": "D",
+        "votes": 199626
+      },
+      {
+        "name": "8. Rob Bresnahan, Jr., Republican",
+        "party": "R",
+        "votes": 195663
+      },
+      {
+        "name": "Matt Cartwright, Democrat",
+        "party": "D",
+        "votes": 189411
+      },
+      {
+        "name": "9. Daniel Meuser, Republican",
+        "party": "R",
+        "votes": 276212
+      },
+      {
+        "name": "Amanda Waldman, Democrat",
+        "party": "D",
+        "votes": 115523
+      },
+      {
+        "name": "10. Scott Perry, Republican",
+        "party": "R",
+        "votes": 205567
+      },
+      {
+        "name": "Janelle Stelson, Democrat",
+        "party": "D",
+        "votes": 200434
+      },
+      {
+        "name": "11. Lloyd Smucker, Republican",
+        "party": "R",
+        "votes": 253672
+      },
+      {
+        "name": "Jim Atkinson, Democrat",
+        "party": "D",
+        "votes": 149641
+      },
+      {
+        "name": "12. James Hayes, Republican",
+        "party": "R",
+        "votes": 181426
+      },
+      {
+        "name": "Summer L. Lee, Democrat",
+        "party": "D",
+        "votes": 234802
+      },
+      {
+        "name": "13. John Joyce, Republican",
+        "party": "R",
+        "votes": 301460
+      },
+      {
+        "name": "Beth Farnham, Democrat",
+        "party": "D",
+        "votes": 104823
+      },
+      {
+        "name": "14. Guy Reschenthaler, Republican",
+        "party": "R",
+        "votes": 268380
+      },
+      {
+        "name": "Chris Dziados, Democrat",
+        "party": "D",
+        "votes": 134755
+      },
+      {
+        "name": "15. Glenn Thompson, Republican",
+        "party": "R",
+        "votes": 279027
+      },
+      {
+        "name": "Zach Womer, Democrat",
+        "party": "D",
+        "votes": 111408
+      },
+      {
+        "name": "16. Mike Kelly, Republican",
+        "party": "R",
+        "votes": 256923
+      },
+      {
+        "name": "Preston Nouri, Democrat",
+        "party": "D",
+        "votes": 146709
+      },
+      {
+        "name": "17. Rob Mercuri, Republican",
+        "party": "R",
+        "votes": 207900
+      },
+      {
+        "name": "Christopher R. Deluzio, Democrat",
+        "party": "D",
+        "votes": 242838
+      }
+    ]
+  },
+  "RI": {
+    "name": "Rhode Island",
+    "senate": [
+      {
+        "name": "Patricia L. Morgan, Republican",
+        "party": "R",
+        "votes": 196039
+      },
+      {
+        "name": "Sheldon Whitehouse, Democrat",
+        "party": "D",
+        "votes": 294665
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 1244
+      }
+    ],
+    "house": [
+      {
+        "name": "1. Allen Rodney Waters, Republican",
+        "party": "R",
+        "votes": 70742
+      },
+      {
+        "name": "Gabe Amo, Democrat",
+        "party": "D",
+        "votes": 139352
+      },
+      {
+        "name": "C. D. Reynolds, Independent",
+        "party": "O",
+        "votes": 10463
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 561
+      },
+      {
+        "name": "2. Stephen Joseph Corvi, Republican",
+        "party": "R",
+        "votes": 109381
+      },
+      {
+        "name": "Seth Magaziner, Democrat",
+        "party": "D",
+        "votes": 153439
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 660
+      }
+    ]
+  },
+  "SC": {
+    "name": "South Carolina",
+    "senate": [],
+    "house": [
+      {
+        "name": "1. Nancy Mace, Republican",
+        "party": "R",
+        "votes": 227502
+      },
+      {
+        "name": "Michael B. Moore, Democrat",
+        "party": "D",
+        "votes": 162582
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 693
+      },
+      {
+        "name": "2. Joe Wilson, Republican",
+        "party": "R",
+        "votes": 211514
+      },
+      {
+        "name": "David Robinson II, Democrat",
+        "party": "D",
+        "votes": 142985
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 786
+      },
+      {
+        "name": "3. Sheri Biggs, Republican",
+        "party": "R",
+        "votes": 248451
+      },
+      {
+        "name": "Bryon L. Best, Democrat",
+        "party": "D",
+        "votes": 87735
+      },
+      {
+        "name": "Mike Bedenbaugh, Alliance",
+        "party": "O",
+        "votes": 9918
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 609
+      },
+      {
+        "name": "4. William R. Timmons IV, Republican",
+        "party": "R",
+        "votes": 206916
+      },
+      {
+        "name": "Kathryn Harvey, Democrat",
+        "party": "D",
+        "votes": 128976
+      },
+      {
+        "name": "Mark Hackett, Constitution",
+        "party": "O",
+        "votes": 9779
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 743
+      },
+      {
+        "name": "5. Ralph Norman, Republican",
+        "party": "R",
+        "votes": 228260
+      },
+      {
+        "name": "Evangeline Hundley, Democrat",
+        "party": "D",
+        "votes": 130592
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 557
+      },
+      {
+        "name": "6. Duke Buckner, Republican",
+        "party": "R",
+        "votes": 112360
+      },
+      {
+        "name": "James E. Clyburn, Democrat",
+        "party": "D",
+        "votes": 182056
+      },
+      {
+        "name": "Michael Simpson, Libertarian",
+        "party": "O",
+        "votes": 5279
+      },
+      {
+        "name": "Gregg Marcel Dixon, United Citizens",
+        "party": "O",
+        "votes": 4927
+      },
+      {
+        "name": "Joseph Oddo, Alliance",
+        "party": "O",
+        "votes": 1056
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 299
+      },
+      {
+        "name": "7. Russell Fry, Republican",
+        "party": "R",
+        "votes": 240326
+      },
+      {
+        "name": "Mal Hyman, Democrat",
+        "party": "D",
+        "votes": 129522
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 481
+      }
+    ]
+  },
+  "SD": {
+    "name": "South Dakota",
+    "senate": [],
+    "house": [
+      {
+        "name": "Dusty Johnson, Republican",
+        "party": "R",
+        "votes": 303630
+      },
+      {
+        "name": "Sheryl Johnson, Democrat",
+        "party": "D",
+        "votes": 117818
+      }
+    ]
+  },
+  "TN": {
+    "name": "Tennessee",
+    "senate": [
+      {
+        "name": "Marsha Blackburn, Republican",
+        "party": "R",
+        "votes": 1918743
+      },
+      {
+        "name": "Gloria Johnson, Democrat",
+        "party": "D",
+        "votes": 1027461
+      },
+      {
+        "name": "Tharon Chandler, Independent",
+        "party": "O",
+        "votes": 28444
+      },
+      {
+        "name": "Pamela Jeanine \u201cP.\u201d Moses, Independent",
+        "party": "O",
+        "votes": 24682
+      },
+      {
+        "name": "Hastina Robinson, Independent",
+        "party": "O",
+        "votes": 8278
+      }
+    ],
+    "house": [
+      {
+        "name": "1. Diana Harshbarger, Republican",
+        "party": "R",
+        "votes": 257825
+      },
+      {
+        "name": "Kevin Jenkins, Democrat",
+        "party": "D",
+        "votes": 64021
+      },
+      {
+        "name": "Richard G. Baker, Independent",
+        "party": "O",
+        "votes": 5714
+      },
+      {
+        "name": "Levi Brake, Independent",
+        "party": "O",
+        "votes": 2639
+      },
+      {
+        "name": "2. Tim Burchett, Republican",
+        "party": "R",
+        "votes": 250782
+      },
+      {
+        "name": "Jane George, Democrat",
+        "party": "D",
+        "votes": 111316
+      },
+      {
+        "name": "3. Charles J. \u201cChuck\u201d Fleischmann, Republican",
+        "party": "R",
+        "votes": 236519
+      },
+      {
+        "name": "Jack Allen, Democrat",
+        "party": "D",
+        "votes": 102841
+      },
+      {
+        "name": "Stephen \u201cScooter\u201d King, Independent",
+        "party": "O",
+        "votes": 5848
+      },
+      {
+        "name": "Jean Howard-Hill, Independent",
+        "party": "O",
+        "votes": 5120
+      },
+      {
+        "name": "4. Scott DesJarlais, Republican",
+        "party": "R",
+        "votes": 219133
+      },
+      {
+        "name": "Victoria Isabel Broderick, Democrat",
+        "party": "D",
+        "votes": 83832
+      },
+      {
+        "name": "Keith Nolan, Independent",
+        "party": "O",
+        "votes": 5601
+      },
+      {
+        "name": "Earnest Ensley, Independent",
+        "party": "O",
+        "votes": 4689
+      },
+      {
+        "name": "5. Andrew Ogles, Republican",
+        "party": "R",
+        "votes": 205075
+      },
+      {
+        "name": "Maryam Abolfazli, Democrat",
+        "party": "D",
+        "votes": 142387
+      },
+      {
+        "name": "Jim Larkin, Independent",
+        "party": "O",
+        "votes": 7607
+      },
+      {
+        "name": "Bob Titley, Independent",
+        "party": "O",
+        "votes": 3065
+      },
+      {
+        "name": "Yomi \u201cFapas\u201d Faparusi, Independent",
+        "party": "O",
+        "votes": 2580
+      },
+      {
+        "name": "6. John W. Rose, Republican",
+        "party": "R",
+        "votes": 225543
+      },
+      {
+        "name": "Lore Bergman, Democrat",
+        "party": "D",
+        "votes": 106144
+      },
+      {
+        "name": "7. Mark E. Green, Republican",
+        "party": "R",
+        "votes": 191992
+      },
+      {
+        "name": "Megan Barry, Democrat",
+        "party": "D",
+        "votes": 122764
+      },
+      {
+        "name": "Shaun Greene, Independent",
+        "party": "O",
+        "votes": 7900
+      },
+      {
+        "name": "8. David Kustoff, Republican",
+        "party": "R",
+        "votes": 240411
+      },
+      {
+        "name": "Sarah Freeman, Democrat",
+        "party": "D",
+        "votes": 85043
+      },
+      {
+        "name": "James Hart, Independent",
+        "party": "O",
+        "votes": 6861
+      },
+      {
+        "name": "9. Charlotte Bergmann, Republican",
+        "party": "R",
+        "votes": 57411
+      },
+      {
+        "name": "Steve Cohen, Democrat",
+        "party": "D",
+        "votes": 159522
+      },
+      {
+        "name": "Wendell Wells, Independent",
+        "party": "O",
+        "votes": 3708
+      },
+      {
+        "name": "Dennis Clark, Independent",
+        "party": "O",
+        "votes": 3062
+      }
+    ]
+  },
+  "TX": {
+    "name": "Texas",
+    "senate": [
+      {
+        "name": "Ted Cruz, Republican",
+        "party": "R",
+        "votes": 5990741
+      },
+      {
+        "name": "Colin Z. Allred, Democrat",
+        "party": "D",
+        "votes": 5031249
+      },
+      {
+        "name": "Ted Brown, Libertarian",
+        "party": "O",
+        "votes": 267039
+      },
+      {
+        "name": "Analisa Roche, Write-in",
+        "party": "O",
+        "votes": 1906
+      },
+      {
+        "name": "Tracy Andrus, Write-in",
+        "party": "O",
+        "votes": 919
+      }
+    ],
+    "house": [
+      {
+        "name": "1. Nathaniel Moran, Republican",
+        "party": "R",
+        "votes": 258523
+      },
+      {
+        "name": "2. Dan Crenshaw, Republican",
+        "party": "R",
+        "votes": 214631
+      },
+      {
+        "name": "Peter Filler, Democrat",
+        "party": "D",
+        "votes": 112252
+      },
+      {
+        "name": "3. Keith Self, Republican",
+        "party": "R",
+        "votes": 237794
+      },
+      {
+        "name": "Sandeep Srivastava, Democrat",
+        "party": "D",
+        "votes": 142953
+      },
+      {
+        "name": "4. Pat Fallon, Republican",
+        "party": "R",
+        "votes": 241603
+      },
+      {
+        "name": "Simon Cardell, Democrat",
+        "party": "D",
+        "votes": 111696
+      },
+      {
+        "name": "5. Lance Gooden, Republican",
+        "party": "R",
+        "votes": 192185
+      },
+      {
+        "name": "Ruth \u201cTruth\u201d Torres, Democrat",
+        "party": "D",
+        "votes": 107712
+      },
+      {
+        "name": "6. Jake Ellzey, Republican",
+        "party": "R",
+        "votes": 188119
+      },
+      {
+        "name": "John Love III, Democrat",
+        "party": "D",
+        "votes": 98319
+      },
+      {
+        "name": "7. Caroline Kane, Republican",
+        "party": "R",
+        "votes": 94651
+      },
+      {
+        "name": "Lizzie Fletcher, Democrat",
+        "party": "D",
+        "votes": 149820
+      },
+      {
+        "name": "8. Morgan Luttrell, Republican",
+        "party": "R",
+        "votes": 233423
+      },
+      {
+        "name": "Laura Jones, Democrat",
+        "party": "D",
+        "votes": 108754
+      },
+      {
+        "name": "9. Al Green, Democrat",
+        "party": "D",
+        "votes": 184141
+      },
+      {
+        "name": "10. Michael T. McCaul, Republican",
+        "party": "R",
+        "votes": 221229
+      },
+      {
+        "name": "Theresa Boisseau, Democrat",
+        "party": "D",
+        "votes": 118280
+      },
+      {
+        "name": "Jeff Miller, Libertarian",
+        "party": "O",
+        "votes": 8309
+      },
+      {
+        "name": "11. August Pfluger, Republican",
+        "party": "R",
+        "votes": 211975
+      },
+      {
+        "name": "12. Craig Goldman, Republican",
+        "party": "R",
+        "votes": 215564
+      },
+      {
+        "name": "Trey J. Hunt, Democrat",
+        "party": "D",
+        "votes": 124154
+      },
+      {
+        "name": "13. Ronny Jackson, Republican",
+        "party": "R",
+        "votes": 240622
+      },
+      {
+        "name": "14. Randy K. Weber, Sr., Republican",
+        "party": "R",
+        "votes": 210320
+      },
+      {
+        "name": "Rhonda Hart, Democrat",
+        "party": "D",
+        "votes": 95875
+      },
+      {
+        "name": "15. Monica De La Cruz, Republican",
+        "party": "R",
+        "votes": 127804
+      },
+      {
+        "name": "Michelle Vallejo, Democrat",
+        "party": "D",
+        "votes": 95965
+      },
+      {
+        "name": "16. Irene Armendariz Jackson, Republican",
+        "party": "R",
+        "votes": 89281
+      },
+      {
+        "name": "Veronica Escobar, Democrat",
+        "party": "D",
+        "votes": 131391
+      },
+      {
+        "name": "D. \u201cDMB\u201d Montanez, Write-in",
+        "party": "O",
+        "votes": 156
+      },
+      {
+        "name": "17. Pete Sessions, Republican",
+        "party": "R",
+        "votes": 193101
+      },
+      {
+        "name": "Mark Lorenzen, Democrat",
+        "party": "D",
+        "votes": 97941
+      },
+      {
+        "name": "18. Lana Centonze, Republican",
+        "party": "R",
+        "votes": 66810
+      },
+      {
+        "name": "Sylvester Turner, Democrat",
+        "party": "D",
+        "votes": 151834
+      },
+      {
+        "name": "Vince Duncan, Write-in",
+        "party": "O",
+        "votes": 62
+      },
+      {
+        "name": "Kevin Dural, Write-in",
+        "party": "O",
+        "votes": 14
+      },
+      {
+        "name": "19. Jodey C. Arrington, Republican",
+        "party": "R",
+        "votes": 214950
+      },
+      {
+        "name": "Nathan Lewis, Independent",
+        "party": "O",
+        "votes": 27461
+      },
+      {
+        "name": "Bernard Johnson, Libertarian",
+        "party": "O",
+        "votes": 23964
+      },
+      {
+        "name": "20. Joaquin Castro, Democrat",
+        "party": "D",
+        "votes": 157890
+      },
+      {
+        "name": "21. Chip Roy, Republican",
+        "party": "R",
+        "votes": 263744
+      },
+      {
+        "name": "Kristin Hook, Democrat",
+        "party": "D",
+        "votes": 153765
+      },
+      {
+        "name": "Bob King, Libertarian",
+        "party": "O",
+        "votes": 8914
+      },
+      {
+        "name": "22. Troy E. Nehls, Republican",
+        "party": "R",
+        "votes": 209285
+      },
+      {
+        "name": "Marquette Greene-Scott, Democrat",
+        "party": "D",
+        "votes": 127604
+      },
+      {
+        "name": "23. Tony Gonzales, Republican",
+        "party": "R",
+        "votes": 180720
+      },
+      {
+        "name": "S. Limon, Democrat",
+        "party": "D",
+        "votes": 109373
+      },
+      {
+        "name": "24. Beth Van Duyne, Republican",
+        "party": "R",
+        "votes": 227108
+      },
+      {
+        "name": "Sam Eppler, Democrat",
+        "party": "D",
+        "votes": 149518
+      },
+      {
+        "name": "25. Roger Williams, Republican",
+        "party": "R",
+        "votes": 263042
+      },
+      {
+        "name": "Chad Hagg, Write-in",
+        "party": "O",
+        "votes": 1661
+      },
+      {
+        "name": "26. Brandon Gill, Republican",
+        "party": "R",
+        "votes": 241096
+      },
+      {
+        "name": "Ernest R. Lineberger III, Democrat",
+        "party": "D",
+        "votes": 138558
+      },
+      {
+        "name": "Phil Gray, Libertarian",
+        "party": "O",
+        "votes": 8773
+      },
+      {
+        "name": "27. Michael Cloud, Republican",
+        "party": "R",
+        "votes": 183980
+      },
+      {
+        "name": "Tanya Lloyd, Democrat",
+        "party": "D",
+        "votes": 94596
+      },
+      {
+        "name": "28. Jay Furman, Republican",
+        "party": "R",
+        "votes": 112018
+      },
+      {
+        "name": "Henry Cuellar, Democrat",
+        "party": "D",
+        "votes": 125280
+      },
+      {
+        "name": "29. Alan Garza, Republican",
+        "party": "R",
+        "votes": 52830
+      },
+      {
+        "name": "Sylvia R. Garcia, Democrat",
+        "party": "D",
+        "votes": 99379
+      },
+      {
+        "name": "30. Jasmine Crockett, Democrat",
+        "party": "D",
+        "votes": 197650
+      },
+      {
+        "name": "Jrmar \u201cJ J\u201d Jefferson, Libertarian",
+        "party": "O",
+        "votes": 35175
+      },
+      {
+        "name": "31. John R. Carter, Republican",
+        "party": "R",
+        "votes": 229087
+      },
+      {
+        "name": "Stuart Whitlow, Democrat",
+        "party": "D",
+        "votes": 126470
+      },
+      {
+        "name": "32. Darrell Day, Republican",
+        "party": "R",
+        "votes": 85941
+      },
+      {
+        "name": "Julie Johnson, Democrat",
+        "party": "D",
+        "votes": 140536
+      },
+      {
+        "name": "Kevin A. Hale, Libertarian",
+        "party": "O",
+        "votes": 5987
+      },
+      {
+        "name": "33. Patrick David Gillespie, Republican",
+        "party": "R",
+        "votes": 51864
+      },
+      {
+        "name": "Marc A. Veasey, Democrat",
+        "party": "D",
+        "votes": 114289
+      },
+      {
+        "name": "34. Mayra Flores, Republican",
+        "party": "R",
+        "votes": 97603
+      },
+      {
+        "name": "Vicente Gonzalez, Democrat",
+        "party": "D",
+        "votes": 102780
+      },
+      {
+        "name": "35. Steven Wright, Republican",
+        "party": "R",
+        "votes": 82610
+      },
+      {
+        "name": "Greg Casar, Democrat",
+        "party": "D",
+        "votes": 170509
+      },
+      {
+        "name": "36. Brian Babin, Republican",
+        "party": "R",
+        "votes": 206009
+      },
+      {
+        "name": "Dayna Steele, Democrat",
+        "party": "D",
+        "votes": 91009
+      },
+      {
+        "name": "37. Jenny Garcia Sharon, Republican",
+        "party": "R",
+        "votes": 80366
+      },
+      {
+        "name": "Lloyd Doggett, Democrat",
+        "party": "D",
+        "votes": 252980
+      },
+      {
+        "name": "Girish Altekar, Libertarian",
+        "party": "O",
+        "votes": 7511
+      },
+      {
+        "name": "38. Wesley Hunt, Republican",
+        "party": "R",
+        "votes": 215030
+      },
+      {
+        "name": "Melissa McDonough, Democrat",
+        "party": "D",
+        "votes": 127640
+      },
+      {
+        "name": "Avery Ayers, Write-in",
+        "party": "O",
+        "votes": 94
+      }
+    ]
+  },
+  "UT": {
+    "name": "Utah",
+    "senate": [
+      {
+        "name": "John R. Curtis, Republican",
+        "party": "R",
+        "votes": 914700
+      },
+      {
+        "name": "Caroline Gleich, Democrat",
+        "party": "D",
+        "votes": 464515
+      },
+      {
+        "name": "Carlton E. Bowen, Independent American",
+        "party": "O",
+        "votes": 83972
+      },
+      {
+        "name": "Laird Fetzer Hamblin, Write-in (Adjudicated)",
+        "party": "O",
+        "votes": 322
+      }
+    ],
+    "house": [
+      {
+        "name": "1. Blake D. Moore, Republican",
+        "party": "R",
+        "votes": 230975
+      },
+      {
+        "name": "Bill Campbell, Democrat",
+        "party": "D",
+        "votes": 117319
+      },
+      {
+        "name": "Daniel R. Cottam, Libertarian",
+        "party": "O",
+        "votes": 17601
+      },
+      {
+        "name": "2. Celeste Maloy, Republican",
+        "party": "R",
+        "votes": 205234
+      },
+      {
+        "name": "Nathaniel E. Woodward, Democrat",
+        "party": "D",
+        "votes": 121114
+      },
+      {
+        "name": "Cassie Easley, Constitution",
+        "party": "O",
+        "votes": 19650
+      },
+      {
+        "name": "Tyler Murset, Unaffiliated",
+        "party": "O",
+        "votes": 7840
+      },
+      {
+        "name": "3. Mike Kennedy, Republican",
+        "party": "R",
+        "votes": 242496
+      },
+      {
+        "name": "Glenn J. Wright, Democrat",
+        "party": "D",
+        "votes": 122780
+      },
+      {
+        "name": "4. Burgess Owens, Republican",
+        "party": "R",
+        "votes": 230627
+      },
+      {
+        "name": "Katrina Fallick-Wang, Democrat",
+        "party": "D",
+        "votes": 109838
+      },
+      {
+        "name": "Vaughn R. Cook, United Utah",
+        "party": "O",
+        "votes": 17347
+      },
+      {
+        "name": "M. Evan Bullard, Unaffiliated",
+        "party": "O",
+        "votes": 5856
+      }
+    ]
+  },
+  "VT": {
+    "name": "Vermont",
+    "senate": [
+      {
+        "name": "Gerald Malloy, Republican",
+        "party": "R",
+        "votes": 116512
+      },
+      {
+        "name": "Bernard Sanders, Independent",
+        "party": "O",
+        "votes": 229429
+      },
+      {
+        "name": "Steve Berry, Independent",
+        "party": "O",
+        "votes": 7941
+      },
+      {
+        "name": "Matt Hill, Libertarian",
+        "party": "O",
+        "votes": 4530
+      },
+      {
+        "name": "Justin Schoville, Green Mountain Peace and Justice",
+        "party": "O",
+        "votes": 3339
+      },
+      {
+        "name": "Mark Stewart Greenstein, Epic",
+        "party": "O",
+        "votes": 1104
+      },
+      {
+        "name": "Blank Votes",
+        "party": "O",
+        "votes": 9336
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 398
+      },
+      {
+        "name": "Over Votes",
+        "party": "O",
+        "votes": 296
+      }
+    ],
+    "house": [
+      {
+        "name": "Mark Coester, Republican, Libertarian",
+        "party": "R",
+        "votes": 104451
+      },
+      {
+        "name": "Becca Balint, Democrat",
+        "party": "D",
+        "votes": 218398
+      },
+      {
+        "name": "Adam Ortiz, Independent",
+        "party": "O",
+        "votes": 19286
+      },
+      {
+        "name": "Jill \u201cJessy\u201d Diamondstone, Green Mountain Peace and Justice",
+        "party": "O",
+        "votes": 7552
+      },
+      {
+        "name": "Blank Votes",
+        "party": "O",
+        "votes": 21982
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 929
+      },
+      {
+        "name": "Over Votes",
+        "party": "O",
+        "votes": 287
+      }
+    ]
+  },
+  "VA": {
+    "name": "Virginia",
+    "senate": [
+      {
+        "name": "Hung Cao, Republican",
+        "party": "R",
+        "votes": 2019911
+      },
+      {
+        "name": "Tim Kaine, Democrat",
+        "party": "D",
+        "votes": 2417115
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 8509
+      }
+    ],
+    "house": [
+      {
+        "name": "1. Robert J. Wittman, Republican",
+        "party": "R",
+        "votes": 269657
+      },
+      {
+        "name": "Leslie C. Mehta, Democrat",
+        "party": "D",
+        "votes": 208445
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 804
+      },
+      {
+        "name": "2. Jennifer A. Kiggans, Republican",
+        "party": "R",
+        "votes": 207368
+      },
+      {
+        "name": "Missy Cotter Smasal, Democrat",
+        "party": "D",
+        "votes": 191666
+      },
+      {
+        "name": "Robert E. Reid, Jr., Independent",
+        "party": "O",
+        "votes": 9197
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 471
+      },
+      {
+        "name": "3. John Sitka III, Republican",
+        "party": "R",
+        "votes": 93801
+      },
+      {
+        "name": "Robert C. \u201cBobby\u201d Scott, Democrat",
+        "party": "D",
+        "votes": 219926
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 670
+      },
+      {
+        "name": "4. William J. \u201cBill\u201d Moher III, Republican",
+        "party": "R",
+        "votes": 121814
+      },
+      {
+        "name": "Jennifer L. McClellan, Democrat",
+        "party": "D",
+        "votes": 252885
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 809
+      },
+      {
+        "name": "5. John J. McGuire III, Republican",
+        "party": "R",
+        "votes": 249564
+      },
+      {
+        "name": "Gloria Tinsley Witt, Democrat",
+        "party": "D",
+        "votes": 184229
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 2046
+      },
+      {
+        "name": "6. Ben Cline, Republican",
+        "party": "R",
+        "votes": 256933
+      },
+      {
+        "name": "Ken L. Mitchell, Democrat",
+        "party": "D",
+        "votes": 141612
+      },
+      {
+        "name": "Robert C. \u201cRobby\u201d Wells, Jr., Independent",
+        "party": "O",
+        "votes": 7980
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 510
+      },
+      {
+        "name": "7. Derrick M. Anderson, Republican",
+        "party": "R",
+        "votes": 192847
+      },
+      {
+        "name": "Eugene S. Vindman, Democrat",
+        "party": "D",
+        "votes": 203336
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 1116
+      },
+      {
+        "name": "8. Jerry W. Torres, Republican",
+        "party": "R",
+        "votes": 94676
+      },
+      {
+        "name": "Donald S. Beyer, Jr., Democrat",
+        "party": "D",
+        "votes": 274593
+      },
+      {
+        "name": "David R. Kennedy, Independent",
+        "party": "O",
+        "votes": 9956
+      },
+      {
+        "name": "Bentley F. Hensel, Independent",
+        "party": "O",
+        "votes": 3656
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 1034
+      },
+      {
+        "name": "9. H. Morgan Griffith, Republican",
+        "party": "R",
+        "votes": 290645
+      },
+      {
+        "name": "Karen G. H. Baker, Democrat",
+        "party": "D",
+        "votes": 109570
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 748
+      },
+      {
+        "name": "10. Mike W. Clancy, Republican",
+        "party": "R",
+        "votes": 196343
+      },
+      {
+        "name": "Suhas Subramanyam, Democrat",
+        "party": "D",
+        "votes": 215131
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 1538
+      },
+      {
+        "name": "11. Mike L. Van Meter, Republican",
+        "party": "R",
+        "votes": 134802
+      },
+      {
+        "name": "Gerald E. Connolly, Democrat",
+        "party": "D",
+        "votes": 273529
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 1855
+      }
+    ]
+  },
+  "WA": {
+    "name": "Washington",
+    "senate": [
+      {
+        "name": "Raul Garcia, Republican",
+        "party": "R",
+        "votes": 1549187
+      },
+      {
+        "name": "Maria Cantwell, Democrat",
+        "party": "D",
+        "votes": 2252577
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 10627
+      }
+    ],
+    "house": [
+      {
+        "name": "1. Jeb Brewer, Republican",
+        "party": "R",
+        "votes": 132538
+      },
+      {
+        "name": "Suzan K. DelBene, Democrat",
+        "party": "D",
+        "votes": 227213
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 907
+      },
+      {
+        "name": "2. Cody Hart, Republican",
+        "party": "R",
+        "votes": 148167
+      },
+      {
+        "name": "Rick Larsen, Democrat",
+        "party": "D",
+        "votes": 263750
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 1303
+      },
+      {
+        "name": "3. Joe Kent, Republican",
+        "party": "R",
+        "votes": 199054
+      },
+      {
+        "name": "Marie Gluesenkamp Perez, Democrat",
+        "party": "D",
+        "votes": 215177
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 1673
+      },
+      {
+        "name": "4. Dan Newhouse, Republican",
+        "party": "R",
+        "votes": 153477
+      },
+      {
+        "name": "Jerrod Sessler, Republican",
+        "party": "R",
+        "votes": 136175
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 5400
+      },
+      {
+        "name": "5. Michael Baumgartner, Republican",
+        "party": "R",
+        "votes": 240619
+      },
+      {
+        "name": "Carmela Conroy, Democrat",
+        "party": "D",
+        "votes": 156074
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 593
+      },
+      {
+        "name": "6. Drew C. MacEwen, Republican",
+        "party": "R",
+        "votes": 182182
+      },
+      {
+        "name": "Emily Randall, Democrat",
+        "party": "D",
+        "votes": 239687
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 753
+      },
+      {
+        "name": "7. Dan Alexander, Republican",
+        "party": "R",
+        "votes": 66220
+      },
+      {
+        "name": "Pramila Jayapal, Democrat",
+        "party": "D",
+        "votes": 352286
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 1313
+      },
+      {
+        "name": "8. Carmen Goers, Republican",
+        "party": "R",
+        "votes": 190675
+      },
+      {
+        "name": "Kim Schrier, Democrat",
+        "party": "D",
+        "votes": 224607
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 995
+      },
+      {
+        "name": "9. Adam Smith, Democrat",
+        "party": "D",
+        "votes": 182780
+      },
+      {
+        "name": "Melissa Chaudhry, Democrat",
+        "party": "D",
+        "votes": 90601
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 5917
+      },
+      {
+        "name": "10. Don Hewett, Republican",
+        "party": "R",
+        "votes": 143492
+      },
+      {
+        "name": "Marilyn Strickland, Democrat",
+        "party": "D",
+        "votes": 203732
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 820
+      }
+    ]
+  },
+  "WV": {
+    "name": "West Virginia",
+    "senate": [
+      {
+        "name": "Jim Justice, Republican",
+        "party": "R",
+        "votes": 514079
+      },
+      {
+        "name": "Glenn Elliott, Democrat",
+        "party": "D",
+        "votes": 207548
+      },
+      {
+        "name": "David Moran, Libertarian",
+        "party": "O",
+        "votes": 26075
+      },
+      {
+        "name": "Tim Stevenski, Write-in",
+        "party": "O",
+        "votes": 7
+      },
+      {
+        "name": "Lewie Andrews, Write-in",
+        "party": "O",
+        "votes": 6
+      },
+      {
+        "name": "Joshua Standridge, Write-in",
+        "party": "O",
+        "votes": 2
+      }
+    ],
+    "house": [
+      {
+        "name": "1. Carol D. Miller, Republican",
+        "party": "R",
+        "votes": 228491
+      },
+      {
+        "name": "Chris Bob Reed, Democrat",
+        "party": "D",
+        "votes": 90038
+      },
+      {
+        "name": "Wes Holden, Independent",
+        "party": "O",
+        "votes": 25616
+      },
+      {
+        "name": "Jim Umberger, Write-in",
+        "party": "O",
+        "votes": 171
+      },
+      {
+        "name": "A. Warden, Write-in",
+        "party": "O",
+        "votes": 3
+      },
+      {
+        "name": "2. Riley Moore, Republican",
+        "party": "R",
+        "votes": 268190
+      },
+      {
+        "name": "Steven Wendelin, Democrat",
+        "party": "D",
+        "votes": 110775
+      }
+    ]
+  },
+  "WI": {
+    "name": "Wisconsin",
+    "senate": [
+      {
+        "name": "Eric Hovde, Republican",
+        "party": "R",
+        "votes": 1643996
+      },
+      {
+        "name": "Tammy Baldwin, Democrat",
+        "party": "D",
+        "votes": 1672777
+      },
+      {
+        "name": "Phil Anderson, Disrupt the Corruption",
+        "party": "O",
+        "votes": 42315
+      },
+      {
+        "name": "Thomas Leager, America First",
+        "party": "O",
+        "votes": 28751
+      },
+      {
+        "name": "John Schiess, Write-in",
+        "party": "O",
+        "votes": 26
+      },
+      {
+        "name": "Scattering",
+        "party": "O",
+        "votes": 2922
+      }
+    ],
+    "house": [
+      {
+        "name": "1. Bryan Steil, Republican",
+        "party": "R",
+        "votes": 212515
+      },
+      {
+        "name": "Peter Barca, Democrat",
+        "party": "D",
+        "votes": 172402
+      },
+      {
+        "name": "Chester Todd, Jr., Green",
+        "party": "O",
+        "votes": 8191
+      },
+      {
+        "name": "Scattering",
+        "party": "O",
+        "votes": 385
+      },
+      {
+        "name": "2. Erik Olsen, Republican",
+        "party": "R",
+        "votes": 136357
+      },
+      {
+        "name": "Mark Pocan, Democrat",
+        "party": "D",
+        "votes": 320317
+      },
+      {
+        "name": "Scattering",
+        "party": "O",
+        "votes": 583
+      },
+      {
+        "name": "3. Derrick Van Orden, Republican",
+        "party": "R",
+        "votes": 212064
+      },
+      {
+        "name": "Rebecca Cooke, Democrat",
+        "party": "D",
+        "votes": 200808
+      },
+      {
+        "name": "Scattering",
+        "party": "O",
+        "votes": 309
+      },
+      {
+        "name": "4. Tim Rogers, Republican",
+        "party": "R",
+        "votes": 74921
+      },
+      {
+        "name": "Gwen Moore, Democrat",
+        "party": "D",
+        "votes": 249938
+      },
+      {
+        "name": "Robert R. Raymond, Independent",
+        "party": "O",
+        "votes": 8792
+      },
+      {
+        "name": "Micah Leavitt, Write-in",
+        "party": "O",
+        "votes": 13
+      },
+      {
+        "name": "Scattering",
+        "party": "O",
+        "votes": 618
+      },
+      {
+        "name": "5. Scott Fitzgerald, Republican",
+        "party": "R",
+        "votes": 300521
+      },
+      {
+        "name": "Ben Steinhoff, Democrat",
+        "party": "D",
+        "votes": 165653
+      },
+      {
+        "name": "Scattering",
+        "party": "O",
+        "votes": 508
+      },
+      {
+        "name": "6. Glenn Grothman, Republican",
+        "party": "R",
+        "votes": 251889
+      },
+      {
+        "name": "John Zarbano, Democrat",
+        "party": "D",
+        "votes": 159042
+      },
+      {
+        "name": "Scattering",
+        "party": "O",
+        "votes": 418
+      },
+      {
+        "name": "7. Thomas P. Tiffany, Republican",
+        "party": "R",
+        "votes": 273553
+      },
+      {
+        "name": "Kyle Kilbourn, Democrat",
+        "party": "D",
+        "votes": 156524
+      },
+      {
+        "name": "Scattering",
+        "party": "O",
+        "votes": 307
+      },
+      {
+        "name": "8. Tony Wied, Republican",
+        "party": "R",
+        "votes": 240040
+      },
+      {
+        "name": "Kristin Lyerly, Democrat",
+        "party": "D",
+        "votes": 178666
+      },
+      {
+        "name": "Scattering",
+        "party": "O",
+        "votes": 272
+      }
+    ]
+  },
+  "WY": {
+    "name": "Wyoming",
+    "senate": [
+      {
+        "name": "John Barrasso, Republican",
+        "party": "R",
+        "votes": 198418
+      },
+      {
+        "name": "Scott D. Morrow, Democrat",
+        "party": "D",
+        "votes": 63727
+      },
+      {
+        "name": "Under Votes",
+        "party": "O",
+        "votes": 6860
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 2017
+      },
+      {
+        "name": "Over Votes",
+        "party": "O",
+        "votes": 101
+      }
+    ],
+    "house": [
+      {
+        "name": "Harriet M. Hageman, Republican",
+        "party": "R",
+        "votes": 184680
+      },
+      {
+        "name": "Kyle G. Cameron, Democrat",
+        "party": "D",
+        "votes": 60778
+      },
+      {
+        "name": "Richard Brubaker, Libertarian",
+        "party": "O",
+        "votes": 9223
+      },
+      {
+        "name": "Jeffrey Haggit, Constitution",
+        "party": "O",
+        "votes": 5362
+      },
+      {
+        "name": "Under Votes",
+        "party": "O",
+        "votes": 7999
+      },
+      {
+        "name": "Over Votes",
+        "party": "O",
+        "votes": 1576
+      },
+      {
+        "name": "Write-in",
+        "party": "O",
+        "votes": 1505
+      }
+    ]
+  }
+}
