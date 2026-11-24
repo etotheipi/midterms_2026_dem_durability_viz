@@ -37,7 +37,7 @@ try {
   };
   const click=selector=>evaluate(`document.querySelector(${JSON.stringify(selector)}).click()`);
   const check=(expr,message)=>evaluate(expr).then(value=>assert.ok(value,message));
-  const seats=()=>evaluate(`[...document.querySelectorAll('.panel-total .d-total')].map(e=>e.textContent)`);
+  const seats=()=>evaluate(`[...document.querySelectorAll('.election-panel:not(.baseline-panel) .panel-total .d-total')].map(e=>e.textContent)`);
   const screenshot=async path=>{const r=await call('Page.captureScreenshot',{format:'png',captureBeyondViewport:true});await writeFile(path,Buffer.from(r.data,'base64'));};
   await call('Runtime.enable');await call('Page.enable');
   await call('Emulation.setDeviceMetricsOverride',{width:1440,height:1200,deviceScaleFactor:1,mobile:false});
@@ -49,7 +49,7 @@ try {
   await check(`document.querySelectorAll('.seat-dots i').length===100`,'starting 100 seat graphic');
   await check(`document.querySelector('[data-year-toggle="1"]').getAttribute('aria-checked')==='true'`,'2030 defaults on');
   await check(`document.querySelector('[data-year-toggle="2"]').getAttribute('aria-checked')==='false'`,'2032 defaults off');
-  await check(`document.querySelectorAll('.waterline-2026 .waterline-label').length===3 && [...document.querySelectorAll('.waterline-2026 .waterline-label')].every(e=>e.textContent==='Same as 2026')`,'2026 waterline text');
+  await check(`document.querySelectorAll('.election-panel:not(.baseline-panel) .waterline-2026 .waterline-label').length===3 && [...document.querySelectorAll('.election-panel:not(.baseline-panel) .waterline-2026 .waterline-label')].every(e=>e.textContent==='Same as 2026')`,'scenario waterline text');
   await check(`[...document.querySelectorAll('.waterline-2024')].every(e=>e.dataset.value==='-14'&&e.textContent.includes('2024 (approx)'))`,'approximate 2024 line at minus 14');
   await check(`document.querySelectorAll('.direction-column').length===1`,'one shared direction key');
   await check(`document.querySelector('.intro-copy').textContent.includes('not a prediction engine')`,'intro explains the simplified model');

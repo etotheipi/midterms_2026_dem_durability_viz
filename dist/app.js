@@ -1,4 +1,4 @@
-import {YEARS, SCALES, DEFAULT_ENABLED_YEARS, APPROX_2024_SHIFT, election, scenario, majorityLabel} from './model.js';
+import {YEARS, SCALES, DEFAULT_ENABLED_YEARS, APPROX_2024_SHIFT, countSeats, election, scenario, majorityLabel} from './model.js';
 
 const $ = id => document.getElementById(id);
 let data;
@@ -70,6 +70,16 @@ function readURL() {
   $('tennessee-special').checked = tennesseeSpecial;
 }
 
+function renderPartyTotals(result, extraClass = '') {
+  const emphasis = party => !result ? '' : result[party] > 50 ? 'is-majority' : result[party] < 50 ? 'is-minority' : '';
+  return `<div class="panel-total ${extraClass}" role="group" aria-label="${result ? `${result.D} Democratic caucus seats, ${result.R} Republican seats${result.T ? `, ${result.T} tied` : ''}` : 'Seat totals not selected'}">
+    <span class="party-total party-total-d ${emphasis('D')}"><span class="d-total">${result ? result.D : '—'}</span><small>D</small></span>
+    <span class="total-separator" aria-hidden="true">/</span>
+    <span class="party-total party-total-r ${emphasis('R')}"><span class="r-total">${result ? result.R : '—'}</span><small>R</small></span>
+    ${result?.T ? `<small class="tied-total">+ ${result.T} tied</small>` : ''}
+  </div>`;
+}
+
 function renderPanel(panel, index) {
   const scale = SCALES[mode];
   const result = panel.result;
@@ -100,13 +110,32 @@ function renderPanel(panel, index) {
   return `<article class="election-panel ${panel.active ? '' : 'locked'} ${panel.enabled ? '' : 'omitted'}" aria-labelledby="year-${panel.year}">
     <div class="panel-top">
     <div class="panel-year"><div class="panel-year-title"><h3 id="year-${panel.year}">${panel.year}</h3><span class="class-label">Class ${{2028:'III',2030:'I',2032:'II'}[panel.year]}${panel.year === 2028 && tennesseeSpecial ? ' + TN special' : ''}</span></div>${index > 0 ? `<button type="button" class="year-toggle" role="switch" aria-checked="${panel.enabled}" aria-label="Include ${panel.year} election" data-year-toggle="${index}"><span class="switch-track" aria-hidden="true"><i></i></span><span>${panel.enabled ? 'On' : 'Off'}</span></button>` : ''}</div>
-    <div class="panel-total"><span class="d-total">${result ? result.D : '—'}</span><small>D</small><span class="r-total">${result ? result.R+' R' : ''}</span>${result?.T ? `<small>+ ${result.T} tied</small>` : ''}</div>
+    ${renderPartyTotals(result)}
     <div class="panel-status ${result?.D >= 51 ? 'has-majority' : result?.R >= 51 ? 'has-republican' : ''}">${result ? majorityLabel(result) : !panel.enabled ? 'Excluded from this scenario' : panel.active ? 'Select a margin setting' : !previousEnabled ? `Turn on ${YEARS[index-1]} first` : `Set ${YEARS[index-1]} to unlock`}</div>
     <div class="panel-input"><label class="input-wrap"><span class="sr-only">${panel.year} D-minus-R margin setting ${mode === 'additive' ? 'in points relative to 2026' : 'in percent of the state shift'}</span><input type="number" inputmode="numeric" min="${scale.min}" max="${scale.max}" step="1" value="${panel.selected ? setting : ''}" placeholder="${scale.suggested[index]}" data-number="${index}" ${panel.active ? '' : 'disabled'}><span>${mode === 'additive' ? 'pts' : '%'}</span></label>${panel.selected ? `<span class="selected-label">${formatSetting(setting)} selected</span>` : `<button class="choose-button" data-choose="${index}" ${panel.active ? '' : 'disabled'}>Set ${formatSetting(scale.suggested[index])}</button>`}</div>
     <div class="axis-heading"><span>${mode === 'additive' ? 'Shift vs. 2026' : 'Interpolation level'}</span><span>D seats</span></div>
     </div>
     <div class="chart-body"><div class="row-field">${rows.join('')}${panel.active ? `<div class="slider-rail" data-slider="${index}" role="slider" tabindex="0" aria-label="${panel.year} vote-margin setting" aria-orientation="vertical" aria-valuemin="${scale.min}" aria-valuemax="${scale.max}" aria-valuenow="${setting}" aria-valuetext="${panel.selected ? formatSetting(setting) : 'Not selected. Press Enter to use '+formatSetting(setting)}"></div>` : ''}${marker}</div>${panel.active ? '' : `<div class="locked-overlay ${panel.enabled ? '' : 'off-overlay'}">${blockedMessage}</div>`}</div>
     <div class="panel-foot">${foot}</div>
+  </article>`;
+}
+
+function renderBaseline() {
+  const totals = countSeats(data.seats);
+  const baseline = SCALES[mode].baseline;
+  return `<article class="election-panel baseline-panel" aria-labelledby="year-2026">
+    <div class="panel-top">
+      <div class="panel-year"><div class="panel-year-title"><h3 id="year-2026">2026</h3><span class="class-label">Starting point</span></div></div>
+      ${renderPartyTotals(totals)}
+      <div class="panel-status">Starting seat composition</div>
+    </div>
+    <div class="chart-body"><div class="row-field">
+      <div class="baseline-waterline waterline-2026" style="top:${percentY(baseline)}%" data-baseline-value="${baseline}">
+        <div class="baseline-results-heading">Final 2026 Results</div>
+        <span class="waterline-label">Dem 2026 Line</span>
+        ${renderPartyTotals(totals, 'baseline-result-pair')}
+      </div>
+    </div></div>
   </article>`;
 }
 
@@ -176,7 +205,7 @@ function render() {
   $('example').textContent = 'Example: '+examples.map(v => mode === 'additive' ? signed(v) : v+'%').join(' / ');
   document.querySelector('.chart-heading>span:first-child').innerHTML = `<span class="key-line"></span>${mode === 'additive' ? 'Same as 2026 · 2024 (approx) at −14 pts' : 'Same as 2026 at 100% · Same as 2024 at 0%'}`;
   $('waterline-note').hidden = mode !== 'additive';
-  $('timeline').innerHTML = directionColumn()+panels.map(renderPanel).join('');
+  $('timeline').innerHTML = renderBaseline()+directionColumn()+panels.map(renderPanel).join('');
   [...$('audit-year').options].forEach(option => {option.disabled = !panels.find(p => p.year === Number(option.value)).enabled;});
   if ($('audit-year').selectedOptions[0].disabled) $('audit-year').value = '2028';
   renderSummary();
